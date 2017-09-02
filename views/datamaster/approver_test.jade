@@ -1,0 +1,15 @@
+h2 #{title}
+
+  form(action='/saveapprovers', method='post')
+
+    div(class='form-group')
+      label(for='nombre') Nombre:
+        input(type='text', class='form-control', name='nombre', placeholder='ingrese codigo' value=approvers.approver)
+
+    div(data-role='fieldcontain')
+      fieldset(data-role='controlgroup')
+      label(for="descripción") Descripción:
+        input(type='text', name='descripcion', size=100, value=approvers.description)
+    
+    div(data-role='fieldcontain')
+       input(type='submit', value='Guardar', data-transition='fade', data-theme='c')

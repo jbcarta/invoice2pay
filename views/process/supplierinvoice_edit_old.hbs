@@ -1,0 +1,342 @@
+<!-- *****************************************
+
+        Supplierinvoice_edit.hbs
+
+***************************************** -->  
+
+{{# each recdata }}
+
+
+    <div class="row">
+    		<h1>Factura</h1>
+    		<h4>Datos requeridos</h4>
+
+    		<form action="/supplierinvoice_edit/{{ this._id }}" method="post" id="checkout-form" class="form-horizontal">
+    				
+                    <!--******************************************
+
+                                     Supplier  
+
+                        ******************************************
+                    -->
+                    <div class="form-group">
+                        <label for="supplier" class="col-sm-2 control-label">Proveedor :</label>
+                        
+                        <a href="#" data-toggle="modal" data-target=".bs-example-modal-sm-provee"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+                        <div class="col-sm-4">
+
+                            <input type="text" class="form-control" name="supplier"
+                                    id="supplier" value="{{this.supplier}}" required readonly>
+
+<!--                            <select class="form-control selectpicker show-tick" name="supplier"
+                                     id="supplier" required></select>
+-->
+                        </div>
+                    </div>
+
+                    <!--  
+                                Cost Center  
+                    --> 
+                    <div class="form-group">
+                        <label for="costcenter" class="col-sm-2 control-label">Centro de Costo :</label>
+                        <a href="#" data-toggle="modal" data-target=".bs-example-modal-sm-ceco"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+
+                        <div class="col-sm-4">
+
+                            <input type="text" class="form-control hidden" name="costcenter1"
+                                    id="costcenter1" value= "{{this.costcenter}}">
+
+                            <select class="form-control selectpicker show-tick" name="costcenter"
+                                     id="costcenter" required>
+                            </select>
+                        </div>
+                    </div>
+
+
+
+                    <!--******************************************
+
+    							Nro. Factura  
+
+                        ******************************************
+                    -->
+    				<div class="form-group">
+    					<label for="invoice" class="col-sm-2 control-label">Nro Factura :</label>
+    					<div class="col-sm-4">
+    						<input type="text" class="form-control" name="invoice"
+    								value= "{{this.invoice}}" required>
+    					</div>
+    				</div>
+
+
+                    <!--******************************************
+
+                                Concepto  
+
+                        ******************************************
+                    -->
+    				<div class="form-group">
+    					<label for="concepto" class="col-sm-2 control-label">Concepto :</label>
+    					<div class="col-sm-4">
+    						<input type="text" class="form-control" name="concepto"
+    								value= "{{this.concepto}}" required>
+    					</div>
+    				</div>
+
+
+                    <!--******************************************
+
+                                AmountInvoice  
+
+                        ******************************************
+                    -->
+    				<div class="form-group">
+    					<label for="amountinvoice" class="col-sm-2 control-label">Monto de Factura :</label>
+    					<div class="col-sm-4">
+    						<input type="text" class="form-control" name="amountinvoice"
+    								id="amountinvoice" value= "{{this.amountinvoice}}" required>
+    					</div>
+    				</div>
+
+
+                    <input type="text" class="form-control hidden" name="save_form"
+                                  id="save_form" value= "NO" required>
+
+    			<button type="submit" class="btn btn-success" onClick="save()">Grabar</button>
+       		    <button href="#" class="btn btn-cancel pull-left" role="button">Salir sin Grabar</a>
+
+    		</form>
+    <!--	</div>	 -->
+    </div>
+
+{{/each}}
+
+
+
+<!--  ************************************************ -->
+
+<!--  *********  M O D A L   W I N D O W S *********** -->
+
+<!--  ************************************************ -->
+
+
+
+<!--   
+
+       Tabla Dinamica Proveedores
+
+-->       
+    <div    class="modal fade bs-example-modal-sm-provee" tabindex="-1" 
+            id="modal-provee"
+            role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">Proveedores &times;</button>
+                        {{火}} {{huo}}
+                </div>
+                <div class="modal-body">
+                    <table id="tsupply" name="tsupply" class="table table-striped table-bordered" 
+                           cellspacing="0" width="50%">
+                    </table>      
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!--   
+
+       Tabla Dinamica Cecos
+
+-->       
+
+    <div    class="modal fade bs-example-modal-sm-ceco" tabindex="-1" 
+            id="modal-cecos"
+            role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" >
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">Cuentas &times;</button>
+                        {{火}} {{huo}}
+                </div>
+                <div class="modal-body">
+                    <table id="tcecos" name="tcecos" class="table table-striped table-bordered" 
+                           cellspacing="0" width="50%">
+                    </table>      
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+<!--  ************************************************ -->
+
+<!--  *********     J A V A S C R I P T    *********** -->
+
+<!--  ************************************************ -->
+
+
+<script type="text/javascript">
+
+
+//$(function() {
+  
+ function save() 
+ {
+    $("#save_form").val("SI");
+ }
+//})
+
+</script>
+
+
+<script type="text/javascript">
+    $(document).ready(function () 
+    {   
+
+//        var tsupply = $('#tsupplier').DataTable( {
+ // /          select: true
+ //       } ); 
+
+
+    $("#supplier").focus()
+    {
+
+        // ------------------------------------
+        //         GetAllSupplier
+        // -----------------------------------
+        $.getJSON("/api/restGetAllSupplier", function(data)
+        {        
+
+
+            var $supplier = $("#supplier");
+            var opselect = $("#supplier1").val();
+            var $supplierf = $("#supplierf");
+                       
+            var tsupply = $('#tsupply').DataTable();        
+
+            $.each(data, function(index, value) 
+            {
+                tsupply.row.add([value.codsupplier,  value.name]).draw();
+
+//                $supplier.append("<option value="+value.codsupplier+">" + value.codsupplier +" : " +value.name + "</option>");
+//                alert(value.codsupplier);
+            });
+
+//            alert(" json-datasupply:", datasupply);
+
+
+        });
+
+
+        // ------------------------------------
+        //         Actitate table Supply
+        // -----------------------------------
+        $('#tsupply').DataTable(
+        {
+            "pagingType": "full_numbers",
+            columns: [
+                { title: "Codigo" },
+                { title: "Nombre" }
+            ],
+            select: true
+
+        });
+
+        $('#tsupply tbody')
+        .on( 'click', 'tr' , function () 
+        {
+            var tsupply = $('#tsupply').DataTable();        
+            var rowData = tsupply.row( this ).data();
+//            alert(rowData); 
+            $("#modal-provee").modal("hide");            
+            $("#supplier").val(rowData);
+        } );
+    }
+
+
+
+    $("#costcenter").focus()
+    {
+
+        // ------------------------------------
+        //         Activate table Supply
+        // -----------------------------------
+        $('#tcecos').DataTable(
+        {
+            "pagingType": "full_numbers",
+            columns: [
+                { title: "Codigo" },
+                { title: "Descripción" }
+            ],
+            select: true
+
+        });
+
+
+        // ------------------------------------
+        //         GetAllCecos
+        // -----------------------------------
+        $.getJSON("/api/restGetCecos", function(data)
+        {        
+
+
+            var opselect = $("#costcenter1").val();
+            var $costcenter = $("#costcenter");
+            var $costcenterf = $("#costcenterf");
+                       
+            var table = $('#tcecos').DataTable();        
+
+            $.each(data, function(index, value) 
+            {
+//                console.log(value);
+                table.row.add([value.ceco,  value.description]).draw();
+
+                $costcenter.append("<option value="+value.ceco+">" + value.ceco +", " +value.description + "</option>");
+//                alert(value.codsupplier);
+            });
+
+//            alert(" json-datasupply:", datasupply);
+
+
+        });
+
+
+
+
+
+//                if (opselect == value)
+ //               {
+//                    $costcenter.append("<option selected value="+value+">" + value +" : description "+ value + "</option>");
+//                }
+//                else
+//                {
+//                    $costcenter.append("<option value="+value+">" + value +" : description "+ value + "</option>");
+//                }
+//                $costcenterf.append("<option value="+value+">" + value +" : description "+ value + "</option>");
+//
+//            });
+ //       });
+    };
+
+
+
+        
+
+        // ------------------------------------
+        //         Amountinginvoice
+        // -----------------------------------
+        $("#amountinvoice").blur(function () {
+            var input = $("#amountinvoice").val();
+            var num = parseFloat(input).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,') + " $";
+            $("#amountinvoice").val(num);   
+        });
+
+
+   
+
+    });    
+</script>

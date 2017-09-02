@@ -1,0 +1,175 @@
+
+
+    
+<div class="row">
+
+    <div class="col-md-4 col-md-offset-4">
+
+<!--
+        <form action="" method="post">
+-->        
+        <h1>Testing Login</h1>
+
+            <div class="form-group">
+                <label for="email">E-Mail</label>
+                <input type="text" id="email" name="email" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" class="form-control">
+            </div>  
+            <button class="btn btn-primary" onclick="callADLogin()">Sign In</button>
+            <button class="btn btn-primary" onclick="enviarEmail()">Enviar Email</button>
+<!--
+        </form>     
+-->        
+    </div>  
+</div>
+
+
+
+
+<script type="text/javascript">
+
+
+//<!--PRIMER PASO: Colocar dentro del tag HEAD -->
+
+
+// Creado por Mazosoft
+// Querés tener el Outlook adentro del navegador? ;-)
+
+function enviarEmail() {
+
+  var para       = "jbcarta@hotmail.com";
+  var cc         = "jbcarta@gmail.com"
+  //var cco         = "jbcarta@gmail.com"
+
+  var asunto     = "Rechazo de Factura Nro 5";
+  var cuerpo     = "Tomar acción sobre la factura";
+
+  var mensaje = "mailto:" + para + 
+    "?cc=" + cc + 
+    //"&bcc=" + cco + 
+    "&subject=" + escape(asunto) + 
+    "&body=" + escape(cuerpo); 
+
+  window.location = mensaje;
+}
+
+//<!-- SEGUNDO PASO: Ver el ejemplo y copiar el formulario y las imágenes 'Guardar como...' -->
+
+  function authenticateUser(user, password)
+  {
+      var token = user + ":" + password;
+
+      // Base64 Encoding -> btoa
+      var hash = btoa(token); 
+
+      return "Basic " + hash;
+  }
+
+  function callADLogin() 
+  {
+
+
+      var userName = $("#email").val();
+      var passWord = $("#password").val();
+
+
+      //alert("1. Adentro de callADLogin()");
+
+      // New XMLHTTPRequest
+      var request = new XMLHttpRequest();
+      //alert("2. Adentro de callADLogin()");            
+      //request.open("GET", "http://localhost:8000/loginldap/porders/", async=false);
+      request.open("GET", "http://mobilereports.claxson.com/loginldap/porders/", async=false);
+      //alert("3. Adentro de callADLogin()");      
+      request.setRequestHeader('Authorization', authenticateUser(userName, passWord));  
+      //alert("4. Adentro de callADLogin()");
+
+      request.send();
+      // view request status
+      //alert("5. Adentro de callADLogin()");
+
+      rta = request.responseText;
+      if (request.status != 200) {
+        alert("(" + request.status + ") - " + rta);
+      } else {
+        if (rta == "NO") {
+          alert("ERROR: the user is not authorize to access the application")
+        } else {
+          alert("YEAHHH!!! I'm in\r\n" + rta.substring(4));
+        };
+      };
+      //request.innerHTML = request.response.responseText;
+      //return false;
+  };
+
+
+
+
+    function valida_user1()
+    {
+        var username = $("#email").val();
+        var password = $("#password").val();  
+
+        $.ajax
+        ({
+          type: "GET",
+          url: "http://mobilereports.claxson.com/loginldap/porders/",
+          dataType: 'json',
+          async: false,
+          headers: {
+            "Authorization": "Basic " + btoa(username + ":" + password)
+          },
+          data: '{ "comment" }',
+          success: function (){
+            alert('Thanks for your comment!'); 
+          },
+          error: function (err){
+            alert('Error:'+err.response.status); 
+          }
+
+        });
+
+    };
+    function valida_user()
+    {
+        var username = $("#email").val();
+        var password = $("#password").val();  
+
+        //function make_base_auth(user, password) {
+          var tok = user + ':' + password;
+          var hash = Base64.encode(tok);
+          return "Basic " + hash;
+        //}
+        $.ajax
+          ({
+            type: "GET",
+            url: "index1.php",
+            dataType: 'json',
+            async: false,
+            data: '{"username": "' + username + '", "password" : "' + password + '"}',
+            success: function (){
+            alert('Thanks for your comment!'); 
+            }
+        });
+        };
+
+    function valida_userold()
+    {
+
+        var myuser = $("#email").val();
+        var mypswd = $("#password").val();
+        alert("Datos:"+myuser+"<>"+mypswd);
+        $.ajax({
+        xhrFields: {
+            withCredentials: true
+        },
+        headers: {
+            'Authorization': 'Basic ' + btoa('myuser:mypswd')
+        },
+        url: "http://mobilereports.claxson.com/loginldap/porders/"
+    });
+    }
+</script>

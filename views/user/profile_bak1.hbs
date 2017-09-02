@@ -1,0 +1,719 @@
+{{# each recdata }}
+
+
+
+<!-- <p> {{ this }} </p>
+-->
+
+
+<input type="text" name="temporal_row" id="temporal_row"
+    		hidden>
+
+    <div class="row">
+   		<h3>Datos de Usuarios</h3>
+
+   		<form action="/profile/{{ this._id }}" method="post" id="checkout-form" class="form-horizontal">
+
+
+            <!--******************************************
+
+    							Email   
+
+                ******************************************
+            -->
+    			<div class="form-group">
+    				<label for="email" class="col-sm-2 control-label">Email 1:</label>
+    				<div class="col-sm-4">
+    					<input type="text" class="form-control" name="email" id="email"
+    								value= "{{this.email}}" readonly required>
+    				</div>
+    			</div>
+
+
+            <!--******************************************
+
+   							Name   
+
+                ******************************************
+            -->
+   				<div class="form-group">
+   					<label for="name" class="col-sm-2 control-label">Nombre :</label>
+   					<div class="col-sm-4">
+   						<input  type="text" class="form-control" name="name"
+   								value= "{{this.name}}">
+    								
+   					</div>
+   				</div>
+    				
+				<hr></hr>
+
+
+				<div id="exTab3" class="container">	
+					<ul  class="nav nav-pills">
+						<li>
+				        	<a  href="#1b" data-toggle="tab">Basicas</a>
+						</li>
+						<li  class="active">
+							<a href="#2b" data-toggle="tab">Proveedores</a>
+						</li>
+						<li>
+							<a href="#3b" data-toggle="tab">Centro de Costos</a>
+						</li>
+				  		<li>
+				  			<a href="#4a" data-toggle="tab">Cuentas Contable</a>
+						</li>
+					</ul>
+
+					<div class="tab-content clearfix" >
+						<div class="tab-pane "  id="1b">
+                    	<!--
+                    	******************************************
+
+	    							Approver Type
+
+                        ******************************************
+                    	-->
+	    				<div class="form-group">
+	    					<label for="aplevel" class="col-sm-2 control-label">Tipo de Aprobador :</label>
+	    					<div class="col-sm-4">
+	    								
+                    			<select class="selectpicker form-control" name="aplevel"
+                             			id="aplevel" required>
+                    			</select>
+
+	    					</div>
+	    				</div>
+
+
+		   				<div class="form-group">
+
+			                <input  type="text" class="form-control hidden" name="save_form"
+			                        id="save_form" value= "NO" required>
+
+			    			<button type="submit" class="btn btn-success" onClick="save()">Grabar</button>
+			       		    <button href="#" class="btn btn-cancel pull-left" role="button">Salir sin Grabar</a>
+		   				</div>
+
+
+
+
+							</div>
+									<div class="tab-pane active" id="2b">
+
+									<p>PROVEEDORES AUTORIZADOS</p>
+			                    <table id="ts" name="ts" class="table table-striped table-bordered" 
+			                           cellspacing="0" width="50%">
+								        <thead>
+								            <tr>
+								                <th>Codigo</th>
+								                <th>Nombre</th>
+								                <th>Bor</th>
+								                <th>Mod</th>
+												<th>Estatus</th>
+								            </tr>
+								        </thead>
+
+										<tbody>
+											{{# each this.supplier }}
+									            <tr>
+
+									                <td>{{ codsupplier }}</td>
+									                <td>{{ namesupplier }}</td>
+            										<td><i class="fa fa-times" aria-hidden="true"></i></td>
+
+           											<td><i class="fa fa-pencil-square-o" class="editRow" name="editRow" id="editRow" data-toggle="modal" data-target=".mymodaltest"></i></td>
+													<!--           											
+														<td><a class="editRow" name="editRow" id="editRow" data-toggle="modal" data-target=".mymodaltest"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a></td>
+													-->
+
+									                <td>O</td>
+
+									            </tr>								        
+											{{/each}}								            
+										</tbody>
+
+<!--				                        <a name="addRowSupplier" id="addRowSupplier"><i class="fa fa-file-o"></i> Nuevo</a>
+-->
+				                        <button name="addRowSupplier" id="addRowSupplier" data-toggle="modal"			data-target=".modalAddSupplier" class="btn btn-success">
+				                        		<i class="fa fa-file-o">
+				                        		</i> Agregar Proveedor</button>
+
+				                        <button name="delRowSupplier" id="delRowSupplier" class="btn btn-danger" 
+				                        		style="visibility: hidden">
+				                        		<i class="fa fa-file-o"></i> Eliminar Proveedor</button>
+
+
+				                        <button name="cancelDelRowSupplier" id="cancelDelRowSupplier" 
+				                        		class="btn btn-warning"
+				                        		style="visibility: hidden"><i class="fa fa-file-o">
+				                        		</i> Cancelar</button>
+
+
+<!--
+				                        <button name="saveRowSupplier" id="savstyle="visibility: hidden"eRowSupplier"  style="visibility: hidden"><i class="fa fa-floppy-o" aria-hidden="true"></i> Grabar</button>
+-->				                        
+
+
+			                    </table>      
+
+
+
+									</div>
+					        <div class="tab-pane" id="3b">
+					          <h3>We applied clearfix to the tab-content to rid of the gap between the tab and the content</h3>
+									</div>
+					          <div class="tab-pane" id="4b">
+					          <h3>We use css to change the background color of the content to be equal to the tab</h3>
+									</div>
+								</div>
+					  </div>
+
+
+
+    		</form>
+    		
+    <!--	</div>	 -->
+    </div>
+
+{{/each}}
+
+
+
+<!--  *******************************  TABLAS DE DINAMICAS
+-->
+
+<!--   
+
+       Tabla Dinamica Proveedores
+
+-->       
+    <div
+    	class="modal fade bs-example-modal-sm-provee" tabindex="-1" 
+        id="modal-provee"
+        role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">Proveedores &times;</button>
+                        {{火}} {{huo}}
+                </div>
+                <div class="modal-body">
+                    <table id="tsupply" name="tsupply" class="table table-striped table-bordered" 
+                           cellspacing="0" width="50%">
+                    </table>      
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+	<!-- 
+	*************************************************   
+
+       				Nuevo Registro Modal
+
+  	*************************************************
+	-->  
+
+	<div class="modal fade modalAddSupplier" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel" 
+			id="modalAddSupplier">
+  		<div class="modal-dialog" role="document">
+    		<div class="modal-content">
+      			<div class="modal-header">
+        			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        			<h4 class="modal-title" id="gridSystemModalLabel">Nuevo Proveedor</h4>
+      			</div>
+      			<div class="modal-body">
+        			<div class="row">
+          				<div class="col-md-12">
+
+							<!--   Codigo Proveedor -->
+							<div class="form-group">
+								<label for="add_m_codsupplier" class="col-sm-3 control-label">Codigo <a class="validarCodSuppier" name="validarCodSuppier" id="validarCodSuppier">
+									<i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+								</a>:</label>
+								
+								<div class="col-sm-8">
+									<input type="text" class="form-control" name="add_m_codsupplier"
+											id="add_m_codsupplier"
+											required autofocus>
+								</div>
+							</div>
+
+							<!--   Nombre Proveedor -->
+							<div class="form-group">
+								<label for="add_m_namesupplier" class="col-sm-3 control-label">Nombre <a class="validarNameSupplier" name="validarNameSupplier" id="validarNameSupplier">
+									<i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+								</a> :</label>
+								
+								<div class="col-sm-8">
+									<input type="text" class="form-control" name="add_m_namesupplier"
+											id="add_m_namesupplier"
+											required>
+								</div>
+							</div>
+          				</div>
+   					</div>
+      			</div>
+      			<div class="modal-footer">
+        				<button type="button" class="btn btn-default" 	data-dismiss="modal">Close</button>
+        				<button type="button" name="saveAddRowSupplier" id="saveAddRowSupplier" class="btn btn-primary" data-dismiss="modal">Incluir Proveedor</button>
+      			</div>
+<!--      		</div>	 -->
+    		</div><!-- /.modal-content -->
+  		</div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+
+	<!-- 
+	*************************************************   
+
+       				Modificar Registro Modal
+
+  	*************************************************
+	-->  
+
+	<div class="modal fade mymodaltest" tabindex="-1" role="dialog" aria-labelledby="gridSystemModalLabel" id="mymodaltest">
+  		<div class="modal-dialog" role="document">
+    		<div class="modal-content">
+      			<div class="modal-header">
+        			<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        			<h4 class="modal-title" id="gridSystemModalLabel">Asignar Proveedores</h4>
+	      		</div>
+  				<div class="modal-body">
+    				<div class="row">
+      					<div class="col-md-4">
+							<div class="form-group">
+								<label for="codsupplier" class="col-sm-2 control-label">Codigo Proveedor :</label>
+								<div class="col-sm-4">
+									<input type="text" class="form-control" name="m_codsupplier"
+											id="m_codsupplier"
+											required>
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="codsupplier" class="col-sm-2 control-label">Nombre    :</label>
+								<div class="col-sm-4">
+									<input type="text" class="form-control" name="m_namesupplier"
+											id="m_namesupplier"
+											readonly required>
+								</div>
+							</div>
+
+      					</div>
+						</div>
+  				</div>
+  				<div class="modal-footer">
+    				<button type="button" class="btn btn-default" 	data-dismiss="modal">Close</button>
+    				<button type="button" name="saveRowSupplier" id="saveRowSupplier" class="btn btn-primary" data-dismiss="			modal">Save changes</button>
+<!--  				</div> -->
+	      		</div>	
+    		</div><!-- /.modal-content -->
+  		</div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
+<!-- Esta seguro si / no
+-->
+
+
+<script type="text/javascript">
+
+
+    // ***********************************
+    //         Document Ready
+    // ***********************************
+
+    $(document).ready(function () 
+    {   
+
+        // ------------------------------------
+        //         Actitate table Supply
+        // -----------------------------------
+        var oTable =  $('#ts').DataTable(
+        {
+            "pagingType": "numbers",
+            "searching": false,
+            "bLengthChange": false,
+             dom: 'Bfrtip',
+             select: true,
+	        "columnDefs": 
+	        [
+	            {
+	               "width": 20, 
+	               	"targets": 0,
+	                "searchable": true
+	            },
+	            {
+	                "targets": 1,
+ 					"width": "50%",	                
+	                "searchable": true
+	            },
+	            {
+	                "targets": [ 3 ],
+	                "visible": false
+	            }
+	        ]
+    	});
+
+
+        // ------------------------------------
+        //         #ts tbody CLICK
+        // -----------------------------------
+		$('#ts tbody').on( 'click', 'td', function () 
+		{
+
+			var ncolum = oTable.cell( this ).index().columnVisible;
+			if (ncolum => 2 && ncolum <= 3)
+			{
+	  			if (oTable.cell( this ).index().columnVisible === 4)
+	  			{
+	  				alert('Modificar:', this);
+			
+
+					var $row = $(this).closest('td');
+					alert("$row:", $row);
+
+					alert(oTable.row( this ).data());
+					alert(oTable.row( this ).data()[0]);
+					document.getElementById('m_codsupplier').value = oTable.row( this ).data()[0];
+					document.getElementById('m_namesupplier').value = oTable.row( this ).data()[1];
+
+	  			}
+	  			else
+	  				// --------------------------------------------------
+	  				//             Eliminar Proveedor
+	  				// --------------------------------------------------
+	  				if (oTable.cell( this ).index().columnVisible === 2)
+	  				{
+	  					document.getElementById('temporal_row').value = this;
+	  					document.getElementById('m_codsupplier').value = oTable.row( this ).data()[0];
+						document.getElementById('addRowSupplier').style.visibility = 'hidden';
+						document.getElementById('delRowSupplier').innerHTML = 'Eliminar Proveedor->'+
+										oTable.row( this ).data()[0];
+
+						document.getElementById('delRowSupplier').style.visibility = 'visible';
+						document.getElementById('cancelDelRowSupplier').style.visibility = 'visible';
+
+//	  					alert('Eliminar');
+	  				}
+
+			}
+		});
+
+
+		// ------------------------------------
+	    //         saveRowSupplier
+	    // -----------------------------------
+	    $('#saveRowSupplier').on( 'click', function (e) 
+	    {
+
+	    	e.preventDefault();
+	    	alert('SaveRowSupplier', req.session.ncolum);
+
+
+			//		otable
+			//        	.row( this )
+			//        	.data( "Supplier5" )
+			//        	.draw();    	
+	    });
+
+		// ------------------------------------
+	    //         cancelDelRowSupplier
+	    // -----------------------------------
+	    $('#cancelDelRowSupplier').on( 'click', function (e) 
+	    {
+	    	e.preventDefault();
+
+			document.getElementById('addRowSupplier').style.visibility = 'visible';
+			document.getElementById('delRowSupplier').style.visibility = 'hidden';
+			document.getElementById('cancelDelRowSupplier').style.visibility = 'hidden';
+
+
+	    });
+
+    });
+
+</script>
+
+
+
+
+<script type="text/javascript">
+
+// ***********************************
+//         		CRUD
+// ***********************************
+
+
+    // ------------------------------------
+    //         addRowSupplier
+    // -----------------------------------
+    $('#addRowSupplier').on( 'click', function (e) 
+    {
+
+    	e.preventDefault();
+
+		document.getElementById('add_m_codsupplier').value = " ";
+		document.getElementById('add_m_namesupplier').value = " ";
+
+
+
+//    	alert("CRUD - Entre #addRowSupplier");
+
+    } );
+
+
+    // ------------------------------------
+    //         findSupplier
+    // -----------------------------------
+	function findSupplier ()
+    {
+		var xcod = document.getElementById('add_m_codsupplier').value;
+
+        $.getJSON("/api/restGetSupplierbyCodSupplier/"+xcod, function(data)
+        {                      
+	     	console.log('data: ',data);
+	    	console.log('data :', data.length);
+	    	if (data.length > 0)
+	     	{
+	            $.each(data, function(index, value) {
+		            document.getElementById('add_m_namesupplier').value = value.name; });
+			}
+			else { 
+					document.getElementById('add_m_namesupplier').value = "0-No Existe el Codigo";
+				}
+        });
+
+    };
+
+
+    // ------------------------------------
+    //         validarCodSupplier
+    // -----------------------------------
+
+    $('#validarCodSuppier').on( 'click', function (e) 
+    {
+		findSupplier();
+    });
+
+
+    // ------------------------------------
+    //         validarNameSupplier
+    // -----------------------------------
+    $('#validarNameSupplier').on( 'click', function (e) 
+    {
+    	alert('validarNameSupplier');
+		findSupplierbyName();
+
+    });
+
+
+
+    // ------------------------------------
+    //         findSupplierbyName
+    // -----------------------------------
+	function findSupplierbyName()
+    {
+
+		var xcod = document.getElementById('add_m_namesupplier').value;
+		alert('findSupplierbyName - xcod:', xcod);
+        $.getJSON("/api/restGetSupplierbyName/"+xcod, function(data)
+        {        
+	       console.log('data: ',data);
+
+	       console.log('data :', data.length);
+
+	       if (data.length > 0)
+	       {
+	            $.each(data, function(index, value) 
+	            {
+		            document.getElementById('add_m_codsupplier').value = value.codsupplier;
+		            document.getElementById('add_m_namesupplier').value = value.name;
+
+	            });
+			}
+			else
+			{
+	            document.getElementById('add_m_codsupplier').value = "0-No Existe el Nombre";
+			}
+
+        });
+
+    };
+
+
+    // ------------------------------------
+    //         findSupplierbyName
+    // -----------------------------------
+    $('#saveAddRowSupplier').on( 'click', function (e) 
+    {
+    	e.preventDefault();
+
+    	var ts = $('#ts').DataTable();
+//    	alert("Ëntre #saveAddRowSupplier" + 
+//    			document.getElementById('add_m_codsupplier').value.substr(0, 2) + 
+//    			document.getElementById('add_m_namesupplier').value.substr(0, 2));
+//    	alert("Length :",document.getElementById('add_m_codsupplier').value.trim.length);  
+
+    	if (document.getElementById('add_m_codsupplier').value.substr(0, 2) !== "0-" && 
+	        document.getElementById('add_m_namesupplier').value.substr(0, 2) !== "0-" &&
+	        document.getElementById('add_m_codsupplier').value.trim().length > 0 && 
+	        document.getElementById('add_m_namesupplier').value.trim().length > 0 )
+	    {
+
+			var xcod = "/"+'({ email: "1@1.com" }, {$addToSet:{ supplier: { codsupplier: "NUEVO06", name: "NOMBRENUEVO06"} }})'+"/";
+
+			 var xcod = document.getElementById('email').value.trim()+"&"+
+			 			document.getElementById('add_m_codsupplier').value.trim()+"&"+
+			 			document.getElementById('add_m_namesupplier').value.trim();
+//			 var marray = xcod.split("&")
+//			  alert(marray[0]);
+//			  alert(marray[1]);
+//			  alert(marray[2]);
+
+//			 var email = xcods.slice(xcod,)
+//			 xcod.push({"1@1.com", "NUEVO06"});
+			$.getJSON("/api/restInsertUserSupplier/"+xcod, function(data)
+			{
+
+			    	console.log("dentro de update");
+			    	console.log("data",data);    	
+			});
+    
+
+		//({ email: "1@1.com" }, {$set:{ supplier: [{ codsupplier: "NUEVO01", name: "NOMBRENUEVO01"} ]}})	    
+
+
+	        var nRow = ts.row.add( 
+	        	[
+		            document.getElementById('add_m_codsupplier').value.trim(),
+		            document.getElementById('add_m_namesupplier').value.trim(),
+		            '<td><a class="delete" href=""><i class="fa fa-times" aria-hidden="true"></i></a></td>',
+		            '<td><a class="edit" href=""><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a></td>		            ',
+   		            'N'
+	        	] ).draw();
+        }
+
+// 		document.getElementById('addRowSupplier').style.visibility = 'hidden';
+// 		document.getElementById('saveRowSupplier').style.visibility = 'visible';
+
+    } );
+
+
+
+
+
+    // ------------------------------------
+    //         delRowSupplier
+    // -----------------------------------
+    $('#delRowSupplier').on( 'click', function (e) 
+    {
+    	e.preventDefault();
+
+		document.getElementById('addRowSupplier').style.visibility = 'visible';
+		document.getElementById('delRowSupplier').style.visibility = 'hidden';
+		document.getElementById('cancelDelRowSupplier').style.visibility = 'hidden';
+
+
+    	var ts = $('#ts').DataTable();
+
+    	ts.row( document.getElementById('temporal_row')).remove();
+
+	 	var xcod = 	document.getElementById('email').value.trim()+"&"+
+	 				document.getElementById('m_codsupplier').value.trim();
+
+		$.getJSON("/api/restDelUserSupplier/"+xcod, function(data)
+		{
+		   	console.log("dentro de update");
+		});
+    });
+
+
+$('#codsupplier').blur() 
+{
+//	alert('codsupplier - blur');
+};
+
+
+
+$('.codsupplier').keypress(function(e) 
+{
+	alert('codsupplier');
+    console.log(this);
+    if (e.which == 13) 
+    {
+//        $(this).closest('tr').next().find('input.serial').focus();
+          console.log("fue Enter codsupplier");
+
+        e.preventDefault();
+    }
+});
+
+    // ------------------------------------
+    //         editRow
+    // -----------------------------------
+
+//	function editRow ( oTable, nRow )
+
+//    $('#editRow').on( 'click', function (e) 
+
+
+//var table = $('#ts').DataTable();
+ 
+
+
+    // ------------------------------------
+    //         saveRow
+    // -----------------------------------
+
+	function saveRow ( oTable, nRow )
+    {
+
+    	e.preventDefault();
+
+		alert('Save');
+
+
+
+    } ;
+
+
+
+
+    $("#aprovallevel").focus()
+    {
+
+
+        // ------------------------------------
+        //         GetAllCecos
+        // -----------------------------------
+        $.getJSON("/api/restGetAprovallevels", function(data)
+        {        
+
+
+            var opselect = $("#aplevel1").val();
+            var $select = $("#aplevel");
+                       
+//            console.log(data);
+//            var table = $('#tcecos').DataTable();        
+
+            $.each(data, function(index, value) 
+            {
+//                console.log(value);
+//                table.row.add([value.ceco,  value.description]).draw();
+
+                $select.append("<option>" + value.aplevel + "</option>");
+//                alert(value.codsupplier);
+            });
+
+//            alert(" json-datasupply:", datasupply);
+
+
+        });
+
+    };
+
+</script>
+
+
+

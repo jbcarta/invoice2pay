@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>LOGIN 1</title>
+    <link   rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" 
+            integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous" /> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />     
+  </head>
+  <body>
+
+
+        <div class="container">
+
+         <div class="row">
+
+            <div class="col-md-4 col-md-offset-4">
+
+<!--
+                <form action="" method="post">
+-->                
+                  <h1>Testing Login</h1>
+
+                    <div class="form-group">
+                        <label for="email">E-Mail</label>
+                        <input type="text" id="email" name="email" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" class="form-control" />
+                    </div>  
+                    <button class="btn btn-primary" onclick="callADLogin()">Sign In</button>
+<!--                    
+                </form>     
+-->                
+            </div> 
+        </div>
+      </div>
+
+<script type="text/javascript">
+
+  function authenticateUser(user, password)
+  {
+      var token = user + ":" + password;
+
+      // Base64 Encoding -> btoa
+      var hash = btoa(token); 
+
+      return "Basic " + hash;
+  }
+
+  function callADLogin() {
+
+      var userName = $("#email").val();
+      var passWord = $("#password").val();
+
+      alert("adentro callADLogin");
+
+      // New XMLHTTPRequest
+      var request = new XMLHttpRequest();
+      request.open("GET", "http://localhost:8000/loginldap/porders/", async=false);
+      request.setRequestHeader('Authorization', authenticateUser(userName, passWord));  
+      request.send();
+      // view request status
+      rta = request.responseText;
+      if (request.status != 200) {
+        alert("(" + request.status + ") - " + rta);
+      } else {
+        if (rta == "NO") {
+          alert("ERROR: the user is not authorize to access the application")
+        } else {
+          alert("YEAHHH!!! I'm in\r\n" + rta.substring(4));
+        };
+      };
+      //request.innerHTML = request.response.responseText;
+      //return false;
+  };
+
+</script>
+</body>
+</html>
+
+
+    
+

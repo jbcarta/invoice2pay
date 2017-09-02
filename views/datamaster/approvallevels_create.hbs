@@ -1,0 +1,236 @@
+<!-- *****************************************
+
+        approvallevels_edit.hbs
+
+***************************************** -->  
+
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container  container-fluid head-tit">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" 
+                   data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <h1 name="titulo" id="titulo">
+               {{ title }}
+            </h1>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+          <ul class="nav navbar-nav">
+            <li class="active"> <span class="sr-only">(current)</span></a></li>
+            <li class="dropdown">
+              <a  href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" 
+                  aria-haspopup="true" aria-expanded="false">Menu<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                  <li><a onclick="grabar()" name="grabar" id="grabar">Grabar</a></li>
+
+                  <li><a href="/approvallevels">Salir sin Grabar</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="/">Regresar al Menu Principal</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+<!--
+
+     BODY
+
+<form action="/approver_edit_post/{{ this.tdetail }}" method="post" 
+-->
+
+<form action="/approvallevels_insert" method="post" 
+      id="form_edit_post" name="form_edit_post" 
+      class="form-horizontal">
+
+    <div class="container">
+
+        <div class="row">
+
+            <input id="returnaction"  name="returnaction" type="hidden" />
+            <input  name="id" id="id" value="{{recdata._id}}" type="hidden"/> 
+
+
+            <!-- First Column -->         
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <!-- Nivel Aprobación -->
+                <div class="form-group">
+                   <label for="approval" 
+                         class="control-label col-lg-4 col-md-4 col-sm-12 col-xs-12">Nivel de Aprobación :</label>
+                   <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                        <div class='input-group date' id='datetimepicker1'>
+                            <input  type='text' class="form-control separate-bottom" 
+                                    placeholder="indique nivel aprobador" 
+                                    name="aplevel" id="aplevel" 
+                                    value="{{recdata.aplevel}}"/>
+                        </div>
+                   </div>                                               
+                </div> <!-- Nivel Aprobación -->
+
+                <!-- Currency -->
+                <div class="form-group">
+                   <label for="currency" 
+                         class="control-label col-lg-4 col-md-4 col-sm-12 col-xs-12">Moneda :</label>
+                   <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                        <div class='input-group date' id='datetimepicker1'>
+                            <select class="form-control selectpicker show-tick" name="currency"
+                                     id="currency" required>
+                                <option selected>{{currency}}</option>
+
+                                <option>000:Indique Moneda</option>
+
+                                <option>ARS</option>
+                                <option>USD</option>
+                                <option>CLP</option>
+                            </select>
+                        </div>
+                   </div>                                               
+                </div>
+
+                <!-- ValMin -->
+                <div class="form-group">
+                   <label for="valmin"  
+                        class="control-label col-lg-4 col-md-4 col-sm-12 col-xs-12">Valor Minimo: </label>
+                   <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                        <div class='input-group'>
+                            <input  type='text' class="form-control separate-bottom" 
+                                    name="valmin" id="valmin" 
+                                    value="{{recdata.valmin}}"/>
+                        </div>
+                   </div>
+                </div> <!-- Valmin-->
+
+
+                <!-- ValMax -->
+                <div class="form-group">
+                   <label for="valmax"
+                        class="control-label col-lg-4 col-md-4 col-sm-12 col-xs-12">Valor Máximo: </label>
+                   <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                        <div class='input-group'>
+                            <input  type='text' class="form-control separate-bottom" 
+                                    name="valmax" id="valmax" 
+                                    value="{{recdata.valmax}}"/>
+                        </div>
+                   </div>
+                </div> <!-- Valmax-->                
+            </div>
+        </div>
+    </div>
+</form>
+
+
+    <!--   
+             Button Delete 
+    -->
+    <div  class="modal fade" id="confirm-delete" tabindex="-1" role="dialog" 
+          aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel">Confirmar Eliminación</h4>
+                </div>
+            
+                <div class="modal-body">
+                    <p>Esta función va a borrar el actual documento, este proceso es irreversible.</p>
+                    <p>Esta seguro de continuar?</p>
+                    <p class="debug-url"></p>
+                </div>
+                
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                    <a class="btn btn-danger btn-ok" onclick="borrar()">Borrar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  ************************************************ -->
+
+    <!--  *********     J A V A S C R I P T    *********** -->
+
+    <!--  ************************************************ -->
+
+    <script type="text/javascript">
+         var currentRow = -1;
+    </script>
+
+    <script type="text/javascript">
+
+
+
+        // ------------------------------------
+        //         modifyline()
+        // -----------------------------------
+        function modifyline()
+        {
+          alert("Modify Line");
+        };
+
+        // ------------------------------------
+        //         deleteline()
+        // -----------------------------------
+        function deleteline()
+        {
+          alert("Delete Line");
+        };
+
+    </script>
+
+
+    <script type="text/javascript">
+
+        function grabar()
+        {
+            var action = $('#titulo').text();
+            action = action.trim().substr(0,5); 
+            // alert(action);
+
+
+            /*
+            var t_id = $('#id').text();
+            if (action == 'Crear')
+            {
+                alert('Entror por otra');  
+                document.getElementById('returnaction').value = "Crear"                    
+            }
+            else
+            {
+                document.getElementById('returnaction').value = "Modificar"
+            }
+            */
+
+            document.getElementById('returnaction').value = "Crear"
+            $('#form_edit_post').submit();
+        };
+
+        function borrar()
+        {
+                alert('Entro por borrar');   
+                document.getElementById('returnaction').value = "Borrar"     
+                $('#approvallevels_edit_post').submit();                 
+        };
+
+    </script>   
+
+   <script>
+        // -------------------------------------
+        //   Button de Eliminar documento
+        // -------------------------------------        
+        $('#confirm-delete').on('show.bs.modal', function(e) {
+            $(this).find('.btn-ok').attr('href', $(e.relatedTarget).data('href'));
+            
+            $('.debug-url').html('Delete URL: <strong>' + $(this).find('.btn-ok').attr('href') + '</strong>');
+        });
+    </script>

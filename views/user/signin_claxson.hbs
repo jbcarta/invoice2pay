@@ -1,0 +1,75 @@
+<div class="row">
+	<div class="col-md-4 col-md-offset-4">
+		<h1>Login</h1>
+		{{#if this.hasErrors }}		
+			<div class="alert alert-danger">
+				{{# each messages }}
+					<p>{{ this }}</p>
+				{{/each}}
+			</div>
+		{{/if}}
+
+		<form action="/user/signin" method="post">
+			<div class="form-group">
+				<label for="email">E-Mail</label>
+				<input type="text" id="email" name="email" class="form-control">
+			</div>
+			<div class="form-group">
+				<label for="password">Password</label>
+				<input type="password" id="password" name="password" class="form-control">
+			</div>	
+			<input type="hidden" name="_csrf" value="{{ csrfToken }}">
+            <button class="btn btn-primary" onclick="callADLogin()">Entrar</button>
+
+            <!--
+			<button type="submit" class="btn btn-primary">Sign In</button>
+			-->
+		</form>		
+	</div>	
+</div>
+
+
+<script type="text/javascript">
+  function callADLogin() 
+  {
+
+
+      var userName = $("#email").val();
+      var passWord = $("#password").val();
+
+
+      //alert("1. Adentro de callADLogin()");
+
+      // New XMLHTTPRequest
+      var request = new XMLHttpRequest();
+      //alert("2. Adentro de callADLogin()");            
+      //request.open("GET", "http://localhost:8000/loginldap/porders/", async=false);
+      request.open("GET", "http://mobilereports.claxson.com/loginldap/porders/", async=false);
+      //alert("3. Adentro de callADLogin()");      
+      request.setRequestHeader('Authorization', authenticateUser(userName, passWord));  
+      //alert("4. Adentro de callADLogin()");
+
+      request.send();
+      // view request status
+      //alert("5. Adentro de callADLogin()");
+
+      rta = request.responseText;
+      if (request.status != 200) {
+        alert("(" + request.status + ") - " + rta);
+      } else {
+        if (rta == "NO") {
+          alert("ERROR: the user is not authorize to access the application")
+        } else {
+          alert("YEAHHH!!! I'm in\r\n" + rta.substring(4));
+        };
+      };
+      //request.innerHTML = request.response.responseText;
+      //return false;
+  };
+
+
+
+
+</script>
+
+

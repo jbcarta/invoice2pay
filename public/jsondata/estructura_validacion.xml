@@ -1,0 +1,50 @@
+// Usuarios
+[
+  {
+    "usuario": "jcarta",
+    "Sociedad": {"XVE1"}
+    "cecos": {"BLOO9000",  "BLOO9005"},
+    "cuentas": {"1000012",  "122121",  "122125"},
+  },
+  {
+    "usuario": "pbiffani",
+    "Sociedad": {"XVE6"}
+    "cecos": {"BLOO9003",  "BLOO9005"},
+    "cuentas": {"1000012",  "122121",  "122125"},
+  },
+
+]
+
+
+// Proveedor por Centro de Costos
+[
+  {
+    "proveedor": "10000",
+    "Sociedad": {"XU18", "XVE1"},
+    "cecos": {"BLOO9000",  "BLOO9005"},
+  },
+  {
+    "proveedor": "10001",
+    "Sociedad": "XU18",
+    "cecos": {"BLOO9001",  "BLOO9002"},
+  },
+
+]
+
+//Centros de Costo
+// Usuarios
+[
+  {
+    "ceco": "BLOO9000",
+    "Sociedad": {"XVE1"}
+    "cuentas": {"1000012",  "122121",  "122125"},
+    "orden": {"10",  "12"},
+  },
+  {
+    "ceco": "BLOO9010",
+    "Sociedad": {"XVE1"}
+    "cuentas": {"1000012",  "122121",  "122125"},
+    "orden": {"10",  "12"},
+  }
+
+]

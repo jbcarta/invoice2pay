@@ -1,0 +1,160 @@
+/*-- FONTS --*/
+
+@font-face {
+    font-family: 'Regular';
+    src: url('../fonts/RajdhaniRegular.eot');
+    src: url('../fonts/RajdhaniRegular.eot') format('embedded-opentype'),
+         url('../fonts/RajdhaniRegular.woff2') format('woff2'),
+         url('../fonts/RajdhaniRegular.woff') format('woff'),
+         url('../fonts/RajdhaniRegular.ttf') format('truetype'),
+         url('../fonts/RajdhaniRegular.svg#RajdhaniRegular') format('svg');
+}
+
+@font-face {
+    font-family: 'Bold';
+    src: url('../fonts/RajdhaniBold.eot');
+    src: url('../fonts/RajdhaniBold.eot') format('embedded-opentype'),
+         url('../fonts/RajdhaniBold.woff2') format('woff2'),
+         url('../fonts/RajdhaniBold.woff') format('woff'),
+         url('../fonts/RajdhaniBold.ttf') format('truetype'),
+         url('../fonts/RajdhaniBold.svg#RajdhaniBold') format('svg');
+}
+
+@font-face {
+    font-family: 'Medium';
+    src: url('../fonts/RajdhaniMedium.eot');
+    src: url('../fonts/RajdhaniMedium.eot') format('embedded-opentype'),
+         url('../fonts/RajdhaniMedium.woff2') format('woff2'),
+         url('../fonts/RajdhaniMedium.woff') format('woff'),
+         url('../fonts/RajdhaniMedium.ttf') format('truetype'),
+         url('../fonts/RajdhaniMedium.svg#RajdhaniMedium') format('svg');
+}
+
+/*-- END FONTS --*/
+
+/*-- CLAXSON THEME OVERRIDES --*/
+
+body {
+    font-family:Regular;
+}
+
+.clearF{
+    clear:both;
+}
+
+/* HEADER */
+
+.head-tit {
+    background-color: #fb7102;
+}
+
+h1{
+    font-family: 'Medium';
+    font-size: 30px;
+    padding: 10px 0;
+    margin: 0;
+    color:#fff; 
+}
+
+label {
+    padding: 6px 0 0 0;
+}
+
+.separate-bottom {
+    margin-bottom: 10px;
+}
+
+.monoContent {
+    padding-top: 12px;
+}
+
+.unpadLeft{
+    padding-left:5px!important;
+}
+.unpadRight{
+    padding-right:5px!important;
+}
+
+.floatL{
+    float:left;
+}
+
+.floatR{
+    float:right;
+}
+
+.taR{
+    text-align: right;
+}
+
+.unmargTop{
+    margin-top: -10px;
+}
+
+/* END OF HEADER*/
+
+/* TABLE */
+
+.scrollerT{
+    max-height: 300px;
+    overflow: auto;
+}
+
+table thead {
+    background: rgba(52,73,94,0.94);
+    color: #ecf0f1;
+    max-height: 500px;
+    overflow: auto;
+}
+
+.table-striped > tbody > tr:nth-of-type(2n+1) {
+    background-color: #f9f9f9;
+}
+
+.table-striped > tbody > tr:hover{
+    background-color:#999;
+    color:#fff;
+}
+
+/* END OF TABLE */
+
+/* FOOTER */
+.footer{
+    background-color: #3f5367;
+    bottom: 0;
+    left:0;
+    position: fixed;
+    width: 100%;
+    color: #fff;
+}
+
+
+/* MEDIA QUERIES */
+
+@media(max-width:991px){
+    .butL{
+        float: left!important;
+    }
+    
+    .butCont{
+            margin: 20px auto 40px;
+            border-bottom: dotted #cccccc 2px;
+    }
+    
+   
+
+}
+
+@media(max-width:450px){
+ .btn {
+    /* float: left!important; */
+        float: none!important;;
+        margin: auto!important;;
+        text-align: center!important;;
+        display: inherit!important;;
+    }
+    .xs-6{
+        width:100%!important;
+        margin-bottom: 30px;
+    }
+}

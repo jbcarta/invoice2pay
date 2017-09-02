@@ -1,0 +1,2412 @@
+<!-- *****************************************
+
+        Supplierinvoice_edit_especial_admin.hbs
+
+         01-Sept-2017
+
+         Permite editar campos especiales.
+         función especial para administradores
+
+***************************************** -->  
+
+
+
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+<!--
+    <div class="container container-fluid head-tit">
+    sin el container, toma todo el ancho de la pantalla
+-->    
+    <div class="container-fluid head-tit">
+
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" 
+                 data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <h1 name="titulo" id="titulo">
+               {{ title }}
+          </h1>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-2">
+          <ul class="nav navbar-nav">
+            <li class="active"> <span class="sr-only">(current)</span></a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a onclick="testvalidation()" name="grabar" id="grabar">Grabar</a></li>
+<!--                <li><a href="/supplierInvoiceInsert">Grabar Nueva Factura</a></li>                
+-->
+
+                <li><a href="/supplierInvoice_Pending">Salir sin Grabar</a></li>
+                <li role="separator" class="divider"></li>
+
+<!--                
+                <li><a href="/supplierInvoiceDelete/{{_id}}">Borrar Documento</a></li>
+
+                <li><a href="/supplierInvoiceDelete/{{_id}}">Borrar Documento</a></li>
+                <li><a onclick="borrar()" name="borrar" id="borrar">Borrar Documento</a></li>
+   /{{this._id}}
+-->
+                <li><a href="#" data-href="#" 
+                      data-toggle="modal" data-target="#confirm-delete">Borrar Documento</a></li>
+                <li role="separator" class="divider"></li>
+
+                <li><a href="/">Regresar al Menu Principal</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+{{# each recdata }}
+
+
+<div class="row">
+
+
+<!--
+  <button type="button" onclick="testvalidation()" class="close" >Test Validación</button>
+-->
+    <!-- variables globales -->
+    <input id="currentRow"  name="currentRow" type="hidden" />
+    <input id="serverhttp"  name="serverhttp" type="hidden" />
+
+
+
+    <!--
+        <form action="/supplierinvoice_edit/{{ this._id }}" method="post" id="checkout-form" class="form-horizontal">
+    -->
+
+<!--    <form action="/supplierInvoicePostEdit/{{ this.tdetail }}" method="post" 
+-->
+    <form action="/supplierInvoicePostEdit_admin" method="post" 
+          id="supplierinvoicePostEdit" name="supplierinvoicePostEdit" 
+          class="form-horizontal" , enctype='application/x-www-form-urlencoded' 
+          onsubmit="return validarFormulario()"> 
+
+          <!--  enctype="multipart/form-data" 
+          -->
+
+<!--
+    <div class="container">
+-->    
+    <div class="container-fluid">
+
+        <div class="row">
+
+            <!-- First Column -->         
+            <div class="col-lg-4 col-md-4 col-sm-12">
+
+                <input id="returnaction"  name="returnaction" type="hidden" />
+                <input name="id" id="id" value="{{this._id}}" type="hidden"/>
+                <input name="lastVal" id= "lastVal" type="hidden"/>                      
+                <input name="aplevel" id="aplevel" type="hidden"/>
+                <input name="approver1" id="approver1" type="hidden"/>                
+                <input name="approver2" id="approver2" type="hidden"/>
+                <input name="approver3" id="approver3" type="hidden"/>
+                <input name="approver4" id="approver4" type="hidden"/>
+                <input name="approver5" id="approver5" type="hidden"/>             
+
+<!--                
+                <input type="filetextarea" name="imagenbit" id="imagenbit" type="hidden"/>
+-->
+                <!-- Proveedor -->
+                <div class="form-group">
+                   <label for="supplier" 
+                         class="control-label col-lg-4 col-md-4 col-sm-12 col-xs-12">Proveedor :</label>
+                   <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                        <div class='input-group date' id='datetimepicker1'>
+                            <input type='text' class="form-control separate-bottom" readonly="readonly" placeholder="indique el proveedor" name="supplier" id="supplier" value="{{supplier}}"/> <span class="input-group-addon">
+                            <a href="#" data-toggle="modal" data-target=".modal-provee"><span class="fa fa-external-link"></a></span>
+                        </div>
+                   </div>                                               
+                </div>
+
+
+                <!-- Company -->
+                <div class="form-group">
+                   <label for="doctype" 
+                         class="control-label col-lg-4 col-md-4 col-sm-12 col-xs-12">Compañia:</label>
+                   <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                        <div class='input-group date' id='datetimepicker1'>
+                            <select class="form-control selectpicker show-tick" name="company"
+                                     id="company" required>
+                                <option selected>{{company}}</option>
+                                <option>000:Indique Compañia</option>
+                                <option>XA01:CLAXSON ARGENTINA</option>
+                                <option>XA02:LIFESTYLE TV SRL</option>
+                                <option>XA03:NAVAJO ENTERTAINMENT</option>
+                                <option>XSDC:MIXPLAY S.A.</option>
+                                <option>XU01:CLAXSON USA II, INC.</option>
+                                <option>XU06:PLAYBOY TV LA</option>
+                                <option>XU12:PLAYBOY TV BV</option>
+                                <option>XU40:DLA, INC.</option>
+                                <option>XU42:PLAYBOY LIFESTYLES H</option>
+                                <option>XVE1:CONTRIBUTION S.R.L.</option>
+                                <option>XVE2:VENUS TV, INC</option>
+                            </select>
+                        </div>
+                   </div>                                               
+                </div>                                           
+
+
+                <!-- Tipo de Doc -->
+                <div class="form-group">
+                   <label for="doctype" 
+                         class="control-label col-lg-4 col-md-4 col-sm-12 col-xs-12">Tipo de Doc :</label>
+                   <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                        <div class='input-group'>
+                        <!--                            
+                            <input type='text' class="form-control separate-bottom" readonly="readonly" placeholder="indique tipo de documento" name="supplier" id="supplier" value="{{this.doctype}}"/> 
+                        -->
+                            <select class="form-control selectpicker show-tick" name="tpdoc"
+                                     id="tpdoc" required>
+                                <option selected>{{documenttype}}</option>               
+                                <option> 00:Indique tipo Doc</option>
+                                <!--
+                                <option>KA:DOC.DE ACREEDOR</option>
+                                <option>KB:DOC.DE ACREEDOR</option>
+                                <option>KC:COMPENSACION ACREED</option>
+                                -->
+                                <option>KD:NOTA DEB.ACREEDOR</option>
+                                <!--
+                                <option>KE:FACTURA ACREEDOR SL</option>
+                                <option>KF:FACTURA ACREEDOR</option>
+                                -->
+                                <option>KG:NOTA CRED.ACREEDOR</option>
+                                <option>KL:FACTURA ACREEDOR SL</option>
+                                <!--
+                                <option>KM:NOTA DEB.ACREEDOR SL</option>
+                                <option>KN:ACREEDORES NETO</option>
+                                <option>KO:NOTA CRED.ACREED.SL</option>
+                                <option>KP:ACTUALIZ.CUENTAS</option>
+                                -->
+                                <option>KR:FACTURA ACREEDOR</option>
+                                <!--
+                                <option>KT:FACT.SERV.PUBLICOS</option>
+                                <option>KU:N.CRED.SERV.PUBLICOS</option>
+                                -->
+
+                                <!--                                     
+                                <option value="{{documenttype}}" selected>{{documenttype}}</option>               
+                                <option value="00">00:Indique tipo Doc</option>
+                                <option value="KR">KR:Factura Nac</option>
+                                <option value="KA">KA:Factura Exp</option>
+                                <option value="K2">K2:Nota Crédito</option>
+                                <option value="K3">K3:Nota Débito</option>
+                                -->                                
+                            </select>
+                        </div>
+                   </div>                                               
+                </div>
+
+                <!-- Numero de Documento -->
+                <div class="form-group">
+                   <label for="doctype" 
+                         class="control-label col-lg-4 col-md-4 col-sm-12 col-xs-12">Num Doc :</label>
+                   <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                        <div class='input-group'>
+
+                            <input type='text' class="form-control separate-bottom" placeholder="Número del documento" name="numdoc" id="numdoc" value="{{documentnumber}}"/> 
+                            <span class="input-group-addon">
+                            <a href="#" data-toggle="modal" data-target=".modal-imgfact"><span class="fa fa-external-link"></a></span>
+                        </div>
+                   </div>                                               
+                </div>
+
+                <!-- Currency -->
+                <div class="form-group">
+                   <label for="doctype" 
+                         class="control-label col-lg-4 col-md-4 col-sm-12 col-xs-12">Moneda :</label>
+                   <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                        <div class='input-group date' id='datetimepicker1'>
+                            <select class="form-control selectpicker show-tick" name="currency"
+                                     id="currency" required>
+                                <option selected>{{currency}}</option>
+
+                                <option>000:Indique Moneda</option>
+
+                                <option>ARS</option>
+                                <option>USD</option>
+                                <option>CLP</option>
+                            </select>
+                        </div>
+                   </div>                                               
+                </div>
+
+                <!-- Tasa de Cambio -->
+                <div class="form-group">
+                   <label for="exchangerate" 
+                         class="control-label col-lg-4 col-md-4 col-sm-12 col-xs-12">Tasa de Cambio :</label>
+                   <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                        <div class='input-group'>
+
+                            <input type='text' class="form-control separate-bottom" placeholder="Tasa de Cambio" name="exchangerate" id="exchangerate" value="{{exchangerate}}"/> 
+                        </div>
+                   </div>                                               
+                </div>  
+                   
+
+
+            </div>
+            
+            <!-- Second Column --> 
+            <div class="col-lg-4 col-md-4 col-sm-12">
+
+                <!-- Fecha Contable -->
+                <div class="form-group">
+                   <label for="accountingdate"  
+                        class="control-label col-lg-4 col-md-4 col-sm-12 col-xs-12">Fecha Contable: </label>
+                   <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                        <div class='input-group'>
+                            <input  type='date' class="form-control separate-bottom" 
+                                    name="accountingdate" id="accountingdate" value="{{accountingdate}}"/>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fecha Documento -->
+                <div class="form-group">
+                   <label for="documentdate" 
+                          class="control-label col-lg-4 col-md-4 col-sm-12 col-xs-12">Fecha Doc: </label>
+                   <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                        <div class='input-group'>
+                            <input  type='date' class="form-control separate-bottom" 
+                                    name="documentdate" id="documentdate" value="{{documentdate}}"/>
+                        </div>
+                    </div>
+                </div>            
+
+
+
+                <!-- Monto neto de Factura -->
+                <div class="form-group">
+                   <label for="doctype" 
+                         class="control-label col-lg-4 col-md-4 col-sm-12 col-xs-12">Neto:</label>
+                   <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                        <div class='input-group'>
+                            <input  type='text' class="form-control separate-bottom" 
+                                    placeholder="Monto Neto" name="amountinvoice" id="amountinvoice" value="{{netamountinvoice}}"/> 
+                        </div>
+                   </div>                                               
+                </div>                
+
+
+                    <!-- Monto de Impuestos -->
+                    <div class="form-group">
+                       <label for="doctype" 
+                             class="control-label col-lg-4 col-md-4 col-sm-12 col-xs-12">Impuestos :</label>
+                       <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                            <div class='input-group'>
+                                <input type='text' class="form-control separate-bottom" placeholder="Indique impuestos" name="totaltax" id="totaltax" 
+                                value="{{totaltax}}" />  <!-- readonly -->
+                            </div>
+                       </div>                                               
+                    </div>                
+
+
+                <!-- Monto total de Factura -->
+                <div class="form-group">
+                   <label for="doctype" 
+                         class="control-label col-lg-4 col-md-4 col-sm-12 col-xs-12">Total:</label>
+                   <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                        <div class='input-group'>
+                            <input type='text' class="form-control separate-bottom" placeholder="Monto Total" name="totalinvoice" id="totalinvoice" value="{{totalinvoice}}" readonly/> 
+                        </div>
+                   </div>                                               
+                </div>                
+
+
+                <!-- createdby -->
+                <div class="form-group">
+                   <label for="doctype" 
+                         class="control-label col-lg-4 col-md-4 col-sm-12 col-xs-12">Creado por:</label>
+                   <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                        <div class='input-group'>
+                            <input type='text' class="form-control separate-bottom"  name="createdby" id="reatedby" value="{{reatedby}}"/> 
+                        </div>
+                   </div>                                               
+                </div>       
+
+
+            </div>
+            
+            <!-- Third Column -->           
+            <div class="col-lg-4 col-md-4 col-sm-12">
+
+              <div class="panel panel-default panel-table">
+                  <div class="panel-heading">
+                    <div class="row">
+                      <div class="col col-xs-6">
+                        <h3 class="panel-title">Impuestos</h3>
+                      </div>
+                      <div class="col col-xs-6 text-right">
+                        <button type="button" class="btn btn-sm btn-primary btn-create" onclick="addtax()">Nuevo Impuesto</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="panel-body">
+                    <table  id="ttax" name="ttax" 
+                            class="table table-striped table-bordered table-list">
+                      <thead>
+                        <tr>
+                            <th><em class="fa fa-cog"></em></th>
+                            <!--
+                                <th class="hidden-xs">ID</th>
+                            -->
+                            <th>Cod.Imp.</th>
+                            <th>Monto</th>
+                        </tr> 
+                      </thead>
+                      <tbody>
+                        {{# each detailtax }}                      
+                              <tr>
+                                <td align="center">
+                                  <!--
+                                    <a class="btn btn-default"><em class="fa fa-pencil"></em></a>
+                                  -->
+
+                                  <a class="btn btn-danger" onclick="deletetax()"><em class="fa fa-trash"></em></a>
+                                </td>
+                                <!--
+                                <td class="hidden-xs">1</td>
+                                -->
+                                <td> 
+                                  <select class="form-control selectpicker show-tick" 
+                                          name="taxcode"
+                                          id="taxcode" required>
+                                      <option selected>{{this.taxcode}}</option>
+                                      <option>00:Cod</option>
+                                      <option>X2:Perc. IIBB a n/favor CABA</option>
+                                      <option>X6:Perc. IIBB a n/favor CABA</option>
+                                      <option>X0:Perc. IIBB a n/favor CABA</option>
+                                      <option>XH:Perc. IIBB a n/favor Pcia. BsAs</option>
+                                      <option>XB:Perc. IIBB a n/favor Pcia. BsAs</option>
+                                      <option>X5:Perc. IIBB a n/favor Santa Fe</option>
+                                      <option>XG:Perc. IIBB a n/favor Tucumán</option>
+                                      <option>X9:Perc. IIBB a n/favor Tucumán</option>
+                                      <option>XE:Perc. IIBB a n/favor San Luis</option>
+                                      <option>XF:Perc. IIBB a n/favor Misiones</option>
+                                      <option>XI:Perc. IIBB a n/favor San Juan</option>
+                                      <option>XJ:Perc. IIBB a n/favor Salta</option>
+                                      <option>XK:Perc. IIBB a n/favor Catamarca</option>
+                                      <option>XL:Perc. IIBB a n/favor Mendoza</option>
+                                  </select>
+                                </td>
+                                <td>
+                                    <input  type="text" class="form-control separate-bottom"  
+                                            placeholder="Monto" name="taxamount" id="taxamount" value="{{this.taxamount}}"/>
+                                </td>
+                              </tr>
+                        {{/each}}                                 
+                      </tbody>
+                    </table>
+                
+                  </div>
+                  <!--
+                  <div class="panel-footer">
+                    <div class="row">                 
+                    </div>
+                  </div>
+                  -->
+              </div>
+
+
+            </div> <!-- Fourth Column --> 
+            <div class="col-lg-3 col-md-3 col-sm-12 butCont">
+
+
+            </div>
+            
+        </div>
+    </div>
+            
+
+
+    <!-- END OF HEADER -->
+
+
+    <hr size="6" color="blue" width="60%"></hr>
+
+    <div class="container">
+        
+        <a  href="#" role="button" class="btn btn-success pull-left" 
+            data-toggle="modal" data-target=".modal-imgfact"><i class="fa fa-floppy-o" aria-hidden="true"></i> JPG Cargar/Ver </a>
+
+        <a  href="#" role="button" class="btn btn-success pull-left" 
+            data-toggle="modal" data-target=".modal-pdffact"><i class="fa fa-floppy-o" aria-hidden="true"></i> PDF Cargar/Ver </a>        
+ 
+ <!--       
+        <a  href="#" role="button" class="btn btn-success pull-left" 
+            data-toggle="modal" data-target=".modal-pdfshow"><i class="fa fa-floppy-o" aria-hidden="true"></i> Bajar PDF </a>        
+    -->    
+<!--
+https://www.hacksparrow.com/how-to-server-static-html-files-in-express-js.html
+>-->
+<!--
+
+        <a  href="{ url: 'http://localhost:3000/web/viewer.html?file=compressed.tracemonkey-pldi-09.pdf}"
+            onclick="window.open(this.href,'_blank'); return false";
+            class="btn btn-success pull-left"><i 
+            class="fa fa-floppy-o"
+            aria-hidden="true"></i> PDF Ver/Bajar Web</a>        
+
+        <a  href= "http://localhost:3000/web/compressed.tracemonkey-pldi-09.pdf"
+            onclick="window.open(this.href,'_blank'); return false";
+            class="btn btn-success pull-left"><i 
+            class="fa fa-floppy-o"
+            aria-hidden="true"></i> PDF Ver/Bajar PDF 1</a>        
+
+
+        <a  href="/web/viewer.html{ url: 'http://yourserver.com/sample.pdf' }" 
+            onclick="window.open(this.href,'_blank');return false;">Google1</a>
+
+
+<a href="http://www.google.com/" onclick="window.open(this.href,'_blank');return false;">Google</a>
+-->
+
+        <!--
+        <a href="documento.html" target="_blank">Enlace</a>
+        -->
+
+
+        <table id="tdetail" name="tdetail" 
+               class="table table-striped table-bordered" 
+               cellspacing="0" width="90%" align="left" hover>
+                    <thead>
+                        <tr>
+                            <th>Acción</th>
+                            <th>Linea</th>                        
+                            <th>CeCo</th>
+                            <th>Cuenta</th>
+                            <th>Orden</th>
+                            <th>Concepto</th>   
+                            <th>Mes Serv</th>
+                            <th>Descripción</th>
+<!--                            <th>Status</th>
+-->
+<!--                            <th>Compañia</th>
+-->
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        {{# each detail }}
+                            <tr>
+                                <td>
+                                <!--
+                                  <input type="button" name="modifyline" onclick="modifyline()" value="Modif">
+                                  <input type="button" name="deleteLine" onclick="deleteline()" value="Elimin">
+                                  -->
+                                </td>
+                                <td>
+                                  <input type="text" class="form-control separate-bottom" readonly="readonly" name="linenumber" id="linenumber" value="{{this.linenumber}}"/>
+                                </td>                                
+                                <td>
+                                  <input type="text" class="form-control separate-bottom" readonly="readonly" placeholder="indique el Cecos" name="costcenter" id="costcenter" value="{{this.costcenter}}"/> <span class="input-group-addon"><a href="#" data-toggle="modal" data-target=".modal-cecos"><span class="fa fa-external-link"></a></span>
+                                </td>
+                                <td>
+                                  <input type="text" class="form-control separate-bottom" readonly="readonly" placeholder="indique la Cta Contable" name="accountcode" id="accountcode" value="{{this.accountcode}}"/> <span class="input-group-addon"><a href="#" data-toggle="modal" data-target=".modal-accounts"><span class="fa fa-external-link"></a></span>
+                                </td>                                
+                                <td>
+                                  <input type="text" class="form-control separate-bottom" readonly="readonly" placeholder="indique nro orden" name="order" id="order" value="{{this.order}}"/> <span class="input-group-addon"> <a href="#" data-toggle="modal" data-target=".modal-tfiorders"><span class="fa fa-external-link"></a></span>
+                                </td>
+                                <td>
+                                  <input type="text" class="form-control separate-bottom" readonly="readonly" placeholder="indique Concepto" name="concept" id="concept" value="{{this.concept}}"/><span class="input-group-addon"><a href="#" data-toggle="modal" data-target=".modal-concepts"><span class="fa fa-external-link"></a></span>
+                                </td>
+                                <!--  
+                                <td>
+                                  <input type="text" class="form-control separate-bottom" readonly="readonly" placeholder="indique mes servicio" name="servicemonth" id="servicemonth" value="{{this.servicemonth}}"/> <span class="input-group-addon"> <a href="#" data-toggle="modal" data-target=".modal-tservicemonth"><span class="fa fa-external-link"></a></span>
+                                </td>
+                                -->
+                                <td>
+                                  <input type="month" class="form-control separate-bottom" placeholder="indique mes servicio" name="servicemonth" id="servicemonth" value="{{this.servicemonth}}"/>  
+                                </td>                                
+
+                                <td>
+                                  <input type="text" class="form-control separate-bottom" placeholder="indique description" name="description" id="description" readonly="readonly" value="{{this.description}}"/><span class="input-group-addon"><a href="#" data-toggle="modal" data-target=".modal-description"><span class="fa fa-external-link"></a></span>
+                                </td>
+<!--                                                          
+                                <td>O</td>
+-->                                
+                            </tr>                            
+                        {{/each}}                                    
+                   </tbody>
+
+<!--                                        <a name="addRowSupplier" id="addRowSupplier"><i class="fa fa-file-o"></i> Nuevo</a>
+-->
+<!--
+                    <button name="saveInvoice" 
+                            id="savInvoice">
+                            <i class="fa fa-floppy-o" aria-hidden="true"></i> Grabar</button>
+                                    
+-->
+<!--
+                   <input type="button" name="addLine" onclick="addline()"
+                           id="addLine" class="btn btn-success" value="Agregar Linea"/>
+-->                           
+<!--
+                            <i class="fa fa-file-o"></i>
+-->                            
+                    <button name="delRowCeco"
+                            id="delRowCeco" 
+                            class="btn btn-danger" 
+                            style="visibility: hidden">
+                    <i class="fa fa-file-o"></i> Eliminar Linea</button>
+
+                    <button name="cancelDelRowCeco"
+                            id="cancelDelRowCeco" 
+                            class="btn btn-warning"
+                            style="visibility: hidden">
+                    <i class="fa fa-file-o"></i> Cancelar</button>
+
+
+<!--
+                                        <button name="saveRowSupplier" id="savstyle="visibility: hidden"eRowSupplier"  style="visibility: hidden"><i class="fa fa-floppy-o" aria-hidden="true"></i> Grabar</button>
+-->                                     
+
+        </table>  
+
+    </div>
+
+
+    <!-- TABLA APROBADORES -->
+    <hr size="6" color="blue" width="60%"></hr>
+
+    <div class="container">
+
+
+            <!-- 
+                   Columna 1 
+            -->            
+            <div class="col-lg-12 col-md-4 col-sm-12">
+
+                <!-- Approvador 1 -->
+                {{#if approver1 }}
+                   <label class="btn btn-danger"> Aprobador 1: <span class="badge">{{approver1}}</span></label>
+                {{/if}}
+                   
+                <!-- Approvador 2 -->
+                {{#if approver2 }}
+                   <label class="btn btn-danger"> Aprobador 2: <span class="badge">{{approver2}}</span></label>
+
+                {{/if}}
+
+                <!-- Approvador 3 -->
+                {{#if approver3 }}
+                    <label class="btn btn-danger"> Aprobador 3: <span class="badge">{{approver3}}</span></label>
+                {{/if}}
+
+                <!-- Approvador 4 -->
+                {{#if approver4 }}
+                   <label class="btn btn-danger"> Aprobador 4: <span class="badge">{{approver4}}</span></label>
+                {{/if}}
+
+                <!-- Approvador 5 -->
+                {{#if approver5 }}
+                   <label class="btn btn-danger"> Aprobador 5: <span class="badge">{{approver5}}</span></label>
+
+                {{/if}}
+
+               <!-- createby -->
+                   <label class="btn btn-secondary"> Creado por: <span class="badge">{{createdby}}</span></label>
+
+            </div >  <!--Columna 1 -->
+
+
+
+    <!--   
+
+             Imagen Invoice
+
+      -->       
+    <div    class="modal fade modal-imgfact" tabindex="-1" 
+            id="modal-imgfact" name="modal-imgfact"
+            data-target="#bs-example-modal-sm-imgfact"
+            role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">Factura Escaneada &times;</button>
+                        {{火}} {{huo}}
+                </div>
+           
+
+                    <input type="file" onchange="showImage.call(this)" 
+                            id="upload-input" name="uploads[]" multiple="multiple">  
+
+
+                <div class="modal-body">
+
+                  <!--            
+                        document.getElementById("img-loaded").src = "data:image/png;base64," + YourByte;
+                  -->
+           
+                  <!--  <img src="" style "display:none" class="img-responsive" alt="" 
+                  -->
+                  <!--
+
+                    <img src="" class="img-responsive" alt="" id="img-loaded">
+                  -->
+                    <img src="/images?id={{_id}}" class="img-responsive" alt="" 
+                                id="img-loaded">
+
+                </div>
+                
+                <div class="modal-footer">
+                    <!--
+                    <button type="button" onclick="saveImg2Node()">Grabar Imagen en el Servidor</button> 
+                    -->
+
+                    <!--
+                      ::-webkit-file-upload-button> 
+                      //webkitdirectory> //::-webkit-file-upload-button -->
+                      <!--
+                      <button type="button" onclick="upload_invoice()">Subir Archivo</button>   
+                    -->
+
+                </div>
+            </div>
+        </div>
+    </div>    
+
+    <!--   
+
+             Load PDF Invoice
+
+      -->       
+    <div    class="modal fade modal-pdffact" tabindex="-1" 
+            id="modal-pdffact" name="modal-pdffact"
+            data-target="#bs-example-modal-sm-pdffact"
+            role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">Factura en PDF&times;</button>
+                        {{火}} {{huo}}
+                </div>
+           
+                    
+                    <input type="file" onchange="savePdf2Node.call(this)" 
+                            id="upload-input-pdf" name="uploads[]" multiple="multiple">  
+
+                  <!--  
+                    <button type="button" onclick="saveImg2Node()">Grabar Imagen en el Servidor</button> 
+                  -->
+                    
+                    <!--        
+                    <embed  type="file" width="500" 
+                            onchange="showImage.call(this)"
+                            id="upload-pdf" name="uploads[]"
+                            height="375" type='application/pdf'>
+                    -->
+
+                <div class="modal-body">
+
+
+                    <object width="600" height="400" 
+                            data="/pdf?id={{_id}}"></object>
+                    <!--
+                    <object data="http://localhost:3000/web/compressed.tracemonkey-pldi-09.pdf"></object>
+                    -->
+                  <!--            
+                        document.getElementById("img-loaded").src = "data:image/png;base64," + YourByte;
+                  -->
+           
+                  <!--  <img src="" style "display:none" class="img-responsive" alt="" 
+                  -->
+                  <!--
+
+                    <img src="" class="img-responsive" alt="" id="img-loaded">
+                    <img src="/images?id={{_id}}" class="img-responsive" alt="" 
+                                id="img-loaded">
+
+                    <embed  src="/images?id={{_id}}" width="500" 
+                            class="img-responsive" alt="" 
+                                id="pdf-loaded"
+                            height="375" type='application/pdf'>
+
+                  -->
+
+                </div>
+                
+                <div class="modal-footer">
+                    <!--
+                    <button type="button" onclick="saveImg2Node()">Grabar Imagen en el Servidor</button> 
+                    -->
+
+                    <!--
+                      ::-webkit-file-upload-button> 
+                      //webkitdirectory> //::-webkit-file-upload-button -->
+                      <!--
+                      <button type="button" onclick="upload_invoice()">Subir Archivo</button>   
+                    -->
+
+                </div>
+            </div>
+        </div>
+    </div>    
+
+
+    <!--   
+             Show PDF Invoice
+      -->       
+    <div    class="modal fade modal-pdfshow" tabindex="-1" 
+            id="modal-pdfshow" name="modal-pdfshow"
+            data-target="#bs-example-modal-sm-pdfshow"
+            role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">Ver Factura (PDF)&times;</button>
+                        {{火}} {{huo}}
+                </div>
+           
+                <div class="modal-body">
+
+<!--
+                    <button id="upload-button">Select PDF</button> 
+                    <input type="file" id="file-to-upload" accept="application/pdf" />
+
+                    <div id="pdf-main-container">
+                        <div id="pdf-loader">Loading document ...</div>
+                        <div id="pdf-contents">
+                            <div id="pdf-meta">
+                                <div id="pdf-buttons">
+                            -->
+                    <!-- FUNCIONA ESTE PERFECTO
+                    <object width="600" height="400" 
+                            data="http://localhost:3000/web/compressed.tracemonkey-pldi-09.pdf"></object>
+                  -->
+
+                    <object width="600" height="400" 
+                            data="/pdf?id={{_id}}"></object>
+<!--
+                                    <button id="pdf-prev">Previous</button>
+                                    <button id="pdf-next">Next</button>
+                                </div>
+                                <div id="page-count-container">Page <div id="pdf-current-page"></div> of <div id="pdf-total-pages"></div></div>
+                            </div>
+                            <canvas id="pdf-canvas" width="400"></canvas>
+                            <div id="page-loader">Loading page ...</div>
+                        </div>
+                    </div>
+-->
+
+                </div>
+                
+                <div class="modal-footer">
+
+                </div>
+            </div>
+        </div>
+    </div>    
+
+
+
+
+
+  </form>
+</div>
+
+{{/each}}  
+
+
+<!--  ************************************************ -->
+
+<!--  *********  M O D A L   W I N D O W S *********** -->
+
+<!--  ************************************************ -->
+
+
+
+  <!--   
+
+         Tabla Dinamica Proveedores
+
+  -->       
+    <div    class="modal fade modal-provee" tabindex="-1" 
+            id="modal-provee" name="modal-provee"
+            data-target="#bs-example-modal-sm-provee"
+            role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">Proveedores &times;</button>
+                        {{火}} {{huo}}
+                </div>
+                <div class="modal-body">
+                    <table id="tsupplier" name="tsupply" class="table table-striped table-bordered" 
+                           cellspacing="0" width="50%">
+                    </table>      
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+<!--   
+       Tabla Dinamica Cecos
+-->       
+    <div    class="modal fade modal-cecos" tabindex="-1" 
+            id="modal-cecos"
+            role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" >
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button id="btn_mcecos" name="btn_mcecos" type="button" class="close" data-dismiss="modal" aria-hidden="true">Centro de Costos &times;</button>
+                        {{火}} {{huo}}
+                </div>
+                <div class="modal-body">
+                    <table id="tusercecos" name="tusercecos" class="table table-striped table-bordered" 
+                           cellspacing="0" width="50%">
+                    </table>      
+
+                </div>
+                <div class="modal-footer">
+                    <button id="btn_clearcecos" name="btn_clearcecos" type="button" 
+                            class="close" data-dismiss="modal" aria-hidden="true">Limpiar Campo</button>
+                        {{火}} {{huo}}
+                </div>                
+            </div>
+        </div>
+    </div>
+
+
+    <!--   
+           Tabla Dinamica Accounts
+    -->       
+    <div    class="modal fade modal-accounts" tabindex="-1" 
+            id="modal-accounts"
+            role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" >
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">Cuentas &times;</button>
+                        {{火}} {{huo}}
+                </div>
+                <div class="modal-body">
+                    <table id="tuseraccounts" name="tuseraccounts" class="table table-striped table-bordered" 
+                           cellspacing="0" width="50%">
+                    </table>      
+
+                </div>
+                <div class="modal-footer">
+                    <button id="btn_clearaccount" name="btn_clearaccount" type="button" 
+                            class="close" data-dismiss="modal" aria-hidden="true">Limpiar Campo</button>
+                        {{火}} {{huo}}
+                </div>                
+
+            </div>
+        </div>
+    </div>
+
+    <!--   
+           Tabla Dinamica Order
+    -->       
+    <div    class="modal fade modal-tfiorders" tabindex="-1" 
+            id="modal-tfiorders"
+            role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" >
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">Ordenes &times;</button>
+                        {{火}} {{huo}}
+                </div>
+                <div class="modal-body">
+                    <table id="tuserfiorders" name="tuserfiorders" class="table table-striped table-bordered"
+                           cellspacing="0" width="50%">
+                    </table> 
+                </div>
+                <div class="modal-footer">
+                    <button id="btn_clearorden" name="btn_clearorden" type="button" 
+                            class="close" data-dismiss="modal" aria-hidden="true">Limpiar Campo</button>
+                        {{火}} {{huo}}
+                </div>                                
+            </div>
+        </div>
+    </div>
+
+
+
+    <!--   
+           Concepts 
+    -->       
+    <div    class="modal fade modal-concepts" tabindex="-1" 
+            id="modal-concepts"
+            role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" >
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">Conceptos &times;</button>
+                        {{火}} {{huo}}
+                </div>
+                <div class="modal-body">
+                    <table id="tconcepts" name="tconcepts" class="table table-striped table-bordered" 
+                           cellspacing="0" width="50%">
+                    </table> 
+                </div>
+                <div class="modal-footer">
+                    <button id="btn_clearconcept" name="btn_clearconcept" type="button" 
+                            class="close" data-dismiss="modal" aria-hidden="true">Limpiar Campo</button>
+                        {{火}} {{huo}}
+                </div>                                
+            </div>
+        </div>
+    </div>
+
+
+    <!--   
+           Tabla Dinamica ServiceMonth
+    -->       
+    <div    class="modal fade modal-tservicemonth" tabindex="-1" 
+            id="modal-tservicemonth"
+            role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" >
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">Meses &times;</button>
+                        {{火}} {{huo}}
+                </div>
+                <div class="modal-body">
+                    <table id="tservicemonth" name="tservicemonth" class="table table-striped table-bordered" 
+                           cellspacing="0" width="50%">
+                    </table>      
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!--   
+       Description 
+-->       
+    <div  class="modal fade modal-description" tabindex="-1" 
+          id="modal-descriptions"
+          role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" >
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button id="btn_mdescription" name="btn_mdescription" type="button" class="close" data-dismiss="modal" aria-hidden="true">Description &times;</button>
+                        {{火}} {{huo}}
+                </div>
+                <div class="modal-body">
+                      <textarea rows="3" cols="50" class="form-control separate-bottom" placeholder="indique descripción" name="tdescription" id="tdescription"></textarea>
+                </div>
+                <div class="modal-footer">
+                    <button id="btn_cleardescription" name="btn_cleardescription" type="button" 
+                            class="close" data-dismiss="modal" aria-hidden="true">Limpiar Campo</button>
+                        {{火}} {{huo}}
+                </div>                                
+            </div>
+        </div>
+    </div>
+
+
+    <!--   
+             Button Delete 
+    -->
+    <div class="modal fade" id="confirm-delete" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+            
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title" id="myModalLabel">Confirmar Eliminación</h4>
+                </div>
+            
+                <div class="modal-body">
+                    <p>Esta función va a borrar el actual documento, este proceso es irreversible.</p>
+                    <p>Esta seguro de continuar?</p>
+                    <p class="debug-url"></p>
+                </div>
+                
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+                    <a class="btn btn-danger btn-ok" onclick="borrar()">Borrar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--  ************************************************ -->
+
+<!--  *********     J A V A S C R I P T    *********** -->
+
+<!--  ************************************************ -->
+
+<script type="text/javascript">
+     var currentRow = -1;
+</script>
+
+<script src="/js/casupolibs.js" type="text/javascript"> </script>
+
+<script src="/js/tsuppliers.js" type="text/javascript"> </script>
+<script src="/js/t_usercecos.js" type="text/javascript"> </script>
+<script src="/js/tconcepts.js" type="text/javascript"> </script>
+<script src="/js/t_useraccounts.js" type="text/javascript"> </script>
+<script src="/js/t_userfiorders.js" type="text/javascript"> </script>
+<script src="/js/tservicemonth.js" type="text/javascript"> </script>
+<script src="/js/tcompany.js" type="text/javascript"> </script>
+
+
+<script type="text/javascript">
+
+
+    // ***********************************
+    //         Document Ready
+    // ***********************************
+/*
+        $.fn.dataTable.Api.register( 'column().data().sum()', function () {
+            return this.reduce( function (a, b) {
+                var x = parseFloat( a ) || 0;
+                var y = parseFloat( b ) || 0;
+                return x + y;
+            } );
+        } );
+
+*/
+    $(document).ready(function () 
+    {   
+
+ 
+        var x = location.hostname;
+
+         $('#serverhttp').val(x);
+
+        var currentColumn = 0;
+
+        var currentRow = [];
+
+        // ------------------------------------
+        //         Actitate table Supply
+        // -----------------------------------
+        var oDetail =  $('#tdetail').DataTable(
+        {
+            //"pagingType": "full",
+            "bPaginate": false,
+            "searching": false,
+            "bLengthChange": false,
+            dom: 'Bfrtip',
+            select: true,
+            "language": {
+                            "url": "//cdn.datatables.net/plug-ins/1.10.13/i18n/Spanish.json"
+                        },            
+              "columnDefs": 
+            [
+                { targets: [0,1,2,3,4,5,6,7], visible: true},
+                { targets: [2,3,5,7], width: "20%"},
+                { targets: [1], width: "1%"},
+                { targets: [1,6], width: "15%"},
+
+                { targets: [0,1], searchable: false},
+                { targets: '_all', width: null},
+
+                { targets: '_all', visible: false }            
+            ]
+
+
+
+        });
+
+
+ 
+
+        // ------------------------------------
+        //         Actitate table Supply
+        // -----------------------------------
+        var otax =  $('#ttax').DataTable(
+        {
+            "pagingType": "numbers",
+            "searching": false,
+            "bLengthChange": false,
+            dom: 'Bfrtip',
+            select: false,
+            "language": {
+                            "url": "//cdn.datatables.net/plug-ins/1.10.13/i18n/Spanish.json"
+                        },            
+              "columnDefs": 
+            [
+                { targets: [0,1,2], visible: true},
+                //{ targets: [0,1], width: "20%"},
+                { targets: [2], width: "60%"}
+            ]     
+        });        
+
+
+
+        //  ------------------------------------------
+        //
+        //          Showimage : from directory
+        //  ------------------------------------------
+       
+          //var t_uploadDir = path.join(__dirname, '/../public/uploads');
+
+          /*
+          function getAbsolutePath() 
+          {
+            var loc = window.location;
+            var pathName = loc.pathname.substring(0, loc.pathname.lastIndexOf('/') + 1);
+            return loc.href.substring(0, loc.href.length - ((loc.pathname + loc.search + loc.hash).length - pathName.length));
+          }          
+
+          var t_uploadDir = getAbsolutePath()+'/uploads/';
+          var t_filename = t_uploadDir+$("#id").val()+".jpg";
+          var image = document.getElementById("img-loaded");
+
+          //alert("t_filename :"+t_filename);
+          //alert(location.href);        
+          $.ajax({
+            //url:'http://www.example.com/somefile.ext',
+            url:t_filename,
+            type:'HEAD',
+            error: function()
+            {
+                //file not exists
+                alert("No Existe imagen - archivo");
+                image.src = "";
+
+            },
+            success: function()
+            {
+                //file exists
+
+                alert("Existe el archivo - archivo ");
+                image.src = t_filename;
+
+            }
+          });
+          */
+
+        //  ------------------------------------------
+        //
+        //          Showimage : from Mongodb
+        //  ------------------------------------------
+
+        // var t_uploadDir = getAbsolutePath()+'/uploads/';
+        // var t_filename = t_uploadDir+$("#id").val()+".jpg";
+
+/*
+        var image = document.getElementById("img-loaded2");
+
+        // var srcfile = '/images/'+document.getElementById("#id").val();
+
+        var srcfile = '/images?id='+$("#id").val();
+
+        //alert("srcfile :"+srcfile);
+
+        //alert("t_filename :"+t_filename);
+        //alert(location.href);        
+        $.ajax({
+            //url:'http://www.example.com/somefile.ext',
+            //url:t_filename,
+            url: srcfile,
+            //type:'HEAD',
+            type: 'GET',
+            error: function()
+            {
+                //file not exists
+                alert("No Existe imagen - Mongodb");
+                image.src = "";
+
+            },
+            success: function(resp)
+            {
+              //file exists
+              //alert("Existe el archivo - Mongodb");
+              // image.src = t_filename;
+              console.log("resp:");
+              console.log(resp);
+
+              image.src = resp;
+
+              console.log("despues de image.src");
+
+ 
+            }
+        });
+
+          //image.style.display = "block";                  
+
+              //$("#inputimage").val(this);
+
+*/
+  
+    });
+
+
+</script>
+
+
+
+<script type="text/javascript">
+
+
+
+        // ------------------------------------
+        //         btn_clearcecos
+        // -----------------------------------        
+        $('#btn_clearcecos').on( 'click', function () 
+        {
+
+            // alert("btn_clearcecos");
+            var table = $('#tdetail').DataTable();
+            if (table.cell( $("#currentRow").val(), 3).data())
+            {
+                var tval =  '<input type="text" class="form-control separate-bottom" readonly="readonly" '+ 
+                            'placeholder="indique el Cecos" name="costcenter" id="costcenter" '+
+                            ' value=""/><span class="input-group-addon">'+
+                            '<a href="#" data-toggle="modal" data-target=".modal-cecos">'+
+                            '<span class="fa fa-external-link"></a></span>';
+                //var xx = $("#currentRow").val();
+                table.cell( $("#currentRow").val(), 2).data(tval);
+            }
+          });
+
+        // ------------------------------------
+        //         btn_clearaccount
+        // -----------------------------------
+        $('#btn_clearaccount').on( 'click', function () 
+        {
+
+            //alert("btn_clearcecos");
+            var table = $('#tdetail').DataTable();
+            if (table.cell( $("#currentRow").val(), 3).data())
+            {
+                var tval =  '<input type="text" class="form-control separate-bottom" readonly="readonly" '+ 
+                            'placeholder="indique la Cuenta" name="accountcode" id="accountaccountcode" '+
+                            ' value=""| "{{this.accountcode}}"/><span class="input-group-addon">'+
+                            '<a href="#" data-toggle="modal" data-target=".modal-accounts">'+
+                            '<span class="fa fa-external-link"></a></span>'
+
+                table.cell( $("#currentRow").val(), 3).data(tval);
+            }
+        });
+
+
+        // ------------------------------------
+        //         btn_orden
+        // -----------------------------------        
+        $('#btn_clearorden').on( 'click', function () 
+        {
+            //alert("btn_clearorden");
+            var table = $('#tdetail').DataTable();
+            if (table.cell( $("#currentRow").val(), 3).data())
+            {
+                var table = $('#tdetail').DataTable();
+                var tval =  '<input type="text" class="form-control separate-bottom" readonly="readonly" '+ 
+                            'placeholder="indique la Orden" name="order" id="order" '+
+                            ' value= ""'+'| "{{this.order}}"/><span class="input-group-addon">'+
+                            '<a href="#" data-toggle="modal" data-target=".modal-tfiorders">'+
+                            '<span class="fa fa-external-link"></a></span>'            
+                table.cell( $("#currentRow").val(), 4).data(tval);
+            }
+
+        });
+
+        // ------------------------------------
+        //         btn_clearconcept
+        // -----------------------------------
+        $('#btn_clearconcept').on( 'click', function () 
+        {
+
+            //alert("btn_clearconcept");
+            var table = $('#tdetail').DataTable();
+            var tval =  '<input type="text" class="form-control separate-bottom"'+ 
+                        ' readonly="readonly" placeholder="indique Concepto" name="concept"'+ 
+                        'id="concept" value=""/>'+
+                        '<span class="input-group-addon">'+
+                        '<a href="#" data-toggle="modal" data-target=".modal-concepts">'+
+                        '<span class="fa fa-external-link"></a></span>'
+            table.cell( $("#currentRow").val(), 5).data(tval);
+
+        });
+
+        // ------------------------------------
+        //         btn_cleardescription
+        // -----------------------------------
+        $('#btn_cleardescription').on( 'click', function () 
+        {
+
+            //alert("btn_clearcecos");
+            var table = $('#tdetail').DataTable();
+            var tval =  '<input type="text" class="form-control separate-bottom" readonly="readonly" '+ 
+                        'placeholder="indique la description" name="description" id="description" '+
+                        ' value=""/><span class="input-group-addon">'+
+                        '<a href="#" data-toggle="modal" data-target=".modal-description">'+
+                        '<span class="fa fa-external-link"></a></span>'            
+            table.cell( $("#currentRow").val(), 7).data(tval);
+
+        });
+
+
+
+
+    // ------------------------------------
+    //         findSupplierbyName
+    // -----------------------------------
+//    $('#addLine').on( 'click', function (e) 
+    function addline()
+    {
+
+//        e.preventDefault();
+//        alert('addLine');
+
+        var ts = $('#tdetail').DataTable();
+
+        alert("Add linea antes de contar lineas");
+        alert("Nro de Lineas :" +ts.fnGetData().length);
+//      alert("Ëntre #saveAddRowSupplier" + 
+//              document.getElementById('add_m_codsupplier').value.substr(0, 2) + 
+//              document.getElementById('add_m_namesupplier').value.substr(0, 2));
+//      alert("Length :",document.getElementById('add_m_codsupplier').value.trim.length);  
+
+//        if (document.getElementById('add_m_codsupplier').value.substr(0, 2) !== "0-" && 
+//            document.getElementById('add_m_namesupplier').value.substr(0, 2) !== "0-" &&
+//            document.getElementById('add_m_codsupplier').value.trim().length > 0 && 
+//            document.getElementById('add_m_namesupplier').value.trim().length > 0 )
+//        {
+
+//            var xcod = "/"+'({ email: "1@1.com" }, {$addToSet:{ supplier: { codsupplier: "NUEVO06", name: "NOMBRENUEVO06"} }})'+"/";
+
+//             var xcod = document.getElementById('email').value.trim()+"&"+
+//                        document.getElementById('add_m_codsupplier').value.trim()+"&"+
+//                        document.getElementById('add_m_namesupplier').value.trim();
+//           var marray = xcod.split("&")
+//            alert(marray[0]);
+//            alert(marray[1]);
+//            alert(marray[2]);
+
+//           var email = xcods.slice(xcod,)
+//           xcod.push({"1@1.com", "NUEVO06"});
+//            $.getJSON("/api/restInsertUserSupplier/"+xcod, function(data)
+//            {
+
+//                    console.log("dentro de update");
+//                    console.log("data",data);       
+//            });
+    
+
+        //({ email: "1@1.com" }, {$set:{ supplier: [{ codsupplier: "NUEVO01", name: "NOMBRENUEVO01"} ]}})       
+
+
+//        var nRow = ts.row.add( 
+        currentRow = ts.row.add( 
+            [
+                '<td><a class="delete" href=""><i class="fa fa-times" aria-hidden="true"></i></a></td>'+" "+
+                '<td><a class="edit" href=""><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a></td>',
+                '<input type="text" class="form-control separate-bottom" readonly="readonly" placeholder="indique el Cecos" name="costcenter" id="costcenter" value="{{this.costcenter}}"/> <span class="input-group-addon"><a href="#" data-toggle="modal" data-target=".modal-cecos"><span class="fa fa-external-link"></a></span>',
+                '<input type="text" class="form-control separate-bottom" readonly="readonly" placeholder="indique la Cta Contable" name="accountcode" id="accountcode" value="{{this.accountcode}}"/> <span class="input-group-addon"><a href="#" data-toggle="modal" data-target=".modal-accounts"><span class="fa fa-external-link"></a></span>',
+                '<input type="text" class="form-control separate-bottom" readonly="readonly" placeholder="indique nro orden" name="order" id="order" value="{{this.order}}"/> <span class="input-group-addon"> <a href="#" data-toggle="modal" data-target=".modal-tfiorders"><span class="fa fa-external-link"></a></span>',
+                '<input type="text" class="form-control separate-bottom" readonly="readonly" placeholder="indique Concepto" name="concept" id="concept" value="{{this.concept}}"/><span class="input-group-addon"><a href="#" data-toggle="modal" data-target=".modal-concepts"><span class="fa fa-external-link"></a></span>',
+                '<input type="month" class="form-control separate-bottom" placeholder="indique mes servicio" name="servicemonth" id="servicemonth" value="{{this.servicemonth}}"/>',
+                '<input type="text" class="form-control separate-bottom" placeholder="indique description" name="description" id="description" readonly="readonly" value="{{this.description}}"/><span class="input-group-addon"><a href="#" data-toggle="modal" data-target=".modal-description"><span class="fa fa-external-link"></a></span>',
+                'N'
+            ] ).draw();
+
+//            var nRow = ts.row.add( 
+//                [
+//                    document.getElementById('add_m_codsupplier').value.trim(),
+//                    document.getElementById('add_m_namesupplier').value.trim(),
+//                    '<td><a class="delete" href=""><i class="fa fa-times" aria-hidden="true"></i></a></td>',
+//                    '<td><a class="edit" href=""><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a></td>                  ',
+//                    'N'
+//                ] ).draw();
+
+//        }
+
+//      document.getElementById('addRowSupplier').style.visibility = 'hidden';
+//      document.getElementById('saveRowSupplier').style.visibility = 'visible';
+
+
+
+    };
+//     );
+
+        // ------------------------------------
+        //         modifyline()
+        // -----------------------------------
+        function modifyline()
+        {
+          alert("Modify Line");
+        };
+
+        // ------------------------------------
+        //         deleteline()
+        // -----------------------------------
+        function deleteline()
+        {
+          alert("Delete Line");
+        };
+
+
+        $('#tdetail tbody').on( 'click', 'td', function () 
+        {
+
+          // alert("Entro ");
+          var currentColumn = $(this).parent().children().index($(this));
+          var currentRow = $(this).parent().parent().children().index($(this).parent());
+          $("#currentRow").val($(this).parent().parent().children().index($(this).parent()));
+
+//          $("#currentRow").val(this);
+
+//          alert('Row: ' + currentRow + ', Column: ' + currentColumn);          
+//          console.log('this:',this);
+//          console.log('this.row:',$(this).row().index());
+//          alert('this:',this);
+//          alert('this.row:',$(this).row().index());
+
+
+          if ($(this).index()==7)
+          {
+            var ts = $('#tdetail').DataTable();
+            var data = ts.cell( this ).data();
+            // alert(' Entrando description data:'+data);
+
+            var data1 = extraerInput(data);
+            // alert('data1:'+data1);
+
+            $("#tdescription").val(data1);
+          }
+        });
+
+
+
+        $('#btn_mdescription').on( 'click', function () 
+        {
+          //alert('saliendo de description:'+$('#tdescription').val());
+
+            var table = $('#tdetail').DataTable();
+            var tval =  '<input type="text" class="form-control separate-bottom" readonly="readonly" '+ 
+                        'placeholder="indique la description" name="description" id="description" '+
+                        ' value='+$('#tdescription').val()+'| "{{this.costcenter}}"/><span class="input-group-addon">'+
+                        '<a href="#" data-toggle="modal" data-target=".modal-description">'+
+                        '<span class="fa fa-external-link"></a></span>'            
+            table.cell( $("#currentRow").val(), 7).data(tval);
+
+
+        });
+
+
+
+        // ------------------------------------
+        //  Ttax click
+        //     - Borrar Linea
+        // -----------------------------------
+            $('#ttax tbody').on( 'click', 'a[type="delete"]', function () 
+            {
+                //alert("Click en table tax column delete");
+                var table = $('#ttax').DataTable();
+
+                table
+                    .row( $(this).parents('tr') )
+                    .remove()
+                    .draw();                    
+            } );
+
+
+</script>
+
+
+<script type="text/javascript">
+
+//    $('#grabar').on( 'click', function (e) 
+    function grabar()
+    {
+//        e.preventDefault();
+//        alert("#grabar");
+
+//        "form[name="myform"]").submit();
+
+
+          //var verif = exist_approvalschema( $("#costcenter").val(), 
+          //                                  $("#currency").val(), 
+          //                                  $("#amountinvoice").val())
+
+          //var verif = testvalidation()          
+
+ 
+
+          alert("verif",verif);
+
+          if (verif == false) 
+          {
+              alert("No puede grabar la factura. Requiere definir un Esquema de Aprobación")
+          }
+          else
+          {
+              var action = $('#titulo').text();
+              action = action.trim().substr(0,5); 
+              // alert(action);
+
+              var t_id = $('#id').text();
+              if (action == 'Crear')
+              {
+                  alert('Entror por otra');  
+                  document.getElementById('returnaction').value = "Crear"                    
+              }
+              else
+              {
+                  document.getElementById('returnaction').value = "Modificar"
+              }
+
+              document.getElementById('returnaction').value = "Modificar"
+              $('#supplierinvoicePostEdit').submit();
+          }
+
+
+    };
+ //);
+
+     function borrar()
+    {
+//        e.preventDefault();
+//        alert("#grabar");
+
+//        "form[name="myform"]").submit();
+
+            //alert('Entro por borrar');   
+            document.getElementById('returnaction').value = "Borrar"     
+            $('#supplierinvoicePostEdit').submit();                 
+    };
+
+
+
+
+
+    function extraerInput(data)
+    {
+      // console.log('extraerInput(data):',data);
+      var s_init = data.indexOf("value=")+6;
+      var s_end = data.indexOf('|');
+      var long = s_end - s_init
+      // console.log("data/s_init/s_end/long",data,'<>',s_init,'<>',s_end,'<>',long);
+      if (long>0)
+      {
+          var data1 = data.substr(s_init,long);
+      }
+      else
+      {
+          var data1 = "";
+      }
+      // console.log("data1:",data1);
+
+      return data1;
+    }
+
+
+
+
+    // ------------------------------------
+    //         addtax()
+    // -----------------------------------
+
+    function addtax()
+    {
+
+        //  e.preventDefault();
+        // alert('addTax');
+        var tt = $('#ttax').DataTable();
+        //  alert(ts.rows().data()[0]);
+
+        //if (tt.rows().data()[0])
+        //{
+        //  alert("Solo se permite una linea")
+        //}
+        //else
+        //{
+           /*
+              <a class="btn btn-default"><em class="fa fa-pencil"></em></a>
+           */
+            currentRow = tt.row.add( 
+            [
+              //'<td align="center"><a class="btn btn-danger"><em class="fa fa-trash"></em></a></td>',
+              '<td align="center"><a type="delete" class="btn btn-danger"><em class="fa fa-trash"></em></a></td>',
+
+              //'<td><input type="text" class="form-control separate-bottom" name="linenumber" id="linenumber" value="10"/></td>',
+              '<td><select class="form-control selectpicker show-tick"                               name="taxcode" id="taxcode"><option selected>{{this.taxcode}}</option><option>00:Cod</option><option>X2:Perc. IIBB a n/favor CABA</option><option>X6:Perc. IIBB a n/favor CABA</option><option>X0:Perc. IIBB a n/favor CABA</option><option>XH:Perc. IIBB a n/favor Pcia. BsAs</option><option>XB:Perc. IIBB a n/favor Pcia. BsAs</option><option>X5:Perc. IIBB a n/favor Santa Fe</option><option>XG:Perc. IIBB a n/favor Tucumán</option><option>X9:Perc. IIBB a n/favor Tucumán</option><option>XE:Perc. IIBB a n/favor San Luis</option><option>XF:Perc. IIBB a n/favor Misiones</option><option>XI:Perc. IIBB a n/favor San Juan</option><option>XJ:Perc. IIBB a n/favor Salta</option><option>XK:Perc. IIBB a n/favor Catamarca</option><option>XL:Perc. IIBB a n/favor Mendoza</option></select></td>',
+              '<td><input type="number" class="form-control separate-bottom" placeholder="Monto" name="taxamount" id="taxamount" value="{{this.taxamount}}"/></td>'
+            ] ).draw();
+
+            // alert(currentRow);
+        //};
+    };
+
+        // ------------------------------------
+        //  Ttax click
+        //     - Borrar Linea
+        // -----------------------------------
+            $('#ttax tbody').on( 'click', 'a[type="delete"]', function () 
+            {
+
+                //alert("Click en table tax column delete");
+                var table = $('#ttax').DataTable();
+
+                table
+                    .row( $(this).parents('tr') )
+                    .remove()
+                    .draw();                    
+            } );
+
+</script>   
+
+
+<!--
+
+        si se activo la rutina por crear nueva factura
+
+            1. se debe pasar un nuevo registro en memoria todos los campos
+                pero con el detalle, se debe
+                a nuevos  (N)
+                    se agrega al nuevo arreglo
+                b nuevos borrados (M), 
+                    al  pasar por lectura se ingnora
+                b para update (U)
+                    se agrega al nuevo arreglo
+                c para borrar (D)
+                    la pasar la lectura se ignora
+
+        si se activo la rutina por modificar la factura
+            1. se debe pasar un nuevo registro en memoria todos los campos
+                pero con el detalle, se debe
+                a nuevos  (N)
+                    se agrega al nuevo arreglo
+                b nuevos borrados (M), 
+                    al  pasar por lectura se ingnora
+                b para update (U)
+                    se agrega al nuevo arreglo
+                c para borrar (D)
+                    la pasar la lectura se ignora
+
+        si se activo la rutina por eliminar la factura
+
+            1. se debe eliminar el documento por completo
+
+-->
+
+<script type="text/javascript">
+    function old_grabar()
+    {
+//        e.preventDefault();
+//        alert("#grabar");
+
+//        "form[name="myform"]").submit();
+
+
+
+        alert("Old Grabar");
+
+
+        var action = $('#titulo').text();
+  //      alert(action);
+
+
+        action = action.trim().substr(0,5); 
+//        alert(action);
+
+        var t_id = $('#id').text();
+
+//        var ts = $('#tdetail').DataTable();
+
+//        alert("t_id:",t_id);
+        if (action == 'Crear')
+        {
+            var  detail = [];
+            
+//            alert('Entro por Crear');
+            var ts = $('#tdetail').DataTable();
+            ts.rows().every( function ( rowIdx, tableLoop, rowLoop ) 
+            {
+
+                console.log(rowIdx);
+                console.log(tableLoop);
+                console.log(rowLoop);
+
+                var  Detail = new Object();
+
+                var data = this.data();
+
+                // var cell = this.cell({ row: rowIdx, column: 6}).cachrender();
+               // console.log("cell:",cell);                
+               // alert('cell:'+cell);
+
+               // alert('cell value:'+$('input, select, textarea', cell).text());
+
+                var tmp_string = ""
+//                var data1 = data[1].value();
+
+                alert('data.length:'+data.length);
+
+                var i = 1; 
+                while (i < 7)
+                {
+                   if (i >= 1 && i <= 4 || i==6)
+                    {
+                      data1 = extraerInput(data[i]);
+                    }
+                    else
+                    {
+                      if (i==5)
+                      {
+                          var s_init1 = data[i].indexOf('</opmodal')+9;
+                          var s_end1 = data[i].indexOf('</select')-1;
+                          var long = s_end1 - s_init1
+                          // alert('Init1/End1/Long: '+s_init1+'<>'+s_end1+'<>'+long); 
+                          if (long>0)
+                          {
+                              var data1 = data[i].substr(s_init1,long);
+                              var s_init2 = data1.indexOf('<option>')+8;
+                              var s_end2 = data1.indexOf('</');
+                              var long = s_end2 - s_init2
+                              // alert('data1/Init2/End2/Long: '+data1+s_init2+'<>'+s_end2+'<>'+long); 
+                              var data1 = data1.substr(s_init2,long);                              
+                          }
+                          else
+                          {
+                              var data1 = "";
+                          }
+
+                      }
+
+                    }
+                    //    if (i in [1,2,3,4]) {
+                    //    var s_init = data[i].indexOf("value=")+6;
+                    //    var data1 = data[i].substr(s_init,40);
+
+                    //    console.log("data1:",data1);
+
+                    //    var s_end = data1.indexOf('"')-1;
+                    //    data1 = data1.substr(0,s_end);
+                    //}
+                    //else
+                    //{
+                    //    var data1 = data[i];
+                    //}
+
+                    console.log("data1:",data1);
+
+                    switch(i) 
+                    {
+                        case 1:
+                            Detail.costcenter = data1;
+                            break;
+                        case 2:
+                            Detail.accountcode = data1;
+                            break;
+                        case 3:
+                            Detail.order = data1;
+                            break;
+                        case 4:
+                            Detail.concept = data1;
+                            break;
+                        case 5:
+                            Detail.servicemonth = data1;
+                            break;
+                        case 6:
+                            Detail.description = data1;
+                            break;
+                    }
+
+                    i++
+                }
+                detail.push(Detail);
+                console.log(detail);
+            } );                
+
+
+
+        }
+        else
+        {
+            alert('Entror por otra');        
+        }
+
+
+        $('#supplierInvoice_new').submit();
+
+ };
+
+
+         // **********************************************
+        //         blur de campos
+        //              - formato de numeros
+        // ***********************************************
+
+
+        // ------------------------------------
+        //         exchangerate
+        // -----------------------------------
+        $("#currency").blur(function () 
+        {
+          //alert("Currency blur");
+
+          //alert("Company");
+          //alert(t_company["XA01"][0]); 
+          var xcompany = $("#company :selected").text().split(":")[0];
+          if (xcompany != "000")
+          {
+
+          //alert(xcompany); 
+          var curr_company = t_company[xcompany][1];
+
+          // var xcompany1 = xcompany..;
+          //alert(c_currency); 
+
+          // alert(xcompany1); 
+          //alert(t_company[][0]); 
+
+
+          //var currcompany = "USD";
+          var valcurr = $("#currency :selected").text();
+          if (curr_company == valcurr)
+          {
+            $("#exchangerate").val(1);
+            document.getElementById("exchangerate").setAttribute("readonly", "readonly");
+          }
+          else
+          {
+            document.getElementById("exchangerate").removeAttribute("readonly");
+          }
+          }
+          else
+          {
+            alert("Debe seleccionar una compañía Primero");
+            $("#currency").val("000");
+          }            
+
+        });
+
+
+
+
+        // ------------------------------------
+        //         taxamount
+        // -----------------------------------
+        $('#ttaxxxx tbody').on('blur', 'INPUT', function(event) 
+        {
+            //blurredFrom = event.delegateTarget;
+            //delayedFn = setTimeout(function() {
+            //console.log('Blurred');
+            //alert(this);
+            //var tt = this;
+            var tt = $('#ttax').DataTable();
+
+            alert('tt.column( 2 ).data(): '+tt.column( 2 ).data());
+
+            alert( 'Column sum is: '+ tt.column( 2 ).data().sum() );
+
+            //var t_tottax = tt.column( 2 ).data();
+            //alert('t_tottax: '+t_tottax)
+
+            /*
+            tt.rows().every( function ( rowIdx, tableLoop, rowLoop ) 
+            {
+
+                console.log(rowIdx);
+                console.log(tableLoop);
+                console.log(rowLoop);
+
+                //alert('rowIdx:'+rowIdx);
+                //alert('tableLoop:'+tableLoop);
+                //alert('rowLoop:'+rowLoop);
+
+                //var  Detail = new Object();
+
+                //var data = this.data();
+
+                var t_tax = tt.cell( { row: rowIdx, column: 2} ).data();  
+                alert('fila :'+rowIdx+"< Data :"+t_tax);
+                //var valueval = tt.cell( { row: rowIdx, column: 2} ).val();  
+                //alert('valueval:'+valueval);                
+                //var otratext = tt.rows[rowIdx].cells[2].text();
+                //alert('otra.text:'+otratext);
+                //var textboxVal = tt.cell( { row: rowIdx, column: 2} ).text;
+                //alert('textboxVal:'+textboxVal);
+
+            });
+
+            /*
+            var num1 = transform_2_number($("#taxamount").val());
+            var num = transform_2_formatnumber(num1);
+
+            $("#totaltax").val(num); 
+
+
+            totaliza_factura();
+            */
+            //var valorNumerico = num;
+            //alert('Valor Numerico: '+parseFloat(valorNumerico).toFixed(2));  
+        });
+
+
+        // ------------------------------------
+        //        numdoc
+        // -----------------------------------
+        $("#numdoc").blur(function () {
+        var t_params = "supplier="+$("#supplier").val()+
+                        "&numdoc="+$("#numdoc").val()+
+                        '&crud_type="MODIFICAR"'+
+                        "&id="+$("#id").val()
+
+
+          //alert("lastVal:"+$("#lastVal").val());
+          console.log('t_params:',t_params);               
+          $.ajax(
+          {
+                url: "/api/exist_supplierinvoicenumber?"+t_params,  
+                success: function(returnval) 
+                {
+                   //                alert("testajax - return success:");
+
+                   //alert("testajax - Data:"+returnval["error"]+"<>"+returnval["message"]);
+                   //alert("testajax - Data-message:",data["message"]);
+
+                    if (returnval["error"] == true) 
+                    {
+                      var infotext = returnval["message"]+
+                                      "\n   Fecha Doc : "+returnval["documentdate"]+
+                                      "\n   Tipo Doc  : "+returnval["documenttype"]+
+                                      "\n   Num.Doc   : "+returnval["documentnumber"]+
+                                      "\n   Monto Neto: "+returnval["netamount"];
+                        alert("ADVERTENCIA! : "+infotext);
+                        $("#numdoc").val($("#lastVal").val());
+                        //$("#numdoc").focus();
+                    }
+                    else
+                    {
+                      //alert("testajax - validación OK:"+returnval["message"]);                       
+                    }
+
+
+                },
+                error: function(returnval) {
+                            alert("Error - se ejecuto la validación de factura repetida");
+                            //$(".message").text(returnval + " failure");
+                            //$(".message").fadeIn("slow");
+                            //$(".message").delay(2000).fadeOut(1000);
+                        }
+          });                        
+
+   
+
+        });
+
+
+        // ------------------------------------
+        //         montoneto
+        // -----------------------------------
+        $("#amountinvoice").blur(function () {
+
+
+            totaliza_factura();
+
+            var num1 = transform_2_number($("#amountinvoice").val());
+            var num = transform_2_formatnumber(num1);
+
+            $("#amountinvoice").val(num);   
+
+        });
+
+
+        // ------------------------------------
+        //         totaltax
+        // -----------------------------------
+        $("#totaltax").blur(function () {
+
+
+            totaliza_factura();
+
+            var num1 = transform_2_number($("#totaltax").val());
+            var num = transform_2_formatnumber(num1);
+
+            $("#totaltax").val(num);   
+
+        });
+
+
+        // ------------------------------------
+        //         totalinvoice
+        // -----------------------------------
+        $("#totalinvoice").blur(function () {
+            //var input = $("#totalinvoice").val();
+            //input = parseFloat(num.replace(/,/g,"")).toFixed(2);
+            //var num = parseFloat(input).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,') + " $";
+            //$("#totalinvoice").val(transform_2_formatnumber(num));
+
+            // en el replace /,/g significa reemplaza todas las ocurrencias!!
+            //alert('Valor Numerico: '+parseFloat(num.replace(/,/g,"")).toFixed(2));
+            //alert('Valor Numerico: '+parseFloat(num).toFixed(2));  
+        });
+
+        // -----------------------------------
+        //         totaliza_factura()
+        // -----------------------------------
+        function totaliza_factura()
+        {
+            var tax = transform_2_number($("#totaltax").val());
+            var neto  = transform_2_number($("#amountinvoice").val());
+            //alert('tax : '+tax);
+            var totalfact = neto + tax;
+            //alert('tax : '+tax);
+            //alert('totalfact : '+totalfact);
+
+            $("#totalinvoice").val(transform_2_formatnumber(totalfact));
+            // en el replace /,/g significa reemplaza todas las ocurrencias!!
+            //var numreturn = parseFloat(valor_2_convert.replace(/,/g,"")).toFixed(2);
+
+            //alert('Valor Numerico: '+num);
+            //alert('Valor Numerico: '+parseFloat(num).toFixed(2));  
+            //return numreturn;
+
+        };
+
+
+    // ------------------------------------
+    //         testvalidation()
+    // -----------------------------------
+
+    function testvalidation()
+    {
+
+         //var svar = "variable enviada"
+         //alert($("#currency").val());
+         var t_amountinvoice = transform_2_number($("#amountinvoice").val());
+         //var t_amountinvoice = transform_2_formatnumber(num1);
+         var t_params = "amountinvoice="+t_amountinvoice+
+                        "&currency="+$("#currency").val()+
+                        "&costcenter="+$("#costcenter").val()+'"'
+
+
+          $.ajax(
+          {
+                url: "/api/exist_approvalschema?"+t_params,  
+                success: function(returnval) 
+                {
+                   //                alert("testajax - return success:");
+
+                   //alert("testajax - Data:"+returnval["error"]+"<>"+returnval["message"]);
+                   //alert("testajax - Data-message:",data["message"]);
+
+
+                    if (returnval["error"] == true) 
+                    {
+                        alert("No puede grabar la factura. Requiere definir un Esquema de Aprobación")
+                    }
+                    else
+                    {
+                      //alert("testajax - aplevel:"+returnval["aplevel"]);
+                      $("#aplevel").val(returnval["aplevel"]);
+                      $("#approver1").val(returnval["approver1"]);
+                      $("#approver2").val(returnval["approver2"]);
+                      $("#approver3").val(returnval["approver3"]);
+                      $("#approver4").val(returnval["approver4"]);
+                      $("#approver5").val(returnval["approver5"]);
+
+                      //alert($("#aplevel").val()+"<>"+$("#approver1").val()+"<>"+
+                      //      $("#approver2").val()+"<>"+$("#approver3").val()+"<>"+
+                      //      $("#approver4").val()+"<>"+$("#approver3").val());
+
+                      document.getElementById('returnaction').value = "Modificar"
+                      $('#supplierinvoicePostEdit').submit();
+                    }
+
+                },
+                error: function(returnval) {
+                            alert("Error - Requiere definir un Esquema de Aprobación");
+                            //$(".message").text(returnval + " failure");
+                            //$(".message").fadeIn("slow");
+                            //$(".message").delay(2000).fadeOut(1000);
+                        }
+                //        ,
+                //complete : function(xhr, status) {
+                //        alert('Petición realizada');
+                //        alert('xhr', xhr);
+                //        alert('status', status);
+                //    }                        
+
+
+          });                        
+
+          /*
+            testAjax(t_params, function(err, result)
+            {
+              //         var output = testAjax(t_params);  // output will be undefined...
+              alert('output:'+t_params);
+              alert('err:'+err);
+              alert('result:'+result);
+            });
+          */
+    };
+        
+
+        // ------------------------------------
+        //    archivo para upload
+        // -----------------------------------
+        $("#file_imgfactaa").blur(function () {
+            //var input = $("#totalinvoice").val();
+            //input = parseFloat(num.replace(/,/g,"")).toFixed(2);
+            //var num = parseFloat(input).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,') + " $";
+            //$("#totalinvoice").val(transform_2_formatnumber(num));
+
+            // en el replace /,/g significa reemplaza todas las ocurrencias!!
+            //alert('Valor Numerico: '+parseFloat(num.replace(/,/g,"")).toFixed(2));
+            alert('archivo para upload: '+$("#file_imgfact").val());  
+        });
+
+
+        // ------------------------------------
+        //    Show Image
+        // -----------------------------------
+            function showImage()
+            {
+              //$("#inputimage").val(this);
+              if (this.files && this.files[0])
+              {
+                var obj = new FileReader();
+                obj.onload = function(data)
+                {
+                  var image = document.getElementById("img-loaded")
+                  image.src = data.target.result;
+                  image.style.display = "block";                  
+                }
+                obj.readAsDataURL(this.files[0]);
+              }
+              saveImg2Node();
+
+            }
+
+
+        // ------------------------------------
+        //    Save image to Nodeserver
+        // -----------------------------------
+            function saveImg2Node()
+            {
+              //$("#inputimage").val(this);
+
+              
+              // Esta function lleva la imagen a un directorio en el servidor.
+            console.log("saveImg2Node() ---------------------");
+
+             var files = $("#upload-input").get(0).files;
+             
+            console.log("saveImg2Node() ---------------------1");
+
+             if (files.length > 0)
+             {
+                console.log("saveImg2Node() ---------------------1");
+
+                // Si se ha seleccionado 1 o más archivos, se procederá a la carga de los mismos al servidor
+                // creamos un objeto FormData que será enviado a través del request AJAX
+                var formData = new FormData();
+             
+                var _id_doc = $("#id").val();
+                console.log("Id:"+_id_doc);
+
+
+                formData.append('id_doc', _id_doc);
+
+                // hacemos un loop por todos los archivos seleccionados
+                for (var i = 0; i < files.length; i++) 
+                {
+                  var file = files[i];
+             
+                  // añadimos los archivos al objeto formData
+
+                  formData.append('uploads[]', file, file.name);
+
+                }
+             
+                $.ajax(
+                {
+                  // url: '/upload',
+                  url: '/uploadimages',                  
+                  type: 'POST',
+                  data: formData,
+                  //data: JSON.stringify(formData),
+                  processData: false,
+                  contentType: false,
+                  success: function(data)
+                  {
+                      console.log('La carga de archivos se ha realizado con éxito' + data);
+                  },
+                  xhr: function() 
+                  {
+                    // creamos un objeto XMLHttpRequest
+                    var xhr = new XMLHttpRequest();
+             
+                    // gestionamos el evento 'progress'
+                    xhr.upload.addEventListener('progress', function(evt) 
+                    {
+             
+                      if (evt.lengthComputable) 
+                      {
+                        // calculamos el porcentaje completado de la carga de archivos
+                        var percentComplete = evt.loaded / evt.total;
+                        percentComplete = parseInt(percentComplete * 100);
+             
+                        // actualizamos la barra de progreso con el nuevo porcentaje
+                        $('.progress-bar').text(percentComplete + '%');
+                        $('.progress-bar').width(percentComplete + '%');
+             
+                        // una vez que la carga llegue al 100%, ponemos la progress bar como Finalizado
+                        if (percentComplete === 100) 
+                        {
+                          $('.progress-bar').html('Finalizado');
+                        }
+                      }
+                    }, false);
+             
+                    return xhr;
+                  }
+                });
+              }              
+
+            }
+
+
+        // ------------------------------------
+        //    Save image to Nodeserver
+        // -----------------------------------
+            function savePdf2Node()
+            {
+              //$("#inputimage").val(this);
+
+              
+            alert("savePdf2Node() ---------------------");
+
+              // Esta function lleva la imagen a un directorio en el servidor.
+            console.log("savePdf2Node() ---------------------");
+
+             var files = $("#upload-input-pdf").get(0).files;
+             
+            console.log("savePdf2Node() ---------------------1");
+
+             if (files.length > 0)
+             {
+                console.log("savePdf2Node() ---------------------1");
+
+                // Si se ha seleccionado 1 o más archivos, se procederá a la carga de los mismos al servidor
+                // creamos un objeto FormData que será enviado a través del request AJAX
+                var formData = new FormData();
+             
+                var _id_doc = $("#id").val();
+                console.log("Id:"+_id_doc);
+
+
+                formData.append('id_doc', _id_doc);
+
+                // hacemos un loop por todos los archivos seleccionados
+                for (var i = 0; i < files.length; i++) 
+                {
+                  var file = files[i];
+             
+                  // añadimos los archivos al objeto formData
+
+                  console.log('file.name:',file.name);
+
+                  formData.append('uploads[]', file, file.name);
+
+                }
+             
+                $.ajax(
+                {
+                  // url: '/upload',
+                  url: '/uploadPdf',                  
+                  type: 'POST',
+                  data: formData,
+                  //data: JSON.stringify(formData),
+                  processData: false,
+                  contentType: false,
+                  success: function(data)
+                  {
+                      console.log('La carga del PDF se ha realizado con éxito' + data);
+                  },
+                  xhr: function() 
+                  {
+                    // creamos un objeto XMLHttpRequest
+                    var xhr = new XMLHttpRequest();
+             
+                    // gestionamos el evento 'progress'
+                    xhr.upload.addEventListener('progress', function(evt) 
+                    {
+             
+                      if (evt.lengthComputable) 
+                      {
+                        // calculamos el porcentaje completado de la carga de archivos
+                        var percentComplete = evt.loaded / evt.total;
+                        percentComplete = parseInt(percentComplete * 100);
+             
+                        // actualizamos la barra de progreso con el nuevo porcentaje
+                        $('.progress-bar').text(percentComplete + '%');
+                        $('.progress-bar').width(percentComplete + '%');
+             
+                        // una vez que la carga llegue al 100%, ponemos la progress bar como Finalizado
+                        if (percentComplete === 100) 
+                        {
+                          $('.progress-bar').html('Finalizado');
+                        }
+                      }
+                    }, false);
+             
+                    return xhr;
+                  }
+                });
+              }              
+
+            }
+
+
+        // ------------------------------------
+        //    validarFormulario()
+        // -----------------------------------
+            function validarFormulario()
+            {
+               return true;
+
+            }
+
+
+            $("#supplierinvoicePostEdit :input").focus(function () 
+            {
+
+                console.log('$(this).val(): '+$(this).attr('name'));   
+                if ($(this).attr('name') == "numdoc")
+                {
+                   console.log('supplierinvoicePostEdit focus');              
+                   console.log('$(this).val(): '+$(this).val());
+                   $("#lastVal").val($(this).val());
+                   console.log('$("#lastVal").val(): '+$("#lastVal").val());
+                };
+            });
+
+           // $("#numdoc :input").focus(function () 
+           // {
+           //      alert('#numdoc FOCUS');
+           //      lastVal = $(this).val();
+           // });
+
+
+</script>
+
+   <script>
+        // -------------------------------------
+        //   Button de Eliminar documento
+        // -------------------------------------        
+        $('#confirm-delete').on('show.bs.modal', function(e) {
+            $(this).find('.btn-ok').attr('href', $(e.relatedTarget).data('href'));
+            
+            $('.debug-url').html('Delete URL: <strong>' + $(this).find('.btn-ok').attr('href') + '</strong>');
+        });
+    </script>

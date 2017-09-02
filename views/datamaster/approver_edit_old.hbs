@@ -1,0 +1,23 @@
+<h2> Aprobadores </h2>
+
+<form action="/form_aprover_saved/{{approvers._id}}" name="form_aprover"action="#" method="post">
+
+  <!--
+  <div class="form-group" >
+    <label for="formGroupExampleID">_ID</label>
+    <input name="_id" class="form-control" value={{approvers._id}} ">
+  </div>
+  -->
+
+  <div class="form-group">
+    <label for="formGroupExampleInput">Codigo</label>
+    <input name="fieldApprover" type="text" class="form-control" maxlength="10" width="10" size="10" value={{approvers.approver_code}} ">
+  </div>
+  <div class="form-group">
+    <label for="formGroupExampleInput2">Descripción</label>
+    <input type="text" class="form-control" name="f_description" maxlength="40" value={{approvers.description}}>
+  </div>
+
+  <button type="submit" class="btn btn-success">Grabar</button>
+  <button type="submit" class="btn btn-reject">No Grabar</button>
+</form>

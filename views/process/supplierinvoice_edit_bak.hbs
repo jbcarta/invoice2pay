@@ -1,0 +1,610 @@
+<!-- *****************************************
+
+        Supplierinvoice_edit.hbs
+
+     ***************************************** -->  
+
+<div class="modal fade bs-example-modal-sm-provee" tabindex="-1" 
+
+     role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <div class="modal-header">
+       <button type="button" class="close" data-dismiss="modal" aria-hidden="true">Proveedores &times;</button>
+        {{火}} {{huo}}
+      </div>
+      <div class="modal-body">
+            <!--   Formulario de Buscar      -
+      <form name="formBuscar" class="navbar-form navbar-left" role="search" action="#" method="post">
+        <div class="form-group">
+          <input name="inputFindText" type="text" class="form-control" placeholder="Search">
+            <select class="form-control selectpicker show-tick" name="supplier"
+                             id="costcenterx" required>
+
+            </select>
+        </div>
+        <button type="submit" class="btn btn-default">Find</button>
+      </form>      
+-->
+    <table id="tsupply" class="table table-striped table-bordered" 
+           cellspacing="0" width="50%">
+        <thead>
+            <tr>
+                <th>Proveedor</th>
+                <th>Codigo</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>Proveedor</th>
+                <th>Codigo</th>
+            </tr>
+        </tfoot>
+        <tbody>
+        <script type="text/javascript">
+//            function agrega_celda(id) 
+//            {
+//}
+
+            
+       </script>
+
+
+
+            <tr>
+                <td>Tiger Nixon</td>
+                <td>System Architect</td>
+                <td>Edinburgh</td>
+                <td>61</td>
+                <td>2011/04/25</td>
+                <td>$320,800</td>
+            </tr>
+            <tr>
+                <td>Garrett Winters</td>
+                <td>Accountant</td>
+                <td>Tokyo</td>
+                <td>63</td>
+                <td>2011/07/25</td>
+                <td>$170,750</td>
+            </tr>
+            <tr>
+                <td>Ashton Cox</td>
+                <td>Junior Technical Author</td>
+                <td>San Francisco</td>
+                <td>66</td>
+                <td>2009/01/12</td>
+                <td>$86,000</td>
+            </tr>
+        </tbody>
+    </table>      
+
+       <b>v.</b> Nothing
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade bs-example-modal-sm-ceco" tabindex="-1" 
+     role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true" >
+  <div class="modal-dialog modal-lg">
+<!--    <div class="modal-dialog modal-sm">
+-->
+    <div class="modal-content">
+      <div class="modal-header">
+       <button type="button" class="close" data-dismiss="modal" aria-hidden="true">Cuentas &times;</button>
+        {{火}} {{huo}}
+      </div>
+      <div class="modal-body">
+            <!--   Formulario de Buscar      
+      <form name="formBuscar" class="navbar-form navbar-left" role="search" action="#" method="#">
+        <div class="form-group">
+          <input name="inputFindText" type="text" class="form-control" placeholder="Search">
+        <button class="close btn" data-dismiss="modal">Find</button>
+
+            <select class="form-control selectpicker show-tick" name="costcenterf"
+                             id="costcenterf" required>
+            </select>
+
+        </div>
+      </form>
+-->
+    <table id="example" class="table table-striped table-bordered" 
+           cellspacing="0" width="50%">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Office</th>
+                <th>Age</th>
+                <th>Start date</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>Name</th>
+                <th>Position</th>
+                <th>Office</th>
+                <th>Age</th>
+                <th>Start date</th>
+                <th>Salary</th>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>Tiger Nixon</td>
+                <td>System Architect</td>
+                <td>Edinburgh</td>
+                <td>61</td>
+                <td>2011/04/25</td>
+                <td>$320,800</td>
+            </tr>
+            <tr>
+                <td>Garrett Winters</td>
+                <td>Accountant</td>
+                <td>Tokyo</td>
+                <td>63</td>
+                <td>2011/07/25</td>
+                <td>$170,750</td>
+            </tr>
+            <tr>
+                <td>Ashton Cox</td>
+                <td>Junior Technical Author</td>
+                <td>San Francisco</td>
+                <td>66</td>
+                <td>2009/01/12</td>
+                <td>$86,000</td>
+            </tr>
+        </tbody>
+    </table>      
+
+       <b>v.</b> Nothing
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+{{# if recdata }}
+
+
+    <div class="row">
+    <!--	<div class="col-sm-6 col-md-4 col-md-offset-4 col-sm-offset-3"> -->
+    		<h1>Factura</h1>
+    		<h4>Datos requeridos</h4>
+
+    		<form action="/supplierinvoice_edit/{{ recdata._id }}" method="post" id="checkout-form" class="form-horizontal">
+    				
+    				<!--******************************************
+
+    							     Supplier  
+
+                        ******************************************
+    				-->
+    				<div class="form-group">
+    					<label for="supplier" class="col-sm-2 control-label">Proveedor :</label>
+    					
+    <!--
+    					<a href="#"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+    -->
+    					<a href="#" data-toggle="modal" data-target=".bs-example-modal-sm-provee"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+
+    <!--
+    					<button class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm">Small modal</button>
+    -->
+
+    					<div class="col-sm-4">
+
+                            <input type="text" class="form-control hidden" name="supplier1"
+                                    id="supplier1" value= "{{this.supplier}}" required>
+
+                            <select class="form-control selectpicker show-tick" name="supplier"
+                                     id="supplier" required></select>
+
+    					</div>
+    				</div>
+
+
+
+    				<!--  
+    							Fecha  
+    				-->				
+    				<div class="form-group">
+    					<label for="fecha" class="col-sm-2 control-label">Fecha Factura:</label>
+    					<div class="col-sm-4">
+    						<input type="date" class="form-control" name="fecha"  
+    								value= "{{this.fecha}}" required>
+    					</div>
+    				</div>
+
+    				<!--  
+    							Account Code  
+    				-->	
+    				<div class="form-group">
+    					<label for="accountcode" class="col-sm-2 control-label">Codigo Cuenta :</label>
+    					<div class="col-sm-4">
+    						<input type="text" class="form-control" name="accountcode"
+    								value= "{{this.accountcode}}" required>
+    					</div>
+    				</div>
+
+    				<!--  
+    							Cost Center  
+    				-->	
+    				<div class="form-group">
+    					<label for="costcenter" class="col-sm-2 control-label">Centro de Costo :</label>
+     					<a href="#" data-toggle="modal" data-target=".bs-example-modal-sm-ceco"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+
+    					<div class="col-sm-4">
+
+    						<input type="text" class="form-control hidden" name="costcenter1"
+    								id="costcenter1" value= "{{this.costcenter}}" required>
+
+    						<select class="form-control selectpicker show-tick" name="costcenter"
+    								 id="costcenter" required>
+    						</select>
+
+
+
+    					</div>
+    				</div>
+
+
+    				<!--  
+    							Nro. Factura  
+    				-->	
+    				<div class="form-group">
+    					<label for="invoice" class="col-sm-2 control-label">Nro Factura :</label>
+    					<div class="col-sm-4">
+    						<input type="text" class="form-control" name="invoice"
+    								value= "{{this.invoice}}" required>
+    					</div>
+    				</div>
+
+    				<!--  
+    							Concepto  
+    				-->	
+    				<div class="form-group">
+    					<label for="concepto" class="col-sm-2 control-label">Concepto :</label>
+    					<div class="col-sm-4">
+    						<input type="text" class="form-control" name="concepto"
+    								value= "{{this.concepto}}" required>
+    					</div>
+    				</div>
+
+
+    				<!---
+    							AmountInvoice  
+    				-->	
+    				<div class="form-group">
+    					<label for="amountinvoice" class="col-sm-2 control-label">Monto de Factura :</label>
+    					<div class="col-sm-4">
+    						<input type="text" class="form-control" name="amountinvoice"
+    								id="amountinvoice" value= "{{this.amountinvoice}}" required>
+    					</div>
+    				</div>
+
+    				<!--  
+    							Currency							
+    				-->	
+    				<div class="form-group">
+    					<label for="currency" class="col-sm-2 control-label" value="{{this.currency}}" >Moneda :</label>
+    					<div class="col-sm-4">
+    						<input type="text" class="form-control hidden" name="currency1"
+    								id="currency1"
+    								value= "{{this.currency}}" required>
+
+    						<select class="form-control selectpicker show-tick" name="currency"
+    								 id="currency" required>
+    						</select>
+    					</div>
+    				</div>
+
+    				<!--  
+    							Service Month							
+    				-->	
+    				<div class="form-group">
+    					<label for="servicesmonth" class="col-sm-2 control-label">Mes de Servicio :</label>
+    					<div class="col-sm-4">
+    						<input type="month" class="form-control" name="servicesmonth"
+    								value= "{{this.servicesmonth}}" required>
+    					</div>
+    				</div>
+
+    				<!--  
+    							Comments
+    				-->	
+    				<div class="form-group">
+    					<label for="comments" class="col-sm-2 control-label">Nota Adicional:</label>
+    					<div class="col-sm-4">
+    						<textarea class="form-control" rows="3" name="comments">{{this.comments}}</textarea>
+    					</div>
+    				</div>
+
+    				
+    				<!--  
+    							Level of Approval  / Approvers							
+    				-->					
+    				<div class="form-group">
+    				    <p><label class="col-sm-6 control-label">Nivel Aprobación: <kbd>{{this.aplevel}}</kbd></label></p>
+    				    <p class="help-block">Aprobadores: <kbd>{{this.approver1}}</kbd>         
+    					    <kbd>{{this.approver2}}</kbd> <kbd>{{this.approver3}}</kbd></p>
+    					 
+    				</div>
+
+    <!--				</div>-->
+
+    			<button type="submit" class="btn btn-success">Grabar</button>
+        		 <button href="/" class="btn btn-cancel pull-left" role="button">Salir sin Grabar</a>
+
+    		</form>
+
+
+
+    <!--	</div>	 -->
+    </div>
+
+{{/if}}
+
+
+
+<script type="text/javascript">
+	$(document).ready(function () 
+    {   
+
+        // ------------------------------------
+        //         Accountinginvoice
+        // -----------------------------------
+        $("#amountinvoice").blur(function () {
+            var input = $("#amountinvoice").val();
+            var num = parseFloat(input).toFixed(2).replace(/(\d)(?=(\d{3})+\.)/g, '$1,') + " $";
+			$("#amountinvoice").val(num);	
+        });
+
+
+
+
+
+
+
+
+/*
+	$("#supplier").focus()
+	{
+		
+	    
+//	    alert($("#currency1").val());
+	    var opselect = $("#suppliercostcenter1").val();
+		var $costcenter = $("#costcenter");
+		var $costcenterf = $("#costcenterf");
+
+        vals = data.supplier.split(",");
+
+
+//			$currency.empty();
+			$.each(vals, function(index, value) {
+				if (opselect == value)
+				{
+					$costcenter.append("<option selected value="+value+">" + value +" : description "+ value + "</option>");
+				}
+				else
+				{
+					$costcenter.append("<option value="+value+">" + value +" : description "+ value + "</option>");
+				}
+				$costcenterf.append("<option value="+value+">" + value +" : description "+ value + "</option>");
+
+			});
+		
+	};
+
+*/
+
+
+//---------------------
+
+
+    $("#currency").focus()
+    {
+        $.getJSON("/jsondata/currency.json", function(data) 
+        {
+        
+            
+    //      alert($("#currency1").val());
+
+            var opselect = $("#currency1").val();
+            var $currency = $("#currency");
+
+//          $currency.empty();
+
+            vals = data.currency_values.split(",");
+
+            $.each(vals, function(index, value) 
+            {
+                if (opselect == value)
+                {
+                    $currency.append("<option selected>" + value + "</option>");
+                }
+                else
+                {
+                    $currency.append("<option>" + value + "</option>");
+                }
+            });
+        });
+    };
+
+
+
+	$("#costcenter").focus()
+	{
+
+//        loadCecos();
+
+		$.getJSON("/jsondata/costcenter.json", function(data) 
+        {
+		
+    		vals = data.costcenter.split(",");
+    	    
+    //	    alert($("#currency1").val());
+    	    var opselect = $("#costcenter1").val();
+    		var $costcenter = $("#costcenter");
+    		var $costcenterf = $("#costcenterf");
+
+
+//			$currency.empty();
+			$.each(vals, function(index, value) 
+            {
+				if (opselect == value)
+				{
+					$costcenter.append("<option selected value="+value+">" + value +" : description "+ value + "</option>");
+				}
+				else
+				{
+					$costcenter.append("<option value="+value+">" + value +" : description "+ value + "</option>");
+				}
+				$costcenterf.append("<option value="+value+">" + value +" : description "+ value + "</option>");
+
+			});
+		});
+	};
+
+
+    $("#supplier").focus()
+    {
+
+
+
+//        $.getJSON("/jsondata/costcenter.json", function(data) 
+        $.getJSON("/api/restGetAllSupplier", function(data)
+        {        
+
+            var $supplier = $("#supplier");
+            $.each(data, function(index, value) 
+            {
+
+                $supplier.append("<option value="+value.codsupplier+">" + value.codsupplier +" : " +value.name + "</option>");
+//                alert(value.codsupplier);
+            });
+
+        });
+
+    };
+
+
+ });	
+</script>
+
+
+
+
+<script type="text/javascript">
+
+$(document).ready(function() 
+{
+    $('#example').DataTable({
+    	"pagingType": "full_numbers"
+    });
+} );
+</script>
+
+
+
+<!--
+
+				
+				<div class="col-xs-12">
+					<div class="form-group">
+						<label for="address">Address</label>
+						<input type="text" id="address" class="form-control" required>
+					</div>
+				</div>
+				<hr>
+				<div class="col-xs-12">
+					<div class="form-group">
+						<label for="card-name">Card Holder Name</label>
+						<input type="text" id="card-name" class="form-control" required>
+					</div>
+				</div>
+				<div class="col-xs-12">
+					<div class="form-group">
+						<label for="card-number">Credit Card Number</label>
+						<input type="text" id="card-number" class="form-control" required>
+					</div>
+				</div>
+				<div class="col-xs-12">
+					<div class="row">
+						<div class="col-xs-6">
+							<div class="form-group">
+								<label for="card-expiry-month">Expiration Month</label>
+								<input type="text" id="card-expiry-month" class="form-control" required>
+							</div>
+						</div>
+						<div class="col-xs-6">
+							<div class="form-group">
+								<label for="card-expiry-year">Expiration Year</label>
+								<input type="text" id="card-expiry-year" class="form-control" required>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="col-xs-12">
+					<div class="form-group">
+						<label for="card-cvc">CVC</label>
+						<input type="text" id="card-cvc" class="form-control" required>
+					</div>
+				</div>
+
+
+-->
+
+
+
+
+<!--
+	<table width="100%" class="table table-striped">
+		<tr>
+			<th class="text-center" width="5%">CeCo</th> 
+			<th class="text-center" width="3%">Nivel</th> 
+			<th class="text-center" width="5%">Aprob</th> 
+			<th width="20%">Proveedor</th>
+			<th class="text-center" width="10%">Fecha</th>
+			<th width="10%">Invoice </th>
+			<th width="10%">Concepto</th>
+			<th width="6%">Monto</th>
+			<th class="text-center" width="6%">Mon</th>
+			<th class="text-center" width="10%">MesServ.</th>
+			<th class="text-center" width="20%"> </th>
+		</tr>
+
+
+		{{# each recdata }}
+			<tr>
+-->			
+	<!--			<td><strong> {{ this.item._id }} </strong></td> 		-->
+<!--				<td class="text-center"><strong>  </strong></td> 		
+				<td class="text-center"><strong> {{ this.costcenter }} </strong></td> 		
+				<td class="text-center"><strong> {{ this.aplevel }}  </strong></td> 
+				<td class="text-center"><strong> {{ this.approver1 }} {{ this.approver2 }} {{ this.approver3 }}</strong></td>
+				<td>					<strong> {{ this.supplier }}  </strong></td>
+				<td class="text-center"><strong> {{ this.fecha }}  </strong></td>
+				<td class="text-center"><strong> {{ this.invoice }}  </strong></td>
+				<td class="text-center"><strong> {{ this.concepto }}  </strong></td>
+				<td class="text-center"><strong> {{ this.amountinvoice }}  </strong></td>
+
+				<td class="text-center"><strong> {{ this.currency }}  </strong></td>
+				<td class="text-center"><strong> {{ this.servicesmonth }}  </strong></td>							
+				<td class="text-center">               
+					<a href="/supplierinvoice_edit:this.item._id"> <span class="badge"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></span></a>
+					<a href="#"> <span class="badge"><i class="fa fa-times" aria-hidden="true"></i></span></a>
+				</td>
+			</tr>
+		{{/each}}  
+
+	<div class="clearfix">
+	     <a href="#" class="btn btn-success pull-left" role="button">Nuevo Doc</a>
+	     <a href="/" class="btn btn-success pull-right" role="button">Salir</a>
+
+	</div>
+-->

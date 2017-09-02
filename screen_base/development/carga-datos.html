@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title> Reporting </title>
+        <!-- CSS files -->
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap-theme.css">
+        <link rel="stylesheet" href="css/claxson_theme.css"> 
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+    </head>
+    <body>
+    
+    <!-- HEADER -->
+    <div class="container-fluid head-tit">
+        <div class="row">
+           <div class="container"> 
+                <div class="col-lg-12 col-md-12 col-sm-12 ">
+                    <h1>
+                        Reporting
+                    </h1>
+                </div>
+           </div>  
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="row">
+            <!-- First Column -->         
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                <div>
+                   <div class="form-group">
+                       <!-- Company combo -->
+                       <label class="control-label col-lg-4 col-md-4 col-sm-12 col-xs-12">Company: </label>
+                       <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                           <input type="text" class="form-control separate-bottom" readonly="readonly" placeholder="Company name here" name="company">
+                       </div>
+                       
+                       <!-- User combo -->
+                       <label class="control-label col-lg-4 col-md-4 col-sm-12 col-xs-12">User: </label>
+                       <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                           <input type="text" class="form-control separate-bottom" readonly="readonly" placeholder="User name here" name="user">
+                       </div>
+                   </div>
+                </div>
+            </div>
+            
+            <!-- Second Column --> 
+            <div class="col-lg-2 col-md-2 col-sm-12">
+                <div>
+                   <div class="form-group">
+                       <!-- Reporting combo -->
+                       <label class="control-label col-lg-12 col-md-12 col-sm-12 col-xs-12">Reporting Month: </label>
+                       
+                       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 monoContent">
+                           <input type="text" class="form-control separate-bottom" readonly="readonly" placeholder="Date-Year" name="user">
+                       </div>
+                   </div>
+                </div>
+            </div>
+            
+            <!-- Third Column --> 
+            <div class="col-lg-3 col-md-3 col-sm-12">
+                <div>
+                   <div class="form-group">
+                       <!-- Exchange combo -->
+                       <label class="control-label col-lg-12 col-md-12 col-sm-12 col-xs-12">Exchange Rate: </label>
+                       
+                       <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 monoContent unpadRight">
+                           COL
+                       </div>
+                       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 monoContent unpadRight unpadLeft separate-bottom">
+                           <input type="text" class="form-control separate-bottom" readonly="readonly" placeholder="0000,00" name="user">
+                       </div>
+                       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 monoContent unpadLeft">
+                           x USD
+                       </div>
+                   </div>
+                </div>
+            </div>
+            
+            <!-- Fourth Column --> 
+            <div class="col-lg-3 col-md-3 col-sm-12 butCont">
+                <div>
+                   <div class="form-group">
+                       <!-- Buttons combo -->
+                       <div class="col-lg-12 col-md-12 col-sm-6 col-xs-6 separate-bottom xs-6">
+                            <button type="button" class="btn btn-sm btn-primary floatR butL">Close Session</button>
+                       </div>
+                       <div class="col-lg-12 col-md-12 col-sm-6 col-xs-6 xs-6">
+                            <button type="button" class="btn btn-sm btn-primary floatR">Reload Items from Contacts</button>
+                       </div>
+                       
+                       
+                   </div>
+                </div>
+                <div class="clearF"></div>
+            </div>
+            
+        </div>
+    </div>
+                    
+    <!-- END OF HEADER -->
+    
+    <!-- CONTENT -->
+    <div class="container">
+        <div class="row separate-bottom">
+           <div class="col-lg-12 col-md-12 col-sm-12 scrollerT separate-bottom">
+                <table class="table table-striped">
+                    <!-- TABLE HEADER -->
+                    <thead>
+                        <tr>
+                            <td>
+                                Action
+                            </td>
+                            <td>
+                                Service Type
+                            </td>
+                            <td>
+                                Items
+                            </td>
+                            <td>
+                                Curr.
+                            </td>
+                            <td>
+                                Quantity
+                            </td>
+                            <td>
+                                SALE Total
+                            </td>
+                            <td>
+                                SALE Discount
+                            </td>
+                            <td>
+                                Rev(%)
+                            </td>
+                            <td>
+                                RATE Total
+                            </td>
+                        </tr>
+                    </thead>
+                    <!-- TABLE CONTENTS: REPEAT EACH MODULE -->
+                    <tbody>
+                        
+                        <!-- MODULE FOR REPEATER -->   
+                        <tr>
+                            <!--Action -->
+                            <td>
+                                <div class="form-group">
+                                            <form>
+                                                <div class="col-md-9 col-sm-9 col-xs-12">
+                                                  <select class="form-control">
+                                                    <option>Action</option>
+                                                    <option>Option one</option>
+                                                    <option>Option two</option>
+                                                    <option>Option three</option>
+                                                    <option>Option four</option>
+                                                  </select>
+                                                </div>
+                                            </form>
+                                </div>
+                            </td>
+                            <!-- Service Type -->
+                            <td>
+                                Playboy + Venus
+                            </td>
+                            <!-- Items -->
+                            <td>
+                                Playboy (SD)<br><!-- br is a carriage return -->
+                                Venus (SD)
+                            </td>
+                            <!-- Curr. -->
+                            <td>
+                                COL
+                            </td>
+                            <!-- Quantity -->
+                            <td>
+                                41
+                            </td>
+                            <!-- SALE Total -->
+                            <td>
+                                1,009,224.14
+                            </td>
+                            <!-- SALE Discount -->
+                            <td>
+                                -
+                            </td>
+                            <!-- Rev(%) -->
+                            <td>
+                                50%
+                            </td>
+                            <!-- RATE Total -->
+                            <td>
+                                549,612.07
+                            </td>
+                        </tr>
+                        <!-- END OF MODULE FOR REPEATER -->
+                        
+                        <!-- MODULE FOR REPEATER -->   
+                        <tr>
+                            <!--Action -->
+                            <td>
+                                <div class="form-group">
+                                            <form>
+                                                <div class="col-md-9 col-sm-9 col-xs-12">
+                                                  <select class="form-control">
+                                                    <option>Action</option>
+                                                    <option>Option one</option>
+                                                    <option>Option two</option>
+                                                    <option>Option three</option>
+                                                    <option>Option four</option>
+                                                  </select>
+                                                </div>
+                                            </form>
+                                </div>
+                            </td>
+                            <!-- Service Type -->
+                            <td>
+                                Playboy + Venus
+                            </td>
+                            <!-- Items -->
+                            <td>
+                                Playboy (SD)<br><!-- br is a carriage return -->
+                                Venus (SD)
+                            </td>
+                            <!-- Curr. -->
+                            <td>
+                                COL
+                            </td>
+                            <!-- Quantity -->
+                            <td>
+                                41
+                            </td>
+                            <!-- SALE Total -->
+                            <td>
+                                1,009,224.14
+                            </td>
+                            <!-- SALE Discount -->
+                            <td>
+                                -
+                            </td>
+                            <!-- Rev(%) -->
+                            <td>
+                                50%
+                            </td>
+                            <!-- RATE Total -->
+                            <td>
+                                549,612.07
+                            </td>
+                        </tr>
+                        <!-- END OF MODULE FOR REPEATER -->
+                        
+                        <!-- MODULE FOR REPEATER -->   
+                        <tr>
+                            <!--Action -->
+                            <td>
+                                <div class="form-group">
+                                            <form>
+                                                <div class="col-md-9 col-sm-9 col-xs-12">
+                                                  <select class="form-control">
+                                                    <option>Action</option>
+                                                    <option>Option one</option>
+                                                    <option>Option two</option>
+                                                    <option>Option three</option>
+                                                    <option>Option four</option>
+                                                  </select>
+                                                </div>
+                                            </form>
+                                </div>
+                            </td>
+                            <!-- Service Type -->
+                            <td>
+                                Playboy + Venus
+                            </td>
+                            <!-- Items -->
+                            <td>
+                                Playboy (SD)<br><!-- br is a carriage return -->
+                                Venus (SD)
+                            </td>
+                            <!-- Curr. -->
+                            <td>
+                                COL
+                            </td>
+                            <!-- Quantity -->
+                            <td>
+                                41
+                            </td>
+                            <!-- SALE Total -->
+                            <td>
+                                1,009,224.14
+                            </td>
+                            <!-- SALE Discount -->
+                            <td>
+                                -
+                            </td>
+                            <!-- Rev(%) -->
+                            <td>
+                                50%
+                            </td>
+                            <!-- RATE Total -->
+                            <td>
+                                549,612.07
+                            </td>
+                        </tr>
+                        <!-- END OF MODULE FOR REPEATER -->
+                        
+                        <!-- MODULE FOR REPEATER -->   
+                        <tr>
+                            <!--Action -->
+                            <td>
+                                <div class="form-group">
+                                            <form>
+                                                <div class="col-md-9 col-sm-9 col-xs-12">
+                                                  <select class="form-control">
+                                                    <option>Action</option>
+                                                    <option>Option one</option>
+                                                    <option>Option two</option>
+                                                    <option>Option three</option>
+                                                    <option>Option four</option>
+                                                  </select>
+                                                </div>
+                                            </form>
+                                </div>
+                            </td>
+                            <!-- Service Type -->
+                            <td>
+                                Playboy + Venus
+                            </td>
+                            <!-- Items -->
+                            <td>
+                                Playboy (SD)<br><!-- br is a carriage return -->
+                                Venus (SD)
+                            </td>
+                            <!-- Curr. -->
+                            <td>
+                                COL
+                            </td>
+                            <!-- Quantity -->
+                            <td>
+                                41
+                            </td>
+                            <!-- SALE Total -->
+                            <td>
+                                1,009,224.14
+                            </td>
+                            <!-- SALE Discount -->
+                            <td>
+                                -
+                            </td>
+                            <!-- Rev(%) -->
+                            <td>
+                                50%
+                            </td>
+                            <!-- RATE Total -->
+                            <td>
+                                549,612.07
+                            </td>
+                        </tr>
+                        <!-- END OF MODULE FOR REPEATER -->
+                        
+                        <!-- MODULE FOR REPEATER -->   
+                        <tr>
+                            <!--Action -->
+                            <td>
+                                <div class="form-group">
+                                            <form>
+                                                <div class="col-md-9 col-sm-9 col-xs-12">
+                                                  <select class="form-control">
+                                                    <option>Action</option>
+                                                    <option>Option one</option>
+                                                    <option>Option two</option>
+                                                    <option>Option three</option>
+                                                    <option>Option four</option>
+                                                  </select>
+                                                </div>
+                                            </form>
+                                </div>
+                            </td>
+                            <!-- Service Type -->
+                            <td>
+                                Playboy + Venus
+                            </td>
+                            <!-- Items -->
+                            <td>
+                                Playboy (SD)<br><!-- br is a carriage return -->
+                                Venus (SD)
+                            </td>
+                            <!-- Curr. -->
+                            <td>
+                                COL
+                            </td>
+                            <!-- Quantity -->
+                            <td>
+                                41
+                            </td>
+                            <!-- SALE Total -->
+                            <td>
+                                1,009,224.14
+                            </td>
+                            <!-- SALE Discount -->
+                            <td>
+                                -
+                            </td>
+                            <!-- Rev(%) -->
+                            <td>
+                                50%
+                            </td>
+                            <!-- RATE Total -->
+                            <td>
+                                549,612.07
+                            </td>
+                        </tr>
+                        <!-- END OF MODULE FOR REPEATER -->
+                        
+                        <!-- MODULE FOR REPEATER -->   
+                        <tr>
+                            <!--Action -->
+                            <td>
+                                <div class="form-group">
+                                            <form>
+                                                <div class="col-md-9 col-sm-9 col-xs-12">
+                                                  <select class="form-control">
+                                                    <option>Action</option>
+                                                    <option>Option one</option>
+                                                    <option>Option two</option>
+                                                    <option>Option three</option>
+                                                    <option>Option four</option>
+                                                  </select>
+                                                </div>
+                                            </form>
+                                </div>
+                            </td>
+                            <!-- Service Type -->
+                            <td>
+                                Playboy + Venus
+                            </td>
+                            <!-- Items -->
+                            <td>
+                                Playboy (SD)<br><!-- br is a carriage return -->
+                                Venus (SD)
+                            </td>
+                            <!-- Curr. -->
+                            <td>
+                                COL
+                            </td>
+                            <!-- Quantity -->
+                            <td>
+                                41
+                            </td>
+                            <!-- SALE Total -->
+                            <td>
+                                1,009,224.14
+                            </td>
+                            <!-- SALE Discount -->
+                            <td>
+                                -
+                            </td>
+                            <!-- Rev(%) -->
+                            <td>
+                                50%
+                            </td>
+                            <!-- RATE Total -->
+                            <td>
+                                549,612.07
+                            </td>
+                        </tr>
+                        <!-- END OF MODULE FOR REPEATER -->
+                        
+                    </tbody> 
+                </table>
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="container separate-bottom">
+        <div class="row">  
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div>
+                       <div class="form-group">
+                           <!-- Sub Total COL combo -->
+                           <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 floatR">
+                               <label class="control-label col-lg-6 col-md-6 col-sm-6 col-xs-12 taR">Sub-Total COL: </label>
+                               <div  class="col-lg-6 col-md-6 col-sm-6 col-xs-8 floatR">
+                                   <input type="text" class="form-control taR" readonly="readonly" placeholder="12,447,025.86" name="company">
+                               </div>
+                           </div>
+                       </div>
+               </div>
+           </div>
+        </div>
+    
+        
+        <div class="row">  
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <div>
+                       <div class="form-group unmargTop">
+                           <!-- Sub Total USD combo -->
+                           <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 floatR">
+                               <label class="control-label col-lg-6 col-md-6 col-sm-6 col-xs-12 taR">Sub-Total USD: </label>
+                               <div  class="col-lg-6 col-md-6 col-sm-6 col-xs-8 floatR">
+                                   <input type="text" class="form-control taR" readonly="readonly" placeholder="4,234.65" name="company">
+                               </div>
+                           </div>
+                       </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row separate-bottom">  
+            <div class="col-md-12 col-sm-12 col-xs-12 separate-bottom">
+                <div>
+                       <div class="form-group unmargTop">
+                           <!-- Total USD combo -->
+                           <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 floatR separate-bottom">
+                               <label class="control-label col-lg-6 col-md-6 col-sm-6 col-xs-12 taR">Total USD: </label>
+                               <div  class="col-lg-6 col-md-6 col-sm-6 col-xs-8 floatR separate-bottom">
+                                   <input type="text" class="form-control taR" readonly="readonly" placeholder="8,2015.53" name="company">
+                               </div>
+                           </div>
+                       </div>
+                </div>
+            </div>
+        </div>
+        
+        
+    </div>
+    
+    <!-- END OF CONTENT -->
+    
+    <!-- FOOTER -->
+    <div class="container-fluid">
+        <div class="footer">
+                <div class="container">  
+                  <div class="col-lg-6 col-md-6 col-sm-15 sans-13-w j-left ">
+
+                  </div>
+                  <div class="col-lg-8 col-md-8 col-sm-15 sans-13-w j-right ">
+                      <div class="foot-text">Clasxon(c) 2016</div>
+                  </div>
+
+                </div>
+        </div>
+    </div>
+        <!-- JavaScript files -->
+    <!-- END OF FOOTER -->
+    
+    </body>
+</html>

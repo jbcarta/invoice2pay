@@ -1,0 +1,40 @@
+	<table width="60%" class="table table-striped">
+		<tr>
+	<!--		<th width="5%">ID</th> 	 -->
+			<th width="5%">Approver</th> 	
+			<th width="40%">Description</th> 
+
+		</tr>
+
+		{{# each approvers }}
+			<tr>
+	<!--			<td><strong> {{ this.item._id }} </strong></td> 		-->
+				<td><strong> {{ this.approver }} </strong></td> 		
+				<td><strong> {{ this.description }}  </strong></td> 
+				<td class="text-right">               
+					<a href="/add-to-cart/{{ this.item._id }}"> <span class="badge">+1</span></a>
+					<a href="/remove-one-from-cart/{{ this.item._id }}"> <span class="badge">-1</span></a>
+				</td>
+
+				<td class="text-right"> <span class="label label-primary"> nose 
+				</span></td>
+				<td class="text-right"> 
+					<a href="#"> <span class="badge"><i class="fa fa-times" aria-hidden="true"></i></span></a>
+				</td>
+			</tr>
+		{{/each}}  
+
+		<tr class="info">
+			<td class="text-left"> </td>
+			<td class="text-right">Total Compra</td>
+
+		</tr>
+
+	</table>
+
+	<div class="clearfix">
+	     <a href="/" class="btn btn-success pull-left" role="button">Continuar Comprando</a>
+	     <a href="/cleancart" class="btn btn-success pull-right" role="button">Empty Shopping Cart</a>
+	     <a href="/checkout" class="btn btn-success pull-right" role="button">CheckOut</a>
+
+	</div>

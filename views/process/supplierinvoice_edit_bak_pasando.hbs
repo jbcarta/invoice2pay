@@ -1,0 +1,298 @@
+<!-- *****************************************
+
+        Supplierinvoice_edit.hbs
+
+     ***************************************** -->  
+
+
+
+
+
+
+{{# if recdata }}
+
+
+    <div class="row">
+    <!--	<div class="col-sm-6 col-md-4 col-md-offset-4 col-sm-offset-3"> -->
+    		<h1>Factura</h1>
+    		<h4>Datos requeridos</h4>
+
+    		<form action="/supplierinvoice_edit/{{ recdata._id }}" method="post" id="checkout-form" class="form-horizontal">
+    				
+
+
+
+    				<!--  
+    							Fecha  
+    				-->				
+    				<div class="form-group">
+    					<label for="fecha" class="col-sm-2 control-label">Fecha Factura:</label>
+    					<div class="col-sm-4">
+    						<input type="date" class="form-control" name="fecha"  
+    								value= "{{this.fecha}}" required>
+    					</div>
+    				</div>
+
+    				<!--  
+    							Account Code  
+    				-->	
+    				<div class="form-group">
+    					<label for="accountcode" class="col-sm-2 control-label">Codigo Cuenta :</label>
+    					<div class="col-sm-4">
+    						<input type="text" class="form-control" name="accountcode"
+    								value= "{{this.accountcode}}" required>
+    					</div>
+    				</div>
+
+
+
+
+    				<!--  
+    							Currency							
+    				-->	
+    				<div class="form-group">
+    					<label for="currency" class="col-sm-2 control-label" value="{{this.currency}}" >Moneda :</label>
+    					<div class="col-sm-4">
+    						<input type="text" class="form-control hidden" name="currency1"
+    								id="currency1"
+    								value= "{{this.currency}}" required>
+
+    						<select class="form-control selectpicker show-tick" name="currency"
+    								 id="currency" required>
+    						</select>
+    					</div>
+    				</div>
+
+    				<!--  
+    							Service Month							
+    				-->	
+    				<div class="form-group">
+    					<label for="servicesmonth" class="col-sm-2 control-label">Mes de Servicio :</label>
+    					<div class="col-sm-4">
+    						<input type="month" class="form-control" name="servicesmonth"
+    								value= "{{this.servicesmonth}}" required>
+    					</div>
+    				</div>
+
+    				<!--  
+    							Comments
+    				-->	
+    				<div class="form-group">
+    					<label for="comments" class="col-sm-2 control-label">Nota Adicional:</label>
+    					<div class="col-sm-4">
+    						<textarea class="form-control" rows="3" name="comments">{{this.comments}}</textarea>
+    					</div>
+    				</div>
+
+    				
+    				<!--  
+    							Level of Approval  / Approvers							
+    				-->					
+    				<div class="form-group">
+    				    <p><label class="col-sm-6 control-label">Nivel Aprobación: <kbd>{{this.aplevel}}</kbd></label></p>
+    				    <p class="help-block">Aprobadores: <kbd>{{this.approver1}}</kbd>         
+    					    <kbd>{{this.approver2}}</kbd> <kbd>{{this.approver3}}</kbd></p>
+    					 
+    				</div>
+
+    <!--				</div>-->
+
+    			<button type="submit" class="btn btn-success">Grabar</button>
+        		 <button href="/" class="btn btn-cancel pull-left" role="button">Salir sin Grabar</a>
+
+    		</form>
+
+
+
+    <!--	</div>	 -->
+    </div>
+
+{{/if}}
+
+
+
+<script type="text/javascript">
+	$(document).ready(function () 
+    {   
+
+
+
+
+
+
+
+
+/*
+	$("#supplier").focus()
+	{
+		
+	    
+//	    alert($("#currency1").val());
+
+        vals = data.supplier.split(",");
+
+
+//			$currency.empty();
+			$.each(vals, function(index, value) {
+				if (opselect == value)
+				{
+					$costcenter.append("<option selected value="+value+">" + value +" : description "+ value + "</option>");
+				}
+				else
+				{
+					$costcenter.append("<option value="+value+">" + value +" : description "+ value + "</option>");
+				}
+				$costcenterf.append("<option value="+value+">" + value +" : description "+ value + "</option>");
+
+			});
+		
+	};
+
+*/
+
+
+//---------------------
+
+
+    $("#currency").focus()
+    {
+        $.getJSON("/jsondata/currency.json", function(data) 
+        {
+        
+            
+    //      alert($("#currency1").val());
+
+            var opselect = $("#currency1").val();
+            var $currency = $("#currency");
+
+//          $currency.empty();
+
+            vals = data.currency_values.split(",");
+
+            $.each(vals, function(index, value) 
+            {
+                if (opselect == value)
+                {
+                    $currency.append("<option selected>" + value + "</option>");
+                }
+                else
+                {
+                    $currency.append("<option>" + value + "</option>");
+                }
+            });
+        });
+    };
+
+
+
+
+ });	
+</script>
+
+
+
+
+
+
+
+<!--
+
+				
+				<div class="col-xs-12">
+
+
+
+					<div class="form-group">
+						<label for="address">Address</label>
+						<input type="text" id="address" class="form-control" required>
+					</div>
+				</div>
+				<hr>
+				<div class="col-xs-12">
+					<div class="form-group">
+						<label for="card-name">Card Holder Name</label>
+						<input type="text" id="card-name" class="form-control" required>
+					</div>
+				</div>
+				<div class="col-xs-12">
+					<div class="form-group">
+						<label for="card-number">Credit Card Number</label>
+						<input type="text" id="card-number" class="form-control" required>
+					</div>
+				</div>
+				<div class="col-xs-12">
+					<div class="row">
+						<div class="col-xs-6">
+							<div class="form-group">
+								<label for="card-expiry-month">Expiration Month</label>
+								<input type="text" id="card-expiry-month" class="form-control" required>
+							</div>
+						</div>
+						<div class="col-xs-6">
+							<div class="form-group">
+								<label for="card-expiry-year">Expiration Year</label>
+								<input type="text" id="card-expiry-year" class="form-control" required>
+							</div>
+						</div>
+
+					</div>
+				</div>
+				<div class="col-xs-12">
+					<div class="form-group">
+						<label for="card-cvc">CVC</label>
+						<input type="text" id="card-cvc" class="form-control" required>
+					</div>
+				</div>
+
+
+-->
+
+
+
+
+<!--
+	<table width="100%" class="table table-striped">
+		<tr>
+			<th class="text-center" width="5%">CeCo</th> 
+			<th class="text-center" width="3%">Nivel</th> 
+			<th class="text-center" width="5%">Aprob</th> 
+			<th width="20%">Proveedor</th>
+			<th class="text-center" width="10%">Fecha</th>
+			<th width="10%">Invoice </th>
+			<th width="10%">Concepto</th>
+			<th width="6%">Monto</th>
+			<th class="text-center" width="6%">Mon</th>
+			<th class="text-center" width="10%">MesServ.</th>
+			<th class="text-center" width="20%"> </th>
+		</tr>
+
+
+		{{# each recdata }}
+			<tr>
+-->			
+	<!--			<td><strong> {{ this.item._id }} </strong></td> 		-->
+<!--				<td class="text-center"><strong>  </strong></td> 		
+				<td class="text-center"><strong> {{ this.costcenter }} </strong></td> 		
+				<td class="text-center"><strong> {{ this.aplevel }}  </strong></td> 
+				<td class="text-center"><strong> {{ this.approver1 }} {{ this.approver2 }} {{ this.approver3 }}</strong></td>
+				<td>					<strong> {{ this.supplier }}  </strong></td>
+				<td class="text-center"><strong> {{ this.fecha }}  </strong></td>
+				<td class="text-center"><strong> {{ this.invoice }}  </strong></td>
+				<td class="text-center"><strong> {{ this.concepto }}  </strong></td>
+				<td class="text-center"><strong> {{ this.amountinvoice }}  </strong></td>
+
+				<td class="text-center"><strong> {{ this.currency }}  </strong></td>
+				<td class="text-center"><strong> {{ this.servicesmonth }}  </strong></td>							
+				<td class="text-center">               
+					<a href="/supplierinvoice_edit:this.item._id"> <span class="badge"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></span></a>
+					<a href="#"> <span class="badge"><i class="fa fa-times" aria-hidden="true"></i></span></a>
+				</td>
+			</tr>
+		{{/each}}  
+
+	<div class="clearfix">
+	     <a href="#" class="btn btn-success pull-left" role="button">Nuevo Doc</a>
+	     <a href="/" class="btn btn-success pull-right" role="button">Salir</a>
+
+	</div>
+-->

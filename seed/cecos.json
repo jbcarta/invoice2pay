@@ -1,0 +1,6686 @@
+[
+  {
+    "Centro de coste": "BLOO9000",
+    "Sociedad": "XU18",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "ACCOUNTING, CONTROL & TREASURY"
+  },
+  {
+    "Centro de coste": "BLOO9007",
+    "Sociedad": "XU18",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "LEGAL"
+  },
+  {
+    "Centro de coste": "BLOO9999",
+    "Sociedad": "XU18",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "INDIRECT"
+  },
+  {
+    "Centro de coste": "CLXN1000",
+    "Sociedad": "XU15",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "CREATIVE"
+  },
+  {
+    "Centro de coste": "CLXN1100",
+    "Sociedad": "XU15",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "CHANNEL MANAGER"
+  },
+  {
+    "Centro de coste": "CLXN1103",
+    "Sociedad": "XU15",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "ORIGINAL PRODUCTION"
+  },
+  {
+    "Centro de coste": "CLXN1106",
+    "Sociedad": "XU15",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "INTERNET DESIGN"
+  },
+  {
+    "Centro de coste": "CLXN2000",
+    "Sociedad": "XU15",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "TECHNICAL"
+  },
+  {
+    "Centro de coste": "CLXN3000",
+    "Sociedad": "XU15",
+    "Responsable": "MATIAS RIGALI",
+    "Descripci�n": "MARKETING"
+  },
+  {
+    "Centro de coste": "CLXN4000",
+    "Sociedad": "XU15",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "ADVERTISING SALES"
+  },
+  {
+    "Centro de coste": "CLXN4100",
+    "Sociedad": "XU15",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SALES"
+  },
+  {
+    "Centro de coste": "CLXN6000",
+    "Sociedad": "XU15",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "OTHER REVENUES"
+  },
+  {
+    "Centro de coste": "CLXN9000",
+    "Sociedad": "XU15",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "OTHER REVENUES"
+  },
+  {
+    "Centro de coste": "CLXN9001",
+    "Sociedad": "XU15",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "ADMINISTRATIVE BUSINESS LINE"
+  },
+  {
+    "Centro de coste": "CLXN9002",
+    "Sociedad": "XU15",
+    "Responsable": "EZEQUIEL PAZ",
+    "Descripci�n": "BOARD OF DIRECTOR"
+  },
+  {
+    "Centro de coste": "CLXN9003",
+    "Sociedad": "XU15",
+    "Responsable": "ROBERTO VIVO",
+    "Descripci�n": "CEO AND CHAIRMAN"
+  },
+  {
+    "Centro de coste": "CLXN9004",
+    "Sociedad": "XU15",
+    "Responsable": "EZEQUIEL PAZ",
+    "Descripci�n": "CFO ANDO CORPORATE FINANCE"
+  },
+  {
+    "Centro de coste": "CLXN9005",
+    "Sociedad": "XU15",
+    "Responsable": "VIIOLETA HERRERO",
+    "Descripci�n": "HUMAN RESOURCES"
+  },
+  {
+    "Centro de coste": "CLXN9006",
+    "Sociedad": "XU15",
+    "Responsable": "EZEQUIEL PAZ",
+    "Descripci�n": "INVESTORIS RELATIONS"
+  },
+  {
+    "Centro de coste": "CLXN9007",
+    "Sociedad": "XU15",
+    "Responsable": "AMAYA ARISTOY",
+    "Descripci�n": "LEGAL"
+  },
+  {
+    "Centro de coste": "CLXN9008",
+    "Sociedad": "XU15",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "PUBLIC RELATIONS"
+  },
+  {
+    "Centro de coste": "CLXN9009",
+    "Sociedad": "XU15",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "INFORMATION TEHCNOLOGY"
+  },
+  {
+    "Centro de coste": "CLXN9101",
+    "Sociedad": "XU15",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "INFRAESTRUCTURE"
+  },
+  {
+    "Centro de coste": "CLXN9999",
+    "Sociedad": "XU15",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "INDIRECT"
+  },
+  {
+    "Centro de coste": "CONT1000",
+    "Sociedad": "XVE1",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "CREATIVE"
+  },
+  {
+    "Centro de coste": "CONT1005",
+    "Sociedad": "XVE1",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "IN JAUS FILMS"
+  },
+  {
+    "Centro de coste": "CONT1006",
+    "Sociedad": "XVE1",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE CREATIVE"
+  },
+  {
+    "Centro de coste": "CONT1100",
+    "Sociedad": "XVE1",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "CHANNEL MANAGER"
+  },
+  {
+    "Centro de coste": "CONT1101",
+    "Sociedad": "XVE1",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "PROGRAMMERS"
+  },
+  {
+    "Centro de coste": "CONT1102",
+    "Sociedad": "XVE1",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "SCHEDULER LOGGER"
+  },
+  {
+    "Centro de coste": "CONT1103",
+    "Sociedad": "XVE1",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "ORIGINAL PRODUCTION"
+  },
+  {
+    "Centro de coste": "CONT1104",
+    "Sociedad": "XVE1",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "ADQUISICION PRODUCTO Y CONTENIDO"
+  },
+  {
+    "Centro de coste": "CONT1105",
+    "Sociedad": "XVE1",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "TRAFFIC"
+  },
+  {
+    "Centro de coste": "CONT1106",
+    "Sociedad": "XVE1",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "INTERNET DESIGN"
+  },
+  {
+    "Centro de coste": "CONT1107",
+    "Sociedad": "XVE1",
+    "Responsable": "Macarena Dellazuana",
+    "Descripci�n": "VOD"
+  },
+  {
+    "Centro de coste": "CONT1108",
+    "Sociedad": "XVE1",
+    "Responsable": "Macarena Dellazuana",
+    "Descripci�n": "OTT"
+  },
+  {
+    "Centro de coste": "CONT1109",
+    "Sociedad": "XVE1",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "ESTUDIOS"
+  },
+  {
+    "Centro de coste": "CONT1110",
+    "Sociedad": "XVE1",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "EDICION"
+  },
+  {
+    "Centro de coste": "CONT1112",
+    "Sociedad": "XVE1",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE PROGRAMING AND PRODUCTION"
+  },
+  {
+    "Centro de coste": "CONT2000",
+    "Sociedad": "XVE1",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "TECNICA"
+  },
+  {
+    "Centro de coste": "CONT2001",
+    "Sociedad": "XVE1",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "TELEPUERTO"
+  },
+  {
+    "Centro de coste": "CONT2003",
+    "Sociedad": "XVE1",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "OPERACIONES"
+  },
+  {
+    "Centro de coste": "CONT2004",
+    "Sociedad": "XVE1",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "COPIADO"
+  },
+  {
+    "Centro de coste": "CONT2005",
+    "Sociedad": "XVE1",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "DOBLAJE Y SUBTITULADO"
+  },
+  {
+    "Centro de coste": "CONT2006",
+    "Sociedad": "XVE1",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "VIDEOTECA"
+  },
+  {
+    "Centro de coste": "CONT2007",
+    "Sociedad": "XVE1",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "MANTENIMIENTO TECNICO"
+  },
+  {
+    "Centro de coste": "CONT2010",
+    "Sociedad": "XVE1",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE PRODUCT RELATIVE"
+  },
+  {
+    "Centro de coste": "CONT3000",
+    "Sociedad": "XVE1",
+    "Responsable": "MATIAS RIGALI",
+    "Descripci�n": "MARKETING"
+  },
+  {
+    "Centro de coste": "CONT3001",
+    "Sociedad": "XVE1",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "RESEARCH"
+  },
+  {
+    "Centro de coste": "CONT3002",
+    "Sociedad": "XVE1",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "MOBILE MARKETING"
+  },
+  {
+    "Centro de coste": "CONT3003",
+    "Sociedad": "XVE1",
+    "Responsable": "NN",
+    "Descripci�n": "CORPORATIVO"
+  },
+  {
+    "Centro de coste": "CONT3004",
+    "Sociedad": "XVE1",
+    "Responsable": "NN",
+    "Descripci�n": "AFFILLATES"
+  },
+  {
+    "Centro de coste": "CONT3005",
+    "Sociedad": "XVE1",
+    "Responsable": "NN",
+    "Descripci�n": "CONSUMER"
+  },
+  {
+    "Centro de coste": "CONT3006",
+    "Sociedad": "XVE1",
+    "Responsable": "NN",
+    "Descripci�n": "TALENT"
+  },
+  {
+    "Centro de coste": "CONT4000",
+    "Sociedad": "XVE1",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "ADVERTISING SALES"
+  },
+  {
+    "Centro de coste": "CONT4001",
+    "Sociedad": "XVE1",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE ADVERTISING SALES"
+  },
+  {
+    "Centro de coste": "CONT4100",
+    "Sociedad": "XVE1",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SALES"
+  },
+  {
+    "Centro de coste": "CONT4101",
+    "Sociedad": "XVE1",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "DECODERS"
+  },
+  {
+    "Centro de coste": "CONT4102",
+    "Sociedad": "XVE1",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "RELACION AFILIADOS"
+  },
+  {
+    "Centro de coste": "CONT4105",
+    "Sociedad": "XVE1",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE AFFILIATES SALES"
+  },
+  {
+    "Centro de coste": "CONT4201",
+    "Sociedad": "XVE1",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "VENTA PRODUCTO Y CONTENIDO"
+  },
+  {
+    "Centro de coste": "CONT4202",
+    "Sociedad": "XVE1",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE OTHER SALES"
+  },
+  {
+    "Centro de coste": "CONT6000",
+    "Sociedad": "XVE1",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "OTHER REVENUES"
+  },
+  {
+    "Centro de coste": "CONT6001",
+    "Sociedad": "XVE1",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "SALES OF EXHIBITIONS"
+  },
+  {
+    "Centro de coste": "CONT6002",
+    "Sociedad": "XVE1",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "ADVERTISING REVENUES"
+  },
+  {
+    "Centro de coste": "CONT6003",
+    "Sociedad": "XVE1",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SUBSCRIBER BASED FEES"
+  },
+  {
+    "Centro de coste": "CONT6004",
+    "Sociedad": "XVE1",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "INTERNET"
+  },
+  {
+    "Centro de coste": "CONT6006",
+    "Sociedad": "XVE1",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE  REVENUES"
+  },
+  {
+    "Centro de coste": "CONT9000",
+    "Sociedad": "XVE1",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "ACCOUNTING CONTROL AND TREASURY"
+  },
+  {
+    "Centro de coste": "CONT9001",
+    "Sociedad": "XVE1",
+    "Responsable": "ALEJANDRO IGLESIA",
+    "Descripci�n": "ADMINISTRATIVE BUSINESS LINE"
+  },
+  {
+    "Centro de coste": "CONT9002",
+    "Sociedad": "XVE1",
+    "Responsable": "EZEQUIEL PAZ",
+    "Descripci�n": "BOARD OF DIRECTORS"
+  },
+  {
+    "Centro de coste": "CONT9003",
+    "Sociedad": "XVE1",
+    "Responsable": "Roberto Vivo",
+    "Descripci�n": "CEO AND CHAIRMAN"
+  },
+  {
+    "Centro de coste": "CONT9005",
+    "Sociedad": "XVE1",
+    "Responsable": "VIOLETA HERRERO",
+    "Descripci�n": "HUMAN RESOURCES"
+  },
+  {
+    "Centro de coste": "CONT9007",
+    "Sociedad": "XVE1",
+    "Responsable": "PABLO IACOVELLO",
+    "Descripci�n": "LEGAL"
+  },
+  {
+    "Centro de coste": "CONT9008",
+    "Sociedad": "XVE1",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "PUBLIC REALTIONS"
+  },
+  {
+    "Centro de coste": "CONT9009",
+    "Sociedad": "XVE1",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "INFROMATION TECHNOLOGY"
+  },
+  {
+    "Centro de coste": "CONT9010",
+    "Sociedad": "XVE1",
+    "Responsable": "Federico Zwiebel",
+    "Descripci�n": "PLANNING"
+  },
+  {
+    "Centro de coste": "CONT9100",
+    "Sociedad": "XVE1",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "COMPRAS"
+  },
+  {
+    "Centro de coste": "CONT9101",
+    "Sociedad": "XVE1",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "MANTENIMIENTO EDIFICIO"
+  },
+  {
+    "Centro de coste": "CONT9999",
+    "Sociedad": "XVE1",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "INDIRECT"
+  },
+  {
+    "Centro de coste": "CXSN1000",
+    "Sociedad": "XA01",
+    "Responsable": "NN",
+    "Descripci�n": "CREATIVE"
+  },
+  {
+    "Centro de coste": "CXSN2000",
+    "Sociedad": "XA01",
+    "Responsable": "NN",
+    "Descripci�n": "TECNICA"
+  },
+  {
+    "Centro de coste": "CXSN2003",
+    "Sociedad": "XA01",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "BROADCAST"
+  },
+  {
+    "Centro de coste": "CXSN3000",
+    "Sociedad": "XA01",
+    "Responsable": "NN",
+    "Descripci�n": "MARKETING"
+  },
+  {
+    "Centro de coste": "CXSN3001",
+    "Sociedad": "XA01",
+    "Responsable": "NN",
+    "Descripci�n": "RESEARCH"
+  },
+  {
+    "Centro de coste": "CXSN4200",
+    "Sociedad": "XA01",
+    "Responsable": "NN",
+    "Descripci�n": "OTHER SALES"
+  },
+  {
+    "Centro de coste": "CXSN6000",
+    "Sociedad": "XA01",
+    "Responsable": "NN",
+    "Descripci�n": "OTHER SALES"
+  },
+  {
+    "Centro de coste": "CXSN9000",
+    "Sociedad": "XA01",
+    "Responsable": "NN",
+    "Descripci�n": "ACCOUNTING, CONTROL AND TREASURY"
+  },
+  {
+    "Centro de coste": "CXSN9001",
+    "Sociedad": "XA01",
+    "Responsable": "NN",
+    "Descripci�n": "ADMINISTRATIVE BUSINESS LINE"
+  },
+  {
+    "Centro de coste": "CXSN9002",
+    "Sociedad": "XA01",
+    "Responsable": "NN",
+    "Descripci�n": "BOARD OF DIRECTORS"
+  },
+  {
+    "Centro de coste": "CXSN9003",
+    "Sociedad": "XA01",
+    "Responsable": "NN",
+    "Descripci�n": "CEO AND CHAIRMAN"
+  },
+  {
+    "Centro de coste": "CXSN9004",
+    "Sociedad": "XA01",
+    "Responsable": "NN",
+    "Descripci�n": "CFO AND CORP FINANCE"
+  },
+  {
+    "Centro de coste": "CXSN9005",
+    "Sociedad": "XA01",
+    "Responsable": "NN",
+    "Descripci�n": "HUMAN RESOURCES"
+  },
+  {
+    "Centro de coste": "CXSN9006",
+    "Sociedad": "XA01",
+    "Responsable": "NN",
+    "Descripci�n": "INVESTOR RELATIONS"
+  },
+  {
+    "Centro de coste": "CXSN9007",
+    "Sociedad": "XA01",
+    "Responsable": "NN",
+    "Descripci�n": "LEGAL"
+  },
+  {
+    "Centro de coste": "CXSN9008",
+    "Sociedad": "XA01",
+    "Responsable": "NN",
+    "Descripci�n": "PUBLIC RELATIONS"
+  },
+  {
+    "Centro de coste": "CXSN9009",
+    "Sociedad": "XA01",
+    "Responsable": "R.Wendnagel",
+    "Descripci�n": "INFORMATION TECHNOLOGY"
+  },
+  {
+    "Centro de coste": "CXSN9100",
+    "Sociedad": "XA01",
+    "Responsable": "NN",
+    "Descripci�n": "COMPRAS"
+  },
+  {
+    "Centro de coste": "CXSN9101",
+    "Sociedad": "XA01",
+    "Responsable": "NN",
+    "Descripci�n": "MANTENIMIENTO EDIFICIO"
+  },
+  {
+    "Centro de coste": "CXSN9999",
+    "Sociedad": "XA01",
+    "Responsable": "NN",
+    "Descripci�n": "INDIRECT"
+  },
+  {
+    "Centro de coste": "DIGI1000",
+    "Sociedad": "XU40",
+    "Responsable": "NN",
+    "Descripci�n": "CREATIVE"
+  },
+  {
+    "Centro de coste": "DIGI1101",
+    "Sociedad": "XU40",
+    "Responsable": "NN",
+    "Descripci�n": "CREATIVE"
+  },
+  {
+    "Centro de coste": "DIGI1101",
+    "Sociedad": "XU40",
+    "Responsable": "NN",
+    "Descripci�n": "PROGRAMMING"
+  },
+  {
+    "Centro de coste": "DIGI1102",
+    "Sociedad": "XU40",
+    "Responsable": "NN",
+    "Descripci�n": "SCHEDULE LOGGER"
+  },
+  {
+    "Centro de coste": "DIGI1103",
+    "Sociedad": "XU40",
+    "Responsable": "NN",
+    "Descripci�n": "ORIGINAL PRODUCTION"
+  },
+  {
+    "Centro de coste": "DIGI1104",
+    "Sociedad": "XU40",
+    "Responsable": "NN",
+    "Descripci�n": "ADQUISICION PRODUCTO Y CONTENIDO"
+  },
+  {
+    "Centro de coste": "DIGI1105",
+    "Sociedad": "XU40",
+    "Responsable": "NN",
+    "Descripci�n": "TRAFFIC"
+  },
+  {
+    "Centro de coste": "DIGI1106",
+    "Sociedad": "XU40",
+    "Responsable": "NN",
+    "Descripci�n": "DIGI1106"
+  },
+  {
+    "Centro de coste": "DIGI1107",
+    "Sociedad": "XU40",
+    "Responsable": "NN",
+    "Descripci�n": "DIGI1107"
+  },
+  {
+    "Centro de coste": "DIGI2000",
+    "Sociedad": "XU40",
+    "Responsable": "NN",
+    "Descripci�n": "TECNICA"
+  },
+  {
+    "Centro de coste": "DIGI2001",
+    "Sociedad": "XU40",
+    "Responsable": "NN",
+    "Descripci�n": "TELEPUERTO"
+  },
+  {
+    "Centro de coste": "DIGI2002",
+    "Sociedad": "XU40",
+    "Responsable": "NN",
+    "Descripci�n": "DIGI2002"
+  },
+  {
+    "Centro de coste": "DIGI3000",
+    "Sociedad": "XU40",
+    "Responsable": "NN",
+    "Descripci�n": "MARKETING"
+  },
+  {
+    "Centro de coste": "DIGI4100",
+    "Sociedad": "XU40",
+    "Responsable": "NN",
+    "Descripci�n": "SALES"
+  },
+  {
+    "Centro de coste": "DIGI4200",
+    "Sociedad": "XU40",
+    "Responsable": "NN",
+    "Descripci�n": "DIGI4200"
+  },
+  {
+    "Centro de coste": "DIGI6000",
+    "Sociedad": "XU40",
+    "Responsable": "NN",
+    "Descripci�n": "OTHER REVENUES"
+  },
+  {
+    "Centro de coste": "DIGI6003",
+    "Sociedad": "XU40",
+    "Responsable": "NN",
+    "Descripci�n": "SUBSCRIBER BASED FEES"
+  },
+  {
+    "Centro de coste": "DIGI9000",
+    "Sociedad": "XU40",
+    "Responsable": "NN",
+    "Descripci�n": "ACCOUNTING CONTROL AND TREASURY"
+  },
+  {
+    "Centro de coste": "DIGI9001",
+    "Sociedad": "XU40",
+    "Responsable": "NN",
+    "Descripci�n": "ADMINSTRATIVE BUSINESS LINE"
+  },
+  {
+    "Centro de coste": "DIGI9005",
+    "Sociedad": "XU40",
+    "Responsable": "NN",
+    "Descripci�n": "HUMAN RESOURCES"
+  },
+  {
+    "Centro de coste": "DIGI9007",
+    "Sociedad": "XU40",
+    "Responsable": "NN",
+    "Descripci�n": "LEGAL"
+  },
+  {
+    "Centro de coste": "DIGI9008",
+    "Sociedad": "XU40",
+    "Responsable": "NN",
+    "Descripci�n": "PUBLIC RELATIONS"
+  },
+  {
+    "Centro de coste": "DIGI9009",
+    "Sociedad": "XU40",
+    "Responsable": "NN",
+    "Descripci�n": "INFORMATION TEHCNOLOGY"
+  },
+  {
+    "Centro de coste": "DIGI9101",
+    "Sociedad": "XU40",
+    "Responsable": "NN",
+    "Descripci�n": "INFRAESTRUCTURE"
+  },
+  {
+    "Centro de coste": "DIGI9999",
+    "Sociedad": "XU40",
+    "Responsable": "NN",
+    "Descripci�n": "INDIRECT"
+  },
+  {
+    "Centro de coste": "DLA1102",
+    "Sociedad": "XU39",
+    "Responsable": "NN",
+    "Descripci�n": "SCHEDULER LOGGER"
+  },
+  {
+    "Centro de coste": "DLA1104",
+    "Sociedad": "XU39",
+    "Responsable": "NN",
+    "Descripci�n": "ADQUISICION PODUCTO Y CONTENIDO"
+  },
+  {
+    "Centro de coste": "DLA1105",
+    "Sociedad": "XU39",
+    "Responsable": "NN",
+    "Descripci�n": "TRAFFIC"
+  },
+  {
+    "Centro de coste": "DLA2000",
+    "Sociedad": "XU39",
+    "Responsable": "NN",
+    "Descripci�n": "TECNICA"
+  },
+  {
+    "Centro de coste": "DLA2001",
+    "Sociedad": "XU39",
+    "Responsable": "NN",
+    "Descripci�n": "TELEPUERTO"
+  },
+  {
+    "Centro de coste": "DLA3000",
+    "Sociedad": "XU39",
+    "Responsable": "NN",
+    "Descripci�n": "MARKETING"
+  },
+  {
+    "Centro de coste": "DLA4100",
+    "Sociedad": "XU39",
+    "Responsable": "NN",
+    "Descripci�n": "SALES"
+  },
+  {
+    "Centro de coste": "DLA6000",
+    "Sociedad": "XU39",
+    "Responsable": "NN",
+    "Descripci�n": "OTHER REVENUES"
+  },
+  {
+    "Centro de coste": "DLA9000",
+    "Sociedad": "XU39",
+    "Responsable": "NN",
+    "Descripci�n": "ACCOUNTING CONTROL AND TREASURY"
+  },
+  {
+    "Centro de coste": "DLA9001",
+    "Sociedad": "XU39",
+    "Responsable": "NN",
+    "Descripci�n": "ADMINISTRATIVE BUSINESS LINE"
+  },
+  {
+    "Centro de coste": "DLA9005",
+    "Sociedad": "XU39",
+    "Responsable": "NN",
+    "Descripci�n": "HUMAN RESOURCES"
+  },
+  {
+    "Centro de coste": "DLA9007",
+    "Sociedad": "XU39",
+    "Responsable": "NN",
+    "Descripci�n": "LEGAL"
+  },
+  {
+    "Centro de coste": "DLA9008",
+    "Sociedad": "XU39",
+    "Responsable": "NN",
+    "Descripci�n": "PUBLIC RELATIONS"
+  },
+  {
+    "Centro de coste": "DLA9009",
+    "Sociedad": "XU39",
+    "Responsable": "NN",
+    "Descripci�n": "INFORMATION TEHCNOLOGY"
+  },
+  {
+    "Centro de coste": "DLA9101",
+    "Sociedad": "XU39",
+    "Responsable": "NN",
+    "Descripci�n": "INFRAESTRUCTURE"
+  },
+  {
+    "Centro de coste": "DLA9999",
+    "Sociedad": "XU39",
+    "Responsable": "NN",
+    "Descripci�n": "INDIRECT"
+  },
+  {
+    "Centro de coste": "DLAA6000",
+    "Sociedad": "XU40",
+    "Responsable": "NN",
+    "Descripci�n": "OTHER REVENUES"
+  },
+  {
+    "Centro de coste": "DLAA6003",
+    "Sociedad": "XU40",
+    "Responsable": "NN",
+    "Descripci�n": "SUBSCRIBER BASED FEE"
+  },
+  {
+    "Centro de coste": "DMUS1000",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "CREATIVE"
+  },
+  {
+    "Centro de coste": "DMUS1005",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "IN JAUS FILMS"
+  },
+  {
+    "Centro de coste": "DMUS1006",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "MOBILE CREATIVE"
+  },
+  {
+    "Centro de coste": "DMUS1100",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "CHANNEL MANAGER"
+  },
+  {
+    "Centro de coste": "DMUS1101",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "PROGRAMMERS"
+  },
+  {
+    "Centro de coste": "DMUS1102",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "SCHEDULER LOGGER"
+  },
+  {
+    "Centro de coste": "DMUS1103",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "ORIGINAL PRODUCTION"
+  },
+  {
+    "Centro de coste": "DMUS1104",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "ADQ. PRODU Y CONTEN."
+  },
+  {
+    "Centro de coste": "DMUS1105",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "TRAFFIC"
+  },
+  {
+    "Centro de coste": "DMUS1106",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "INTERNET DESIGN"
+  },
+  {
+    "Centro de coste": "DMUS1109",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "ESTUDIOS"
+  },
+  {
+    "Centro de coste": "DMUS1110",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "EDICION"
+  },
+  {
+    "Centro de coste": "DMUS1112",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "MOBILE PROG & PRODUC"
+  },
+  {
+    "Centro de coste": "DMUS2000",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "TECNICA"
+  },
+  {
+    "Centro de coste": "DMUS2001",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "TELEPUERTO"
+  },
+  {
+    "Centro de coste": "DMUS2003",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "OPERACIONES"
+  },
+  {
+    "Centro de coste": "DMUS2004",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "COPIADO"
+  },
+  {
+    "Centro de coste": "DMUS2005",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "DOBLAJE SUBTITULADO"
+  },
+  {
+    "Centro de coste": "DMUS2006",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "VIDEOTECA"
+  },
+  {
+    "Centro de coste": "DMUS2007",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "MANTENIMIENTO TEC."
+  },
+  {
+    "Centro de coste": "DMUS2010",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "MOBILE PRODUCT RELAT"
+  },
+  {
+    "Centro de coste": "DMUS3000",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "MARKETING"
+  },
+  {
+    "Centro de coste": "DMUS3001",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "RESEARCH"
+  },
+  {
+    "Centro de coste": "DMUS3002",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "MOBILE MARKETING"
+  },
+  {
+    "Centro de coste": "DMUS3003",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "CORPORATIVO"
+  },
+  {
+    "Centro de coste": "DMUS3004",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "AFFILLATES"
+  },
+  {
+    "Centro de coste": "DMUS3005",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "CONSUMER"
+  },
+  {
+    "Centro de coste": "DMUS3006",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "TALENT"
+  },
+  {
+    "Centro de coste": "DMUS4000",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "ADVERTISING SALES"
+  },
+  {
+    "Centro de coste": "DMUS4001",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "MOBILE ADV.SALES"
+  },
+  {
+    "Centro de coste": "DMUS4100",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "SALES"
+  },
+  {
+    "Centro de coste": "DMUS4101",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "DECODERS"
+  },
+  {
+    "Centro de coste": "DMUS4102",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "RELACION AFILIADOS"
+  },
+  {
+    "Centro de coste": "DMUS4105",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "MOBILE AFF.SALES"
+  },
+  {
+    "Centro de coste": "DMUS4201",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "VENTA PROD Y CONT"
+  },
+  {
+    "Centro de coste": "DMUS4202",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "MOBILE OTHER SALES"
+  },
+  {
+    "Centro de coste": "DMUS6000",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "OTHER REVENUES"
+  },
+  {
+    "Centro de coste": "DMUS6001",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "SALES OF EXHIBITIONS"
+  },
+  {
+    "Centro de coste": "DMUS6002",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "ADVERTISING REVENUES"
+  },
+  {
+    "Centro de coste": "DMUS6003",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "SUBSCRIBER BASED FEE"
+  },
+  {
+    "Centro de coste": "DMUS6004",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "INTERNET"
+  },
+  {
+    "Centro de coste": "DMUS6006",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "MOBILE REVENUES"
+  },
+  {
+    "Centro de coste": "DMX6000",
+    "Sociedad": "XU40",
+    "Responsable": "NN",
+    "Descripci�n": "OTHER REVENUES"
+  },
+  {
+    "Centro de coste": "DMX6003",
+    "Sociedad": "XU40",
+    "Responsable": "NN",
+    "Descripci�n": "SUBSCRIBER BASED FEES"
+  },
+  {
+    "Centro de coste": "ESIC1106",
+    "Sociedad": "XSIC",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "INTERNET DESIGN"
+  },
+  {
+    "Centro de coste": "ESIC2000",
+    "Sociedad": "XSIC",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "TECNICA"
+  },
+  {
+    "Centro de coste": "ESIC3000",
+    "Sociedad": "XSIC",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "MARKETING"
+  },
+  {
+    "Centro de coste": "ESIC4100",
+    "Sociedad": "XSIC",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SALES"
+  },
+  {
+    "Centro de coste": "ESIC6000",
+    "Sociedad": "XSIC",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "OTHER REVENUES"
+  },
+  {
+    "Centro de coste": "ESIC6004",
+    "Sociedad": "XSIC",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "INTERNET"
+  },
+  {
+    "Centro de coste": "ESIC9000",
+    "Sociedad": "XSIC",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "ACCOUNTING, CONTROL AND TREASURY"
+  },
+  {
+    "Centro de coste": "ESIC9001",
+    "Sociedad": "XSIC",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "ADM BUSINESS LINE"
+  },
+  {
+    "Centro de coste": "ESIC9002",
+    "Sociedad": "XSIC",
+    "Responsable": "EZEQUIEL PAZ",
+    "Descripci�n": "BOARD OF DIRECTOR"
+  },
+  {
+    "Centro de coste": "ESIC9003",
+    "Sociedad": "XSIC",
+    "Responsable": "EZEQUIEL PAZ",
+    "Descripci�n": "CEO AND CHAIRMAN"
+  },
+  {
+    "Centro de coste": "ESIC9004",
+    "Sociedad": "XSIC",
+    "Responsable": "EZEQUIEL PAZ",
+    "Descripci�n": "CHIEF FINANCIAL OFFICE"
+  },
+  {
+    "Centro de coste": "ESIC9005",
+    "Sociedad": "XSIC",
+    "Responsable": "VIOLETA HERRERO",
+    "Descripci�n": "HUMAN RESOURCES"
+  },
+  {
+    "Centro de coste": "ESIC9007",
+    "Sociedad": "XSIC",
+    "Responsable": "PABLO IACOVELLO",
+    "Descripci�n": "LEGAL"
+  },
+  {
+    "Centro de coste": "ESIC9008",
+    "Sociedad": "XSIC",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "PUBLIC RELATIONS"
+  },
+  {
+    "Centro de coste": "ESIC9009",
+    "Sociedad": "XSIC",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "INFORMATION TECHNOLOGY"
+  },
+  {
+    "Centro de coste": "ESIC9999",
+    "Sociedad": "XSIC",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "INDIRECT"
+  },
+  {
+    "Centro de coste": "ESUS1000",
+    "Sociedad": "XU01",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "CONTENT"
+  },
+  {
+    "Centro de coste": "ESUS2008",
+    "Sociedad": "XU01",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "TECNOLOGIA INTERNET"
+  },
+  {
+    "Centro de coste": "ESUS3000",
+    "Sociedad": "XU01",
+    "Responsable": "MATIAS RIGALI",
+    "Descripci�n": "MARKETING"
+  },
+  {
+    "Centro de coste": "ESUS3001",
+    "Sociedad": "XU01",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "RESEARCH"
+  },
+  {
+    "Centro de coste": "ESUS4000",
+    "Sociedad": "XU01",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "ADVERTISING SALES"
+  },
+  {
+    "Centro de coste": "ESUS6000",
+    "Sociedad": "XU01",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "OTHER REVENUES"
+  },
+  {
+    "Centro de coste": "ESUS6001",
+    "Sociedad": "XU01",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "SALES OF EXHIBITIONS"
+  },
+  {
+    "Centro de coste": "ESUS6002",
+    "Sociedad": "XU01",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "ADVERTISING REVENUES"
+  },
+  {
+    "Centro de coste": "ESUS6003",
+    "Sociedad": "XU01",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SUBSCRIBER BASED FEES"
+  },
+  {
+    "Centro de coste": "ESUS6004",
+    "Sociedad": "XU01",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "INTERNET"
+  },
+  {
+    "Centro de coste": "G-CH1000",
+    "Sociedad": "XVE1",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "CREATIVE"
+  },
+  {
+    "Centro de coste": "G-CH1006",
+    "Sociedad": "XVE1",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE CREATIVE"
+  },
+  {
+    "Centro de coste": "G-CH1100",
+    "Sociedad": "XVE1",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "CHANNEL MANAGER"
+  },
+  {
+    "Centro de coste": "G-CH1101",
+    "Sociedad": "XVE1",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "PROGRAMMERS"
+  },
+  {
+    "Centro de coste": "G-CH1102",
+    "Sociedad": "XVE1",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "SCHEDULER LOGGER"
+  },
+  {
+    "Centro de coste": "G-CH1103",
+    "Sociedad": "XVE1",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "ORIGINAL PRODUCTION"
+  },
+  {
+    "Centro de coste": "G-CH1104",
+    "Sociedad": "XVE1",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "ADQUISICION PRODUCTO Y CONTENIDO"
+  },
+  {
+    "Centro de coste": "G-CH1105",
+    "Sociedad": "XVE1",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "TRAFFIC"
+  },
+  {
+    "Centro de coste": "G-CH1106",
+    "Sociedad": "XVE1",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "INTERNET DESIGN"
+  },
+  {
+    "Centro de coste": "G-CH1109",
+    "Sociedad": "XVE1",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "ESTUDIOS"
+  },
+  {
+    "Centro de coste": "G-CH1110",
+    "Sociedad": "XVE1",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "EDICION"
+  },
+  {
+    "Centro de coste": "G-CH1112",
+    "Sociedad": "XVE1",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE PROGRAMING AND PRODUCTION"
+  },
+  {
+    "Centro de coste": "G-CH2000",
+    "Sociedad": "XVE1",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "TECNICA"
+  },
+  {
+    "Centro de coste": "G-CH2001",
+    "Sociedad": "XVE1",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "TELEPUERTO"
+  },
+  {
+    "Centro de coste": "G-CH2003",
+    "Sociedad": "XVE1",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "OPERACIONES"
+  },
+  {
+    "Centro de coste": "G-CH2004",
+    "Sociedad": "XVE1",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "COPIADO"
+  },
+  {
+    "Centro de coste": "G-CH2005",
+    "Sociedad": "XVE1",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "DOBLAJE Y SUBTITULADO"
+  },
+  {
+    "Centro de coste": "G-CH2006",
+    "Sociedad": "XVE1",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "VIDEOTECA"
+  },
+  {
+    "Centro de coste": "G-CH2007",
+    "Sociedad": "XVE1",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "MANTENIMIENTO TECNICO"
+  },
+  {
+    "Centro de coste": "G-CH2010",
+    "Sociedad": "XVE1",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE PRODUCT RELATIVE"
+  },
+  {
+    "Centro de coste": "G-CH3000",
+    "Sociedad": "XVE1",
+    "Responsable": "MATIAS RIGALI",
+    "Descripci�n": "MARKETING"
+  },
+  {
+    "Centro de coste": "G-CH3001",
+    "Sociedad": "XVE1",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "RESEARCH"
+  },
+  {
+    "Centro de coste": "G-CH3002",
+    "Sociedad": "XVE1",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE MARKETNG"
+  },
+  {
+    "Centro de coste": "G-CH4000",
+    "Sociedad": "XVE1",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "ADVERTISING SALES"
+  },
+  {
+    "Centro de coste": "G-CH4001",
+    "Sociedad": "XVE1",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE ADVERTISING SALES"
+  },
+  {
+    "Centro de coste": "G-CH4100",
+    "Sociedad": "XVE1",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SALES"
+  },
+  {
+    "Centro de coste": "G-CH4101",
+    "Sociedad": "XVE1",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "DECODERS"
+  },
+  {
+    "Centro de coste": "G-CH4102",
+    "Sociedad": "XVE1",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "RELACION AFILIADOS"
+  },
+  {
+    "Centro de coste": "G-CH4105",
+    "Sociedad": "XVE1",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE AFFILIATES SALES"
+  },
+  {
+    "Centro de coste": "G-CH4201",
+    "Sociedad": "XVE1",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "VENTA PRODUCTO Y CONTENIDO"
+  },
+  {
+    "Centro de coste": "G-CH4202",
+    "Sociedad": "XVE1",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "MOBILE OTHER SALES"
+  },
+  {
+    "Centro de coste": "G-CH6000",
+    "Sociedad": "XVE1",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "OTHER REVENUES"
+  },
+  {
+    "Centro de coste": "G-CH6001",
+    "Sociedad": "XVE1",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "SALES OF EXHIBITIONS"
+  },
+  {
+    "Centro de coste": "G-CH6002",
+    "Sociedad": "XVE1",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "ADVERTISING REVENUES"
+  },
+  {
+    "Centro de coste": "G-CH6003",
+    "Sociedad": "XVE1",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SUSCRIBER BASED FEES"
+  },
+  {
+    "Centro de coste": "G-CH6004",
+    "Sociedad": "XVE1",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "INTERNET"
+  },
+  {
+    "Centro de coste": "G-CH6006",
+    "Sociedad": "XVE1",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE REVENUES"
+  },
+  {
+    "Centro de coste": "GCHA4201",
+    "Sociedad": "XU12",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "VENTA PRODUCTO Y CONTENIDO"
+  },
+  {
+    "Centro de coste": "GCHA4202",
+    "Sociedad": "XU12",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE OTHER SALES"
+  },
+  {
+    "Centro de coste": "GCHA6000",
+    "Sociedad": "XU12",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "OTHER REVENUES"
+  },
+  {
+    "Centro de coste": "GCHA6001",
+    "Sociedad": "XU12",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "SALES OF EXHIBITONS"
+  },
+  {
+    "Centro de coste": "GCHA6002",
+    "Sociedad": "XU12",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "ADVERTISING REVENUES"
+  },
+  {
+    "Centro de coste": "GCHA6003",
+    "Sociedad": "XU12",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SUBSCRIBER BASED FEES"
+  },
+  {
+    "Centro de coste": "GCHA6004",
+    "Sociedad": "XU12",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "INTERNET"
+  },
+  {
+    "Centro de coste": "GCHA6006",
+    "Sociedad": "XU12",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE REVENUES"
+  },
+  {
+    "Centro de coste": "GCHN1000",
+    "Sociedad": "XVE2",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "CREATIVE"
+  },
+  {
+    "Centro de coste": "GCHN1006",
+    "Sociedad": "XVE2",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE CREATIVE"
+  },
+  {
+    "Centro de coste": "GCHN1100",
+    "Sociedad": "XVE2",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "CHANNEL MANAGER"
+  },
+  {
+    "Centro de coste": "GCHN1101",
+    "Sociedad": "XVE2",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "PROGRAMMERS"
+  },
+  {
+    "Centro de coste": "GCHN1102",
+    "Sociedad": "XVE2",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "SCHEDULER LOGGER"
+  },
+  {
+    "Centro de coste": "GCHN1103",
+    "Sociedad": "XVE2",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "ORIGINAL PRODUCTION"
+  },
+  {
+    "Centro de coste": "GCHN1104",
+    "Sociedad": "XVE2",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "ADQUSICION PRODUCTO Y CONTENIDO"
+  },
+  {
+    "Centro de coste": "GCHN1105",
+    "Sociedad": "XVE2",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "TRAFFIC"
+  },
+  {
+    "Centro de coste": "GCHN1106",
+    "Sociedad": "XVE2",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "INTERNET DESIGN"
+  },
+  {
+    "Centro de coste": "GCHN1109",
+    "Sociedad": "XVE2",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "ESTUDIOS"
+  },
+  {
+    "Centro de coste": "GCHN1110",
+    "Sociedad": "XVE2",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "EDICION"
+  },
+  {
+    "Centro de coste": "GCHN1112",
+    "Sociedad": "XVE2",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "MOBILE PROGRAMMING AND PRODUCTION"
+  },
+  {
+    "Centro de coste": "GCHN2000",
+    "Sociedad": "XVE2",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "TECNICA"
+  },
+  {
+    "Centro de coste": "GCHN2001",
+    "Sociedad": "XVE2",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "TELEPUERTO"
+  },
+  {
+    "Centro de coste": "GCHN2003",
+    "Sociedad": "XVE2",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "OPERACIONES"
+  },
+  {
+    "Centro de coste": "GCHN2004",
+    "Sociedad": "XVE2",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "COPIADO"
+  },
+  {
+    "Centro de coste": "GCHN2005",
+    "Sociedad": "XVE2",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "DOBLAJE SUBTITULADO"
+  },
+  {
+    "Centro de coste": "GCHN2006",
+    "Sociedad": "XVE2",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "VIDEOTECA"
+  },
+  {
+    "Centro de coste": "GCHN2007",
+    "Sociedad": "XVE2",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "MANTENIMIENTO TECNICO"
+  },
+  {
+    "Centro de coste": "GCHN2010",
+    "Sociedad": "XVE2",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "MOBILE PRODUCT RELATIVE"
+  },
+  {
+    "Centro de coste": "GCHN3000",
+    "Sociedad": "XVE2",
+    "Responsable": "MATIAS RIGALI",
+    "Descripci�n": "MARKETING"
+  },
+  {
+    "Centro de coste": "GCHN3001",
+    "Sociedad": "XVE2",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "RESEARCH"
+  },
+  {
+    "Centro de coste": "GCHN3002",
+    "Sociedad": "XVE2",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE MARKETING"
+  },
+  {
+    "Centro de coste": "GCHN4000",
+    "Sociedad": "XVE2",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "ADVERTISING SALES"
+  },
+  {
+    "Centro de coste": "GCHN4001",
+    "Sociedad": "XVE2",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE ADVERTISING SALES"
+  },
+  {
+    "Centro de coste": "GCHN4100",
+    "Sociedad": "XVE2",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SALES"
+  },
+  {
+    "Centro de coste": "GCHN4101",
+    "Sociedad": "XVE2",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "DECODERS"
+  },
+  {
+    "Centro de coste": "GCHN4102",
+    "Sociedad": "XVE2",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "RELACION AFILIADOS"
+  },
+  {
+    "Centro de coste": "GCHN4105",
+    "Sociedad": "XVE2",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE AFF.SALES"
+  },
+  {
+    "Centro de coste": "GCHN4201",
+    "Sociedad": "XVE2",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "VENTA PROD Y CONTE"
+  },
+  {
+    "Centro de coste": "GCHN4202",
+    "Sociedad": "XVE2",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE OTHER SALES"
+  },
+  {
+    "Centro de coste": "GCHN6000",
+    "Sociedad": "XVE2",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "OTHER REVENUE"
+  },
+  {
+    "Centro de coste": "GCHN6001",
+    "Sociedad": "XVE2",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "SALES OF EXHIBITIONS"
+  },
+  {
+    "Centro de coste": "GCHN6002",
+    "Sociedad": "XVE2",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "ADVERTISING  REVENUES"
+  },
+  {
+    "Centro de coste": "GCHN6003",
+    "Sociedad": "XVE2",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SUBSCRIBER BASED FEES"
+  },
+  {
+    "Centro de coste": "GCHN6004",
+    "Sociedad": "XVE2",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "INTERNET"
+  },
+  {
+    "Centro de coste": "GCHN6006",
+    "Sociedad": "XVE2",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE  REVENUE"
+  },
+  {
+    "Centro de coste": "GHLA4100",
+    "Sociedad": "XU06",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SALES"
+  },
+  {
+    "Centro de coste": "GHLA4105",
+    "Sociedad": "XU06",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE AFFILIATE SALES"
+  },
+  {
+    "Centro de coste": "GHLA4201",
+    "Sociedad": "XU06",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "VENTA PRODUCTO Y CONTENIDO"
+  },
+  {
+    "Centro de coste": "GHLA4202",
+    "Sociedad": "XU06",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE OTHER SALES"
+  },
+  {
+    "Centro de coste": "GHLA6000",
+    "Sociedad": "XU06",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "OTHER REVENUES"
+  },
+  {
+    "Centro de coste": "GHLA6001",
+    "Sociedad": "XU06",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "SALES OF EXHIBITIONS"
+  },
+  {
+    "Centro de coste": "GHLA6002",
+    "Sociedad": "XU06",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "ADVERTISING REVENUES"
+  },
+  {
+    "Centro de coste": "GHLA6003",
+    "Sociedad": "XU06",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SUBSCRIBER BASED FEES"
+  },
+  {
+    "Centro de coste": "GHLA6004",
+    "Sociedad": "XU06",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "INTERNET"
+  },
+  {
+    "Centro de coste": "GHLA6006",
+    "Sociedad": "XU06",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE REVENUES"
+  },
+  {
+    "Centro de coste": "INF6000",
+    "Sociedad": "XU40",
+    "Responsable": "NN",
+    "Descripci�n": "OTHER REVENUES"
+  },
+  {
+    "Centro de coste": "INF6003",
+    "Sociedad": "XU40",
+    "Responsable": "NN",
+    "Descripci�n": "SUBSCRIBER BASED FEES"
+  },
+  {
+    "Centro de coste": "KICA2005",
+    "Sociedad": "XU02",
+    "Responsable": "JOSE ANTONIO ITUARTE",
+    "Descripci�n": "DUBBING"
+  },
+  {
+    "Centro de coste": "KICA2008",
+    "Sociedad": "XU02",
+    "Responsable": "JOSE ANTONIO ITUARTE",
+    "Descripci�n": "SUBTITLING"
+  },
+  {
+    "Centro de coste": "KICA2009",
+    "Sociedad": "XU02",
+    "Responsable": "NN",
+    "Descripci�n": "TRANSLATION COPY"
+  },
+  {
+    "Centro de coste": "KICA7003",
+    "Sociedad": "XU02",
+    "Responsable": "JOSE ANTONIO ITUARTE",
+    "Descripci�n": "DUBBING"
+  },
+  {
+    "Centro de coste": "KICA7004",
+    "Sociedad": "XU02",
+    "Responsable": "JOSE ANTONIO ITUARTE",
+    "Descripci�n": "SUBTITLING"
+  },
+  {
+    "Centro de coste": "KICA7005",
+    "Sociedad": "XU02",
+    "Responsable": "NN",
+    "Descripci�n": "TRANSLATION COPY"
+  },
+  {
+    "Centro de coste": "KIEN2005",
+    "Sociedad": "XU02",
+    "Responsable": "JOSE ANTONIO ITUARTE",
+    "Descripci�n": "DUBBING"
+  },
+  {
+    "Centro de coste": "KIEN2008",
+    "Sociedad": "XU02",
+    "Responsable": "JOSE ANTONIO ITUARTE",
+    "Descripci�n": "SUBTITLING"
+  },
+  {
+    "Centro de coste": "KIEN2009",
+    "Sociedad": "XU02",
+    "Responsable": "NN",
+    "Descripci�n": "TRANSLATION COPY"
+  },
+  {
+    "Centro de coste": "KIEN7003",
+    "Sociedad": "XU02",
+    "Responsable": "JOSE ANTONIO ITUARTE",
+    "Descripci�n": "DUBBING"
+  },
+  {
+    "Centro de coste": "KIEN7004",
+    "Sociedad": "XU02",
+    "Responsable": "JOSE ANTONIO ITUARTE",
+    "Descripci�n": "SUBTITLING"
+  },
+  {
+    "Centro de coste": "KIEN7005",
+    "Sociedad": "XU02",
+    "Responsable": "JOSE ANTONIO ITUARTE",
+    "Descripci�n": "SUBTITLING"
+  },
+  {
+    "Centro de coste": "KIES2005",
+    "Sociedad": "XU02",
+    "Responsable": "JOSE ANTONIO ITUARTE",
+    "Descripci�n": "DUBBING"
+  },
+  {
+    "Centro de coste": "KIES2008",
+    "Sociedad": "XU02",
+    "Responsable": "JOSE ANTONIO ITUARTE",
+    "Descripci�n": "SUBTITLING"
+  },
+  {
+    "Centro de coste": "KIES2009",
+    "Sociedad": "XU02",
+    "Responsable": "NN",
+    "Descripci�n": "TRANSLATION COPY"
+  },
+  {
+    "Centro de coste": "KIES7003",
+    "Sociedad": "XU02",
+    "Responsable": "JOSE ANTONIO ITUARTE",
+    "Descripci�n": "DUBBING"
+  },
+  {
+    "Centro de coste": "KIES7004",
+    "Sociedad": "XU02",
+    "Responsable": "JOSE ANTONIO ITUARTE",
+    "Descripci�n": "SUBTITLING"
+  },
+  {
+    "Centro de coste": "KIES7005",
+    "Sociedad": "XU02",
+    "Responsable": "NN",
+    "Descripci�n": "TRANSLATION COPY"
+  },
+  {
+    "Centro de coste": "KIOT2005",
+    "Sociedad": "XU02",
+    "Responsable": "JOSE ANTONIO ITUARTE",
+    "Descripci�n": "DUBBING"
+  },
+  {
+    "Centro de coste": "KIOT2008",
+    "Sociedad": "XU02",
+    "Responsable": "JOSE ANTONIO ITUARTE",
+    "Descripci�n": "SUBTITLING"
+  },
+  {
+    "Centro de coste": "KIOT2009",
+    "Sociedad": "XU02",
+    "Responsable": "NN",
+    "Descripci�n": "TRANSLATION COPY"
+  },
+  {
+    "Centro de coste": "KIOT7003",
+    "Sociedad": "XU02",
+    "Responsable": "JOSE ANTONIO ITUARTE",
+    "Descripci�n": "DUBBING"
+  },
+  {
+    "Centro de coste": "KIOT7004",
+    "Sociedad": "XU02",
+    "Responsable": "JOSE ANTONIO ITUARTE",
+    "Descripci�n": "SUBTITLING"
+  },
+  {
+    "Centro de coste": "KIOT7005",
+    "Sociedad": "XU02",
+    "Responsable": "NN",
+    "Descripci�n": "TRANSLATION COPY"
+  },
+  {
+    "Centro de coste": "KIPT2005",
+    "Sociedad": "XU02",
+    "Responsable": "JOSE ANTONIO ITUARTE",
+    "Descripci�n": "DUBBING"
+  },
+  {
+    "Centro de coste": "KIPT2008",
+    "Sociedad": "XU02",
+    "Responsable": "JOSE ANTONIO ITUARTE",
+    "Descripci�n": "SUBTITLING"
+  },
+  {
+    "Centro de coste": "KIPT2009",
+    "Sociedad": "XU02",
+    "Responsable": "NN",
+    "Descripci�n": "TRANSLATION COPY"
+  },
+  {
+    "Centro de coste": "KIPT7003",
+    "Sociedad": "XU02",
+    "Responsable": "JOSE ANTONIO ITUARTE",
+    "Descripci�n": "DUBBING"
+  },
+  {
+    "Centro de coste": "KIPT7004",
+    "Sociedad": "XU02",
+    "Responsable": "JOSE ANTONIO ITUARTE",
+    "Descripci�n": "SUBTITLING"
+  },
+  {
+    "Centro de coste": "KIPT7005",
+    "Sociedad": "XU02",
+    "Responsable": "NN",
+    "Descripci�n": "TRANSLATION COPY"
+  },
+  {
+    "Centro de coste": "KITC1105",
+    "Sociedad": "XU02",
+    "Responsable": "MARYLYN MORENO",
+    "Descripci�n": "TRAFFIC"
+  },
+  {
+    "Centro de coste": "KITC1107",
+    "Sociedad": "XU02",
+    "Responsable": "FRANK NOVO",
+    "Descripci�n": "TRAFFIC"
+  },
+  {
+    "Centro de coste": "KITC1108",
+    "Sociedad": "XU02",
+    "Responsable": "FRANK NOVO",
+    "Descripci�n": "FIBERLINE"
+  },
+  {
+    "Centro de coste": "KITC2001",
+    "Sociedad": "XU02",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "TELEPUERTO"
+  },
+  {
+    "Centro de coste": "KITC2007",
+    "Sociedad": "XU02",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "MANTENANCE TECHNOLOGY"
+  },
+  {
+    "Centro de coste": "KITC3000",
+    "Sociedad": "XU02",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "MARKETING"
+  },
+  {
+    "Centro de coste": "KITC4100",
+    "Sociedad": "XU02",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SALES"
+  },
+  {
+    "Centro de coste": "KITC4200",
+    "Sociedad": "XU02",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "OTHER SALES"
+  },
+  {
+    "Centro de coste": "KITC6000",
+    "Sociedad": "XU02",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "OTHER REVENUES"
+  },
+  {
+    "Centro de coste": "KITC6002",
+    "Sociedad": "XU02",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "ADVERTISING REVENUES"
+  },
+  {
+    "Centro de coste": "KITC6003",
+    "Sociedad": "XU02",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SUBSCRIBER BASED FEES"
+  },
+  {
+    "Centro de coste": "KITC7000",
+    "Sociedad": "XU02",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "PLAYBACK"
+  },
+  {
+    "Centro de coste": "KITC7001",
+    "Sociedad": "XU02",
+    "Responsable": "JOSE ANTONIO MARTINE",
+    "Descripci�n": "FIBERLINE"
+  },
+  {
+    "Centro de coste": "KITC7002",
+    "Sociedad": "XU02",
+    "Responsable": "JOSE ANTONIO MARTINE",
+    "Descripci�n": "TRAFFIC"
+  },
+  {
+    "Centro de coste": "KITC9000",
+    "Sociedad": "XU02",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "ACCOUNTING CONTROL TREASURY"
+  },
+  {
+    "Centro de coste": "KITC9005",
+    "Sociedad": "XU02",
+    "Responsable": "VIIOLETA HERRERO",
+    "Descripci�n": "HUMAN RESOURCES"
+  },
+  {
+    "Centro de coste": "KITC9009",
+    "Sociedad": "XU02",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "INFORMATION TEHCNOLOGY"
+  },
+  {
+    "Centro de coste": "KITC9101",
+    "Sociedad": "XU02",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "INFRAESTRUCTURE"
+  },
+  {
+    "Centro de coste": "KITC9999",
+    "Sociedad": "XU02",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "INDIRECT"
+  },
+  {
+    "Centro de coste": "LAIC1000",
+    "Sociedad": "XU11",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "CREATIVE"
+  },
+  {
+    "Centro de coste": "LAIC1102",
+    "Sociedad": "XU11",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "SCHEDULER LOGGER"
+  },
+  {
+    "Centro de coste": "LAIC1103",
+    "Sociedad": "XU11",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "ORIGINAL PRODUCTION"
+  },
+  {
+    "Centro de coste": "LAIC1104",
+    "Sociedad": "XU11",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "ADQUISICION DE PRODUCTO Y CONTENIDO"
+  },
+  {
+    "Centro de coste": "LAIC1105",
+    "Sociedad": "XU11",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "TRAFFIC"
+  },
+  {
+    "Centro de coste": "LAIC2001",
+    "Sociedad": "XU11",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "TELEPUERTO"
+  },
+  {
+    "Centro de coste": "LAIC3000",
+    "Sociedad": "XU11",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "MARKETING"
+  },
+  {
+    "Centro de coste": "LAIC4000",
+    "Sociedad": "XU11",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "ADVERTISING SALES"
+  },
+  {
+    "Centro de coste": "LAIC4100",
+    "Sociedad": "XU11",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "SALES"
+  },
+  {
+    "Centro de coste": "LAIC4201",
+    "Sociedad": "XU11",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "VENTA DE PRODUCTO Y CONTENIDO"
+  },
+  {
+    "Centro de coste": "LAIC6000",
+    "Sociedad": "XU11",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "OTHER REVENUES"
+  },
+  {
+    "Centro de coste": "LAIC6002",
+    "Sociedad": "XU11",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "ADVERTISING REVENUES"
+  },
+  {
+    "Centro de coste": "LAIC6003",
+    "Sociedad": "XU11",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "SUBSCRIBER BASED FEES"
+  },
+  {
+    "Centro de coste": "LAIC9008",
+    "Sociedad": "XU11",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "PUBLIC RELATION"
+  },
+  {
+    "Centro de coste": "LAIC9999",
+    "Sociedad": "XU11",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "INDIRECT"
+  },
+  {
+    "Centro de coste": "LAKE9000",
+    "Sociedad": "XU25",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "ACCOUNTING, CONTROL AND TREASURY"
+  },
+  {
+    "Centro de coste": "LAKE9007",
+    "Sociedad": "XU25",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "LEGAL"
+  },
+  {
+    "Centro de coste": "LAKE9999",
+    "Sociedad": "XU25",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "INDIRECT"
+  },
+  {
+    "Centro de coste": "LIBV6000",
+    "Sociedad": "XU12",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "OTHER REVENUES"
+  },
+  {
+    "Centro de coste": "LIBV6001",
+    "Sociedad": "XU12",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "SALES OF EXHIBITIONS"
+  },
+  {
+    "Centro de coste": "LIBV6002",
+    "Sociedad": "XU12",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "ADVERTISING REVENUES"
+  },
+  {
+    "Centro de coste": "LIBV6003",
+    "Sociedad": "XU12",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SUBSCRIBER BASED FEES"
+  },
+  {
+    "Centro de coste": "LIBV6004",
+    "Sociedad": "XU12",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "INTERNET"
+  },
+  {
+    "Centro de coste": "LIBV6006",
+    "Sociedad": "XU12",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE  REVENUES"
+  },
+  {
+    "Centro de coste": "LICO6000",
+    "Sociedad": "XVE1",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "OTHER REVENUES"
+  },
+  {
+    "Centro de coste": "LICO6001",
+    "Sociedad": "XVE1",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "SALES OF EXHIBITIONS"
+  },
+  {
+    "Centro de coste": "LICO6002",
+    "Sociedad": "XVE1",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "ADVERTISING REVENUES"
+  },
+  {
+    "Centro de coste": "LICO6003",
+    "Sociedad": "XVE1",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SUBSCRIBER BASED FEES"
+  },
+  {
+    "Centro de coste": "LICO6004",
+    "Sociedad": "XVE1",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "INTERNET"
+  },
+  {
+    "Centro de coste": "LICO6006",
+    "Sociedad": "XVE1",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE  REVENUES"
+  },
+  {
+    "Centro de coste": "LIFE1000",
+    "Sociedad": "XVE1",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "CREATIVE"
+  },
+  {
+    "Centro de coste": "LIFE1006",
+    "Sociedad": "XVE1",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE CREATIVE"
+  },
+  {
+    "Centro de coste": "LIFE1100",
+    "Sociedad": "XVE1",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "CHANNEL MANAGER"
+  },
+  {
+    "Centro de coste": "LIFE1101",
+    "Sociedad": "XVE1",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "PROGRAMMERS"
+  },
+  {
+    "Centro de coste": "LIFE1102",
+    "Sociedad": "XVE1",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "SCHEDULER LOGGER"
+  },
+  {
+    "Centro de coste": "LIFE1103",
+    "Sociedad": "XVE1",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "ORIGINAL PRODUCTION"
+  },
+  {
+    "Centro de coste": "LIFE1104",
+    "Sociedad": "XVE1",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "ADQUISICION PRODUCTO Y CONTENIDO"
+  },
+  {
+    "Centro de coste": "LIFE1105",
+    "Sociedad": "XVE1",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "TRAFFIC"
+  },
+  {
+    "Centro de coste": "LIFE1106",
+    "Sociedad": "XVE1",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "INTERNET DESIGN"
+  },
+  {
+    "Centro de coste": "LIFE1109",
+    "Sociedad": "XVE1",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "ESTUDIOS"
+  },
+  {
+    "Centro de coste": "LIFE1110",
+    "Sociedad": "XVE1",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "EDICION"
+  },
+  {
+    "Centro de coste": "LIFE1112",
+    "Sociedad": "XVE1",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE PROGRAMING & PRODUCTION"
+  },
+  {
+    "Centro de coste": "LIFE2000",
+    "Sociedad": "XVE1",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "TECNICA"
+  },
+  {
+    "Centro de coste": "LIFE2001",
+    "Sociedad": "XVE1",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "TELEPUERTO"
+  },
+  {
+    "Centro de coste": "LIFE2003",
+    "Sociedad": "XVE1",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "OPERACIONES"
+  },
+  {
+    "Centro de coste": "LIFE2004",
+    "Sociedad": "XVE1",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "COPIADO"
+  },
+  {
+    "Centro de coste": "LIFE2005",
+    "Sociedad": "XVE1",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "DOBLAJE Y SUBTITULADO"
+  },
+  {
+    "Centro de coste": "LIFE2006",
+    "Sociedad": "XVE1",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "VIDEOTECA"
+  },
+  {
+    "Centro de coste": "LIFE2007",
+    "Sociedad": "XVE1",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "MANTENIMIENTO TECNOLOGICO"
+  },
+  {
+    "Centro de coste": "LIFE2010",
+    "Sociedad": "XVE1",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE PRODUCT RELATIVE"
+  },
+  {
+    "Centro de coste": "LIFE3000",
+    "Sociedad": "XVE1",
+    "Responsable": "MATIAS RIGALI",
+    "Descripci�n": "MARKETING"
+  },
+  {
+    "Centro de coste": "LIFE3001",
+    "Sociedad": "XVE1",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "RESEARCH"
+  },
+  {
+    "Centro de coste": "LIFE3002",
+    "Sociedad": "XVE1",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE MARKETING"
+  },
+  {
+    "Centro de coste": "LIFE4000",
+    "Sociedad": "XVE1",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "ADVERTISING SALES"
+  },
+  {
+    "Centro de coste": "LIFE4001",
+    "Sociedad": "XVE1",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE ADVERTISING SALES"
+  },
+  {
+    "Centro de coste": "LIFE4100",
+    "Sociedad": "XVE1",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SALES"
+  },
+  {
+    "Centro de coste": "LIFE4101",
+    "Sociedad": "XVE1",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "DECODERS"
+  },
+  {
+    "Centro de coste": "LIFE4102",
+    "Sociedad": "XVE1",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "RELACION AFILIADOS"
+  },
+  {
+    "Centro de coste": "LIFE4105",
+    "Sociedad": "XVE1",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE AFF.SALES"
+  },
+  {
+    "Centro de coste": "LIFE4201",
+    "Sociedad": "XVE1",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "VENTA PRODUCTO Y CONTENIDO"
+  },
+  {
+    "Centro de coste": "LIFE4202",
+    "Sociedad": "XVE1",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBIILE OTHER SALES"
+  },
+  {
+    "Centro de coste": "LIFF6000",
+    "Sociedad": "XU19",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "OTHERE REVENUES"
+  },
+  {
+    "Centro de coste": "LIFF9000",
+    "Sociedad": "XU19",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "ACCOUNTING, CONTROL & TREASURY"
+  },
+  {
+    "Centro de coste": "LIFF9007",
+    "Sociedad": "XU19",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "LEGAL"
+  },
+  {
+    "Centro de coste": "LIFF9999",
+    "Sociedad": "XU19",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "INDIRECT"
+  },
+  {
+    "Centro de coste": "LILA6000",
+    "Sociedad": "XU06",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "OTHER REVENUES"
+  },
+  {
+    "Centro de coste": "LILA6001",
+    "Sociedad": "XU06",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "SALES OF EXHIBITIONS"
+  },
+  {
+    "Centro de coste": "LILA6002",
+    "Sociedad": "XU06",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "ADVERTISING REVENUES"
+  },
+  {
+    "Centro de coste": "LILA6003",
+    "Sociedad": "XU06",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SUBSCRIBER BASED FEES"
+  },
+  {
+    "Centro de coste": "LILA6004",
+    "Sociedad": "XU06",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "INTERNET"
+  },
+  {
+    "Centro de coste": "LILA6006",
+    "Sociedad": "XU06",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE  REVENUES"
+  },
+  {
+    "Centro de coste": "LITV6000",
+    "Sociedad": "XA02",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "OTHER REVENUES"
+  },
+  {
+    "Centro de coste": "LITV6001",
+    "Sociedad": "XA02",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "SALES OF EXHIBITIONS"
+  },
+  {
+    "Centro de coste": "LITV6002",
+    "Sociedad": "XA02",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "ADVERTISING REVENUES"
+  },
+  {
+    "Centro de coste": "LITV6003",
+    "Sociedad": "XA02",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SUBSCRIBER BASED FEES"
+  },
+  {
+    "Centro de coste": "LITV6004",
+    "Sociedad": "XA02",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "INTERNET"
+  },
+  {
+    "Centro de coste": "LITV6006",
+    "Sociedad": "XA02",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE  REVENUES"
+  },
+  {
+    "Centro de coste": "LIVE6000",
+    "Sociedad": "XVE2",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "OTHER REVENUES"
+  },
+  {
+    "Centro de coste": "LIVE6001",
+    "Sociedad": "XVE2",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "SALES OF EXHIBITIONS"
+  },
+  {
+    "Centro de coste": "LIVE6002",
+    "Sociedad": "XVE2",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "ADVERTISING REVENUES"
+  },
+  {
+    "Centro de coste": "LIVE6003",
+    "Sociedad": "XVE2",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SUBSCRIBER BASED FEES"
+  },
+  {
+    "Centro de coste": "LIVE6004",
+    "Sociedad": "XVE2",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "INTERNET"
+  },
+  {
+    "Centro de coste": "LIVE6006",
+    "Sociedad": "XVE2",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE  REVENUES"
+  },
+  {
+    "Centro de coste": "MILLS4100",
+    "Sociedad": "XU16",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "SALES"
+  },
+  {
+    "Centro de coste": "MILLS9000",
+    "Sociedad": "XU16",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "ACCOUNTING, CONTROL & TREASURY"
+  },
+  {
+    "Centro de coste": "MILLS9007",
+    "Sociedad": "XU16",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "LEGAL"
+  },
+  {
+    "Centro de coste": "MILLS9999",
+    "Sociedad": "XU16",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "INDIRECT"
+  },
+  {
+    "Centro de coste": "MORE6000",
+    "Sociedad": "XU17",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "OTHER REVENUES"
+  },
+  {
+    "Centro de coste": "MORE9000",
+    "Sociedad": "XU17",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "ACCOUNTING, CONTROL & TREASURY"
+  },
+  {
+    "Centro de coste": "MORE9001",
+    "Sociedad": "XU17",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "ADMINISTRATION BUSINESS LINE"
+  },
+  {
+    "Centro de coste": "MORE9004",
+    "Sociedad": "XU17",
+    "Responsable": "EZEQUIEL PAZ",
+    "Descripci�n": "CFO ANDO CORPORATE FINANCE"
+  },
+  {
+    "Centro de coste": "MORE9007",
+    "Sociedad": "XU17",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "LEGAL"
+  },
+  {
+    "Centro de coste": "MORE9100",
+    "Sociedad": "XU17",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "COMPRAS"
+  },
+  {
+    "Centro de coste": "MORE9999",
+    "Sociedad": "XU17",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "INDIRECT"
+  },
+  {
+    "Centro de coste": "OUTD6000",
+    "Sociedad": "XU40",
+    "Responsable": "NN",
+    "Descripci�n": "OTHER REVENUES"
+  },
+  {
+    "Centro de coste": "OUTD6003",
+    "Sociedad": "XU40",
+    "Responsable": "NN",
+    "Descripci�n": "SUBSCRIBER BASED FEES"
+  },
+  {
+    "Centro de coste": "PBOY1000",
+    "Sociedad": "XA02",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "CREATIVE"
+  },
+  {
+    "Centro de coste": "PBOY1006",
+    "Sociedad": "XA02",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "MOBILE CREATIVE"
+  },
+  {
+    "Centro de coste": "PBOY1100",
+    "Sociedad": "XA02",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "CHANNEL MANAGER"
+  },
+  {
+    "Centro de coste": "PBOY1101",
+    "Sociedad": "XA02",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "PROGRAMMERS"
+  },
+  {
+    "Centro de coste": "PBOY1102",
+    "Sociedad": "XA02",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "SCHEDULE LOGGER"
+  },
+  {
+    "Centro de coste": "PBOY1103",
+    "Sociedad": "XA02",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "ORIGINAL PRODUCTION"
+  },
+  {
+    "Centro de coste": "PBOY1104",
+    "Sociedad": "XA02",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "ADQ. PROD Y CONTEN"
+  },
+  {
+    "Centro de coste": "PBOY1105",
+    "Sociedad": "XA02",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "TRAFFIC"
+  },
+  {
+    "Centro de coste": "PBOY1106",
+    "Sociedad": "XA02",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "INTERNET"
+  },
+  {
+    "Centro de coste": "PBOY1109",
+    "Sociedad": "XA02",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "ESTUDIO"
+  },
+  {
+    "Centro de coste": "PBOY1112",
+    "Sociedad": "XA02",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "MOBILE PROGRAMMING AND PRODUCTION"
+  },
+  {
+    "Centro de coste": "PBOY2000",
+    "Sociedad": "XA02",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "TECNICA"
+  },
+  {
+    "Centro de coste": "PBOY2001",
+    "Sociedad": "XA02",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "TELEPUERTO"
+  },
+  {
+    "Centro de coste": "PBOY2003",
+    "Sociedad": "XA02",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "OPERACIONES"
+  },
+  {
+    "Centro de coste": "PBOY2004",
+    "Sociedad": "XA02",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "COPIADO"
+  },
+  {
+    "Centro de coste": "PBOY2005",
+    "Sociedad": "XA02",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "DOBLAJE Y SUBTITULADO"
+  },
+  {
+    "Centro de coste": "PBOY2006",
+    "Sociedad": "XA02",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "VIDEOTECA"
+  },
+  {
+    "Centro de coste": "PBOY2007",
+    "Sociedad": "XA02",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "MANTEMIENTO TECNICO"
+  },
+  {
+    "Centro de coste": "PBOY2010",
+    "Sociedad": "XA02",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "MOBILE PRODUCT RELATIVE"
+  },
+  {
+    "Centro de coste": "PBOY3000",
+    "Sociedad": "XA02",
+    "Responsable": "MATIAS RIGALI",
+    "Descripci�n": "MARKETING"
+  },
+  {
+    "Centro de coste": "PBOY3002",
+    "Sociedad": "XA02",
+    "Responsable": "MATIAS RIGALI",
+    "Descripci�n": "MOBILE MARKETING"
+  },
+  {
+    "Centro de coste": "PBOY3003",
+    "Sociedad": "XA02",
+    "Responsable": "NN",
+    "Descripci�n": "CORPORATIVO"
+  },
+  {
+    "Centro de coste": "PBOY3004",
+    "Sociedad": "XA02",
+    "Responsable": "NN",
+    "Descripci�n": "AFFILLATES"
+  },
+  {
+    "Centro de coste": "PBOY3005",
+    "Sociedad": "XA02",
+    "Responsable": "NN",
+    "Descripci�n": "CONSUMER"
+  },
+  {
+    "Centro de coste": "PBOY3006",
+    "Sociedad": "XA02",
+    "Responsable": "NN",
+    "Descripci�n": "TALENT"
+  },
+  {
+    "Centro de coste": "PBOY4100",
+    "Sociedad": "XA02",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SALES"
+  },
+  {
+    "Centro de coste": "PBOY4101",
+    "Sociedad": "XA02",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "DECODERS"
+  },
+  {
+    "Centro de coste": "PBOY4105",
+    "Sociedad": "XA02",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "MOBILE AFFILIATE SALES"
+  },
+  {
+    "Centro de coste": "PBOY4201",
+    "Sociedad": "XA02",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "VENTA PRODUCTO Y CONTENIDO"
+  },
+  {
+    "Centro de coste": "PBOY4202",
+    "Sociedad": "XA02",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "MOBIEL OTHER SALES"
+  },
+  {
+    "Centro de coste": "PBOY6000",
+    "Sociedad": "XA02",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "OTHER REVENUES"
+  },
+  {
+    "Centro de coste": "PBOY6001",
+    "Sociedad": "XA02",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SALES OF EXHIBITIONS"
+  },
+  {
+    "Centro de coste": "PBOY6002",
+    "Sociedad": "XA02",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "ADVERTISING REVENUES"
+  },
+  {
+    "Centro de coste": "PBOY6003",
+    "Sociedad": "XA02",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SUBSCRIBER BASED FEES"
+  },
+  {
+    "Centro de coste": "PBOY6004",
+    "Sociedad": "XA02",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "INTERNET"
+  },
+  {
+    "Centro de coste": "PBOY6006",
+    "Sociedad": "XA02",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "MOBILE REVENUES"
+  },
+  {
+    "Centro de coste": "PBOY9000",
+    "Sociedad": "XA02",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "ACCOUNTING CONTROL AND TREASURY"
+  },
+  {
+    "Centro de coste": "PBOY9001",
+    "Sociedad": "XA02",
+    "Responsable": "MARIANO VARELA",
+    "Descripci�n": "ADMINISTRATIVE BUSINESS LINE"
+  },
+  {
+    "Centro de coste": "PBOY9005",
+    "Sociedad": "XA02",
+    "Responsable": "VIOLETA HERREO",
+    "Descripci�n": "HUMAN RESOURCES"
+  },
+  {
+    "Centro de coste": "PBOY9007",
+    "Sociedad": "XA02",
+    "Responsable": "PABLO IACOVELLO",
+    "Descripci�n": "LEGAL"
+  },
+  {
+    "Centro de coste": "PBOY9008",
+    "Sociedad": "XA02",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "PUBLIC RELATIONS"
+  },
+  {
+    "Centro de coste": "PBOY9009",
+    "Sociedad": "XA02",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "INFORMATION TEHCNOLOGY"
+  },
+  {
+    "Centro de coste": "PBOY9101",
+    "Sociedad": "XA02",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "INFRAESTRUCTURE"
+  },
+  {
+    "Centro de coste": "PBOY9999",
+    "Sociedad": "XA02",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "INDIRECT"
+  },
+  {
+    "Centro de coste": "PECO1103",
+    "Sociedad": "XU06",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "ORIGINAL PRODUCTION"
+  },
+  {
+    "Centro de coste": "PECO2000",
+    "Sociedad": "XU06",
+    "Responsable": "FEDERICO ZWIEBEL",
+    "Descripci�n": "TECNICA"
+  },
+  {
+    "Centro de coste": "PECO4100",
+    "Sociedad": "XU06",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SALES"
+  },
+  {
+    "Centro de coste": "PECO4101",
+    "Sociedad": "XU06",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "DECODERS"
+  },
+  {
+    "Centro de coste": "PECO4202",
+    "Sociedad": "XU06",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "MOBILE  OTHER SALES"
+  },
+  {
+    "Centro de coste": "PECO6003",
+    "Sociedad": "XU06",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SUBSCRIBER BASED"
+  },
+  {
+    "Centro de coste": "PECO6006",
+    "Sociedad": "XU06",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "MOBILE REVENUES"
+  },
+  {
+    "Centro de coste": "PENT1103",
+    "Sociedad": "XVE1",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "ORIGINAL PRODUCTION"
+  },
+  {
+    "Centro de coste": "PENT2000",
+    "Sociedad": "XVE1",
+    "Responsable": "FEDERICO ZWIEBEL",
+    "Descripci�n": "TECNICA"
+  },
+  {
+    "Centro de coste": "PENT4100",
+    "Sociedad": "XVE1",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SALES"
+  },
+  {
+    "Centro de coste": "PENT4101",
+    "Sociedad": "XVE1",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "DECODERS"
+  },
+  {
+    "Centro de coste": "PENT4202",
+    "Sociedad": "XVE1",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "MOBILE  OTHER SALES"
+  },
+  {
+    "Centro de coste": "PENT6003",
+    "Sociedad": "XVE1",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SUBSCRIBER BASED"
+  },
+  {
+    "Centro de coste": "PENT6006",
+    "Sociedad": "XVE1",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "MOBILE REVENUES"
+  },
+  {
+    "Centro de coste": "PEPY1103",
+    "Sociedad": "XU12",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "ORIGINAL PRODUCTION"
+  },
+  {
+    "Centro de coste": "PEPY2000",
+    "Sociedad": "XU12",
+    "Responsable": "FEDERICO ZWIEBEL",
+    "Descripci�n": "TECNICA"
+  },
+  {
+    "Centro de coste": "PEPY4100",
+    "Sociedad": "XU12",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SALES"
+  },
+  {
+    "Centro de coste": "PEPY4101",
+    "Sociedad": "XU12",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "DECODERS"
+  },
+  {
+    "Centro de coste": "PEPY4202",
+    "Sociedad": "XU12",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "MOBILE  OTHER SALES"
+  },
+  {
+    "Centro de coste": "PEPY6003",
+    "Sociedad": "XU12",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SUBSCRIBER BASED"
+  },
+  {
+    "Centro de coste": "PEPY6006",
+    "Sociedad": "XU12",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "MOBILE REVENUES"
+  },
+  {
+    "Centro de coste": "PLAY9000",
+    "Sociedad": "XU21",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "ACCOUNTING, CONTROL AND TREASURY"
+  },
+  {
+    "Centro de coste": "PLAY9007",
+    "Sociedad": "XU21",
+    "Responsable": "A DEFINIR",
+    "Descripci�n": "LEGALES"
+  },
+  {
+    "Centro de coste": "PLAY9999",
+    "Sociedad": "XU21",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "INDIRECT"
+  },
+  {
+    "Centro de coste": "PPRIV6000",
+    "Sociedad": "XU41",
+    "Responsable": "NN",
+    "Descripci�n": "OTHER REVENUES"
+  },
+  {
+    "Centro de coste": "PPRIV6002",
+    "Sociedad": "XU41",
+    "Responsable": "NN",
+    "Descripci�n": "ADVERTISING REVENUES"
+  },
+  {
+    "Centro de coste": "PPRIV6003",
+    "Sociedad": "XU41",
+    "Responsable": "NN",
+    "Descripci�n": "SUBSCRIBER BASED FEES"
+  },
+  {
+    "Centro de coste": "PPV1102",
+    "Sociedad": "XU41",
+    "Responsable": "NN",
+    "Descripci�n": "SCHEDULER LOGGER"
+  },
+  {
+    "Centro de coste": "PPV1104",
+    "Sociedad": "XU41",
+    "Responsable": "NN",
+    "Descripci�n": "ADQUISICION PODUCTO Y CONTENIDO"
+  },
+  {
+    "Centro de coste": "PPV1105",
+    "Sociedad": "XU41",
+    "Responsable": "NN",
+    "Descripci�n": "TRAFFIC"
+  },
+  {
+    "Centro de coste": "PPV2000",
+    "Sociedad": "XU41",
+    "Responsable": "NN",
+    "Descripci�n": "TECNICA"
+  },
+  {
+    "Centro de coste": "PPV2001",
+    "Sociedad": "XU41",
+    "Responsable": "NN",
+    "Descripci�n": "TELEPUERTO"
+  },
+  {
+    "Centro de coste": "PPV3000",
+    "Sociedad": "XU41",
+    "Responsable": "NN",
+    "Descripci�n": "MARKETING"
+  },
+  {
+    "Centro de coste": "PPV4100",
+    "Sociedad": "XU41",
+    "Responsable": "NN",
+    "Descripci�n": "SALES"
+  },
+  {
+    "Centro de coste": "PPV6000",
+    "Sociedad": "XU41",
+    "Responsable": "NN",
+    "Descripci�n": "OTHER REVENUES"
+  },
+  {
+    "Centro de coste": "PPV9000",
+    "Sociedad": "XU41",
+    "Responsable": "NN",
+    "Descripci�n": "ACCOUNTING CONTROL AND TREASURY"
+  },
+  {
+    "Centro de coste": "PPV9001",
+    "Sociedad": "XU41",
+    "Responsable": "NN",
+    "Descripci�n": "ADMINISTRATIVE BUSINESS LINE"
+  },
+  {
+    "Centro de coste": "PPV9005",
+    "Sociedad": "XU41",
+    "Responsable": "NN",
+    "Descripci�n": "HUMAN RESOURCES"
+  },
+  {
+    "Centro de coste": "PPV9007",
+    "Sociedad": "XU41",
+    "Responsable": "NN",
+    "Descripci�n": "LEGAL"
+  },
+  {
+    "Centro de coste": "PPV9008",
+    "Sociedad": "XU41",
+    "Responsable": "NN",
+    "Descripci�n": "PUBLIC RELATIONS"
+  },
+  {
+    "Centro de coste": "PPV9009",
+    "Sociedad": "XU41",
+    "Responsable": "NN",
+    "Descripci�n": "INFORMATION TEHCNOLOGY"
+  },
+  {
+    "Centro de coste": "PPV9101",
+    "Sociedad": "XU41",
+    "Responsable": "NN",
+    "Descripci�n": "ACCOUNTING CONTROL AND TREASURY"
+  },
+  {
+    "Centro de coste": "PPV9999",
+    "Sociedad": "XU41",
+    "Responsable": "NN",
+    "Descripci�n": "INDIRECT"
+  },
+  {
+    "Centro de coste": "PPVV6000",
+    "Sociedad": "XU40",
+    "Responsable": "NN",
+    "Descripci�n": "OTHER REVENUES"
+  },
+  {
+    "Centro de coste": "PPVV6003",
+    "Sociedad": "XU40",
+    "Responsable": "NN",
+    "Descripci�n": "SUBSCRIBER BASED FEES"
+  },
+  {
+    "Centro de coste": "PPYBY6000",
+    "Sociedad": "XU41",
+    "Responsable": "NN",
+    "Descripci�n": "OTHER REVENUES"
+  },
+  {
+    "Centro de coste": "PPYBY6002",
+    "Sociedad": "XU41",
+    "Responsable": "NN",
+    "Descripci�n": "ADVERTISING REVENUES"
+  },
+  {
+    "Centro de coste": "PPYBY6003",
+    "Sociedad": "XU41",
+    "Responsable": "NN",
+    "Descripci�n": "SUBSCRIBER BASED FEES"
+  },
+  {
+    "Centro de coste": "PRIC6003",
+    "Sociedad": "XVE1",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SUBSCRIBER BASED FEES"
+  },
+  {
+    "Centro de coste": "PRIG1000",
+    "Sociedad": "XU12",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "CREATIVE"
+  },
+  {
+    "Centro de coste": "PRIG1006",
+    "Sociedad": "XU12",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE CREATIVE"
+  },
+  {
+    "Centro de coste": "PRIG1103",
+    "Sociedad": "XU12",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "ORIGINAL PRODUCTION"
+  },
+  {
+    "Centro de coste": "PRIG1104",
+    "Sociedad": "XU12",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "ADQUISICION PRODUCTO Y CONTENIDO"
+  },
+  {
+    "Centro de coste": "PRIG1109",
+    "Sociedad": "XU12",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "ESTUDIOS"
+  },
+  {
+    "Centro de coste": "PRIG1110",
+    "Sociedad": "XU12",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "EDICION"
+  },
+  {
+    "Centro de coste": "PRIG1112",
+    "Sociedad": "XU12",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE PROGRAMMING AND PRODUCTION"
+  },
+  {
+    "Centro de coste": "PRIG2000",
+    "Sociedad": "XU12",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "TECNICA"
+  },
+  {
+    "Centro de coste": "PRIG2001",
+    "Sociedad": "XU12",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "TELEPUERTO"
+  },
+  {
+    "Centro de coste": "PRIG2005",
+    "Sociedad": "XU12",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "DOBLAJE Y SUBTITULADO"
+  },
+  {
+    "Centro de coste": "PRIG2010",
+    "Sociedad": "XU12",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE PRODUCT RELATIVE"
+  },
+  {
+    "Centro de coste": "PRIG3000",
+    "Sociedad": "XU12",
+    "Responsable": "MATIAS RIGALI",
+    "Descripci�n": "MARKETING"
+  },
+  {
+    "Centro de coste": "PRIG3002",
+    "Sociedad": "XU12",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "MOBIEL MARKETING"
+  },
+  {
+    "Centro de coste": "PRIG4000",
+    "Sociedad": "XU12",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "ADVERTISING SALES"
+  },
+  {
+    "Centro de coste": "PRIG4001",
+    "Sociedad": "XU12",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE ADVERTISING SALES"
+  },
+  {
+    "Centro de coste": "PRIG4100",
+    "Sociedad": "XU12",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SALES"
+  },
+  {
+    "Centro de coste": "PRIG4101",
+    "Sociedad": "XU12",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "DECODERS"
+  },
+  {
+    "Centro de coste": "PRIG4105",
+    "Sociedad": "XU12",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE AFFILIATE SALES"
+  },
+  {
+    "Centro de coste": "PRIG4201",
+    "Sociedad": "XU12",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "VENTA PRODUCTO Y CONTENIDO"
+  },
+  {
+    "Centro de coste": "PRIG4202",
+    "Sociedad": "XU12",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE OTHER SALES"
+  },
+  {
+    "Centro de coste": "PRIG6000",
+    "Sociedad": "XU12",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "OTHER REVENUES"
+  },
+  {
+    "Centro de coste": "PRIG6001",
+    "Sociedad": "XU12",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "SALES OF EXHIBITIONS"
+  },
+  {
+    "Centro de coste": "PRIG6002",
+    "Sociedad": "XU12",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "ADVETISING REVENUES"
+  },
+  {
+    "Centro de coste": "PRIG6003",
+    "Sociedad": "XU12",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SUBSCRIBER BASED FEE"
+  },
+  {
+    "Centro de coste": "PRIG6004",
+    "Sociedad": "XU12",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "INTERNET"
+  },
+  {
+    "Centro de coste": "PRIG6006",
+    "Sociedad": "XU12",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE REVENUES"
+  },
+  {
+    "Centro de coste": "PRIV1000",
+    "Sociedad": "XU06",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "CREATIVE"
+  },
+  {
+    "Centro de coste": "PRIV1006",
+    "Sociedad": "XU06",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE CREATIVE"
+  },
+  {
+    "Centro de coste": "PRIV1103",
+    "Sociedad": "XU06",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "ORGINAL PRODUCTION"
+  },
+  {
+    "Centro de coste": "PRIV1104",
+    "Sociedad": "XU06",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "ADQUISICION PRODUCTO Y CONTENIDO"
+  },
+  {
+    "Centro de coste": "PRIV1109",
+    "Sociedad": "XU06",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "ESTUDIOS"
+  },
+  {
+    "Centro de coste": "PRIV1110",
+    "Sociedad": "XU06",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "EDICION"
+  },
+  {
+    "Centro de coste": "PRIV1112",
+    "Sociedad": "XU06",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE PROGRAMING AND PRODUCTION"
+  },
+  {
+    "Centro de coste": "PRIV2000",
+    "Sociedad": "XU06",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "TECNICA"
+  },
+  {
+    "Centro de coste": "PRIV2001",
+    "Sociedad": "XU06",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "TELEPUERO"
+  },
+  {
+    "Centro de coste": "PRIV2005",
+    "Sociedad": "XU06",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "DOBLAJE SUBTITULADO"
+  },
+  {
+    "Centro de coste": "PRIV2010",
+    "Sociedad": "XU06",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE PRODUCT RELATIVE"
+  },
+  {
+    "Centro de coste": "PRIV3000",
+    "Sociedad": "XU06",
+    "Responsable": "MATIAS RIGALI",
+    "Descripci�n": "MARKETING"
+  },
+  {
+    "Centro de coste": "PRIV3002",
+    "Sociedad": "XU06",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE MARKETING"
+  },
+  {
+    "Centro de coste": "PRIV4000",
+    "Sociedad": "XU06",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "ADVERTISING SALES"
+  },
+  {
+    "Centro de coste": "PRIV4001",
+    "Sociedad": "XU06",
+    "Responsable": "MATIAS RIGALI",
+    "Descripci�n": "MOBILE ADVERTISING SALES"
+  },
+  {
+    "Centro de coste": "PRIV4100",
+    "Sociedad": "XU06",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SALES"
+  },
+  {
+    "Centro de coste": "PRIV4101",
+    "Sociedad": "XU06",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "DECODERS"
+  },
+  {
+    "Centro de coste": "PRIV4105",
+    "Sociedad": "XU06",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "DECODERS"
+  },
+  {
+    "Centro de coste": "PRIV4201",
+    "Sociedad": "XU06",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "VENTA PRODUCTO Y CONTENIDO"
+  },
+  {
+    "Centro de coste": "PRIV4202",
+    "Sociedad": "XU06",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE  OTHER SALES"
+  },
+  {
+    "Centro de coste": "PRIV6000",
+    "Sociedad": "XU06",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "OTHER REVENUES"
+  },
+  {
+    "Centro de coste": "PRIV6001",
+    "Sociedad": "XU06",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "SALES OF EXHIBITIONS"
+  },
+  {
+    "Centro de coste": "PRIV6002",
+    "Sociedad": "XU06",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "ADVERTISING REVENUES"
+  },
+  {
+    "Centro de coste": "PRIV6003",
+    "Sociedad": "XU06",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SUBSCRIBER BASED FEES"
+  },
+  {
+    "Centro de coste": "PRIV6004",
+    "Sociedad": "XU06",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "INTERNET"
+  },
+  {
+    "Centro de coste": "PTV1000",
+    "Sociedad": "XU10",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "CREATIVE"
+  },
+  {
+    "Centro de coste": "PTV1102",
+    "Sociedad": "XU10",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "SCHEDULER LOGGER"
+  },
+  {
+    "Centro de coste": "PTV1103",
+    "Sociedad": "XU10",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "ORIGINAL PRODUCTION"
+  },
+  {
+    "Centro de coste": "PTV1104",
+    "Sociedad": "XU10",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "ADQUISICION PRODUCTO Y CONTENIDO"
+  },
+  {
+    "Centro de coste": "PTV1105",
+    "Sociedad": "XU10",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "TRAFFIC"
+  },
+  {
+    "Centro de coste": "PTV2001",
+    "Sociedad": "XU10",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "TELEPUERTO"
+  },
+  {
+    "Centro de coste": "PTV3000",
+    "Sociedad": "XU10",
+    "Responsable": "MATIAS RIGALI",
+    "Descripci�n": "MARKETING"
+  },
+  {
+    "Centro de coste": "PTV4100",
+    "Sociedad": "XU10",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SALES"
+  },
+  {
+    "Centro de coste": "PTV4101",
+    "Sociedad": "XU10",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "DECODERS"
+  },
+  {
+    "Centro de coste": "PTV4201",
+    "Sociedad": "XU10",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "VENTA PRODUCTO Y CONTENIDO"
+  },
+  {
+    "Centro de coste": "PTV6000",
+    "Sociedad": "XU10",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "REVENUES"
+  },
+  {
+    "Centro de coste": "PTV6002",
+    "Sociedad": "XU10",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "ADVERTISING REVENUES"
+  },
+  {
+    "Centro de coste": "PTV6003",
+    "Sociedad": "XU10",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SUBSCRIBER BASED FEES"
+  },
+  {
+    "Centro de coste": "PTV9001",
+    "Sociedad": "XU10",
+    "Responsable": "ALEJANDRO IGLESIA",
+    "Descripci�n": "ADMINISTRATIVE BUSINESS LINES"
+  },
+  {
+    "Centro de coste": "PTV9008",
+    "Sociedad": "XU10",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "PUBLIC RELATIONS"
+  },
+  {
+    "Centro de coste": "PTV9009",
+    "Sociedad": "XU10",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "INFORMATION TECHNOLOGY"
+  },
+  {
+    "Centro de coste": "PTV9101",
+    "Sociedad": "XU10",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "INFRAESTRUCTURE"
+  },
+  {
+    "Centro de coste": "PTV9999",
+    "Sociedad": "XU10",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "INDIRECT"
+  },
+  {
+    "Centro de coste": "PVENU6000",
+    "Sociedad": "XU41",
+    "Responsable": "NN",
+    "Descripci�n": "OTHER REVENUES"
+  },
+  {
+    "Centro de coste": "PVENU6002",
+    "Sociedad": "XU41",
+    "Responsable": "NN",
+    "Descripci�n": "ADVERTISING REVENUES"
+  },
+  {
+    "Centro de coste": "PVENU6003",
+    "Sociedad": "XU41",
+    "Responsable": "NN",
+    "Descripci�n": "SUBSCRIBER BASED FEES"
+  },
+  {
+    "Centro de coste": "PYBV1000",
+    "Sociedad": "XU12",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "CREATIVE"
+  },
+  {
+    "Centro de coste": "PYBV1006",
+    "Sociedad": "XU12",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE CREATIVE"
+  },
+  {
+    "Centro de coste": "PYBV1100",
+    "Sociedad": "XU12",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "CHANNEL MANAGER"
+  },
+  {
+    "Centro de coste": "PYBV1101",
+    "Sociedad": "XU12",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "PROGRAMMERS"
+  },
+  {
+    "Centro de coste": "PYBV1102",
+    "Sociedad": "XU12",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "SCHEDULER LOGGER"
+  },
+  {
+    "Centro de coste": "PYBV1103",
+    "Sociedad": "XU12",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "ORIGINAL PRODUCTION"
+  },
+  {
+    "Centro de coste": "PYBV1104",
+    "Sociedad": "XU12",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "ADQUISCION PRODUCTO  Y CONTENIDO"
+  },
+  {
+    "Centro de coste": "PYBV1105",
+    "Sociedad": "XU12",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "TRAFFIC"
+  },
+  {
+    "Centro de coste": "PYBV1106",
+    "Sociedad": "XU12",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "INTERNET"
+  },
+  {
+    "Centro de coste": "PYBV1107",
+    "Sociedad": "XU12",
+    "Responsable": "Macarena Dellazuana",
+    "Descripci�n": "VOD"
+  },
+  {
+    "Centro de coste": "PYBV1108",
+    "Sociedad": "XU12",
+    "Responsable": "Macarena Dellazuana",
+    "Descripci�n": "OTT"
+  },
+  {
+    "Centro de coste": "PYBV1112",
+    "Sociedad": "XU12",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE PROGRAMMING AND PRODUCTION"
+  },
+  {
+    "Centro de coste": "PYBV2000",
+    "Sociedad": "XU12",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "TECNICA"
+  },
+  {
+    "Centro de coste": "PYBV2001",
+    "Sociedad": "XU12",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "TELEPUERTO"
+  },
+  {
+    "Centro de coste": "PYBV2003",
+    "Sociedad": "XU12",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "OPERACIONES"
+  },
+  {
+    "Centro de coste": "PYBV2004",
+    "Sociedad": "XU12",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "COPIADO"
+  },
+  {
+    "Centro de coste": "PYBV2005",
+    "Sociedad": "XU12",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "DOBLAJE Y SUBTITULADO"
+  },
+  {
+    "Centro de coste": "PYBV2006",
+    "Sociedad": "XU12",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "VIDEOTECA"
+  },
+  {
+    "Centro de coste": "PYBV2007",
+    "Sociedad": "XU12",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "MANTENIMIENTO TECNICO"
+  },
+  {
+    "Centro de coste": "PYBV2010",
+    "Sociedad": "XU12",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE PRODUCT RELATIVE"
+  },
+  {
+    "Centro de coste": "PYBV3000",
+    "Sociedad": "XU12",
+    "Responsable": "Ver�nica Diez",
+    "Descripci�n": "MARKETING"
+  },
+  {
+    "Centro de coste": "PYBV3002",
+    "Sociedad": "XU12",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE MARKETING"
+  },
+  {
+    "Centro de coste": "PYBV3004",
+    "Sociedad": "XU12",
+    "Responsable": "Ver�nica Diez",
+    "Descripci�n": "AFILIADOS MARKETING"
+  },
+  {
+    "Centro de coste": "PYBV4100",
+    "Sociedad": "XU12",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SALES"
+  },
+  {
+    "Centro de coste": "PYBV4101",
+    "Sociedad": "XU12",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "DECODERS"
+  },
+  {
+    "Centro de coste": "PYBV4105",
+    "Sociedad": "XU12",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE AFFILIATES SALES"
+  },
+  {
+    "Centro de coste": "PYBV4201",
+    "Sociedad": "XU12",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "VENTA PRODUCTO Y CONTENIDO"
+  },
+  {
+    "Centro de coste": "PYBV4202",
+    "Sociedad": "XU12",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE OTHER SALES"
+  },
+  {
+    "Centro de coste": "PYBV6000",
+    "Sociedad": "XU12",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "OTHER REVENUES"
+  },
+  {
+    "Centro de coste": "PYBV6001",
+    "Sociedad": "XU12",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "SALES OF EXHIBITIONS"
+  },
+  {
+    "Centro de coste": "PYBV6002",
+    "Sociedad": "XU12",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "ADVERTISING REVENUES"
+  },
+  {
+    "Centro de coste": "PYBV6003",
+    "Sociedad": "XU12",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SUBSCRIBER BASED FEES"
+  },
+  {
+    "Centro de coste": "PYBV6006",
+    "Sociedad": "XU12",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE REVENUES"
+  },
+  {
+    "Centro de coste": "PYBV9000",
+    "Sociedad": "XU12",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "ACCOUNTING CONTROL AND TREASURY"
+  },
+  {
+    "Centro de coste": "PYBV9001",
+    "Sociedad": "XU12",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "ADMINISTRATIVE BUSINESS LINE"
+  },
+  {
+    "Centro de coste": "PYBV9003",
+    "Sociedad": "XU12",
+    "Responsable": "Roberto Vivo",
+    "Descripci�n": "CEO AND CHAIRMAN"
+  },
+  {
+    "Centro de coste": "PYBV9007",
+    "Sociedad": "XU12",
+    "Responsable": "A DEFINIR",
+    "Descripci�n": "LEGAL"
+  },
+  {
+    "Centro de coste": "PYBV9008",
+    "Sociedad": "XU12",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "PUBLIC RELATIONS"
+  },
+  {
+    "Centro de coste": "PYBV9009",
+    "Sociedad": "XU12",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "INFORMATION TECHNOLOGY"
+  },
+  {
+    "Centro de coste": "PYBV9010",
+    "Sociedad": "XU12",
+    "Responsable": "Federico Zwiebel",
+    "Descripci�n": "PLANNING"
+  },
+  {
+    "Centro de coste": "PYBV9101",
+    "Sociedad": "XU12",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "INFRAESTRUCTURE"
+  },
+  {
+    "Centro de coste": "PYBV9999",
+    "Sociedad": "XU12",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "INDIRECT"
+  },
+  {
+    "Centro de coste": "PYBY1000",
+    "Sociedad": "XVE1",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "CREATIVE"
+  },
+  {
+    "Centro de coste": "PYBY1006",
+    "Sociedad": "XVE1",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "MOBILE CREATIVE"
+  },
+  {
+    "Centro de coste": "PYBY1100",
+    "Sociedad": "XVE1",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "CHANNEL MANAGER"
+  },
+  {
+    "Centro de coste": "PYBY1101",
+    "Sociedad": "XVE1",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "PROGRAMMERS"
+  },
+  {
+    "Centro de coste": "PYBY1102",
+    "Sociedad": "XVE1",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "SCHEDULER LOGGER"
+  },
+  {
+    "Centro de coste": "PYBY1103",
+    "Sociedad": "XVE1",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "ORIGINAL PRODUCTION"
+  },
+  {
+    "Centro de coste": "PYBY1104",
+    "Sociedad": "XVE1",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "ADQUISICION PRODUCTO Y CONTENIDO"
+  },
+  {
+    "Centro de coste": "PYBY1105",
+    "Sociedad": "XVE1",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "TRAFFIC"
+  },
+  {
+    "Centro de coste": "PYBY1106",
+    "Sociedad": "XVE1",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "INTERNET DESIGN"
+  },
+  {
+    "Centro de coste": "PYBY1109",
+    "Sociedad": "XVE1",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "ESTUDIOS"
+  },
+  {
+    "Centro de coste": "PYBY1110",
+    "Sociedad": "XVE1",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "EDICION"
+  },
+  {
+    "Centro de coste": "PYBY1112",
+    "Sociedad": "XVE1",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE PROGRAMING AND PRODUCTION"
+  },
+  {
+    "Centro de coste": "PYBY2000",
+    "Sociedad": "XVE1",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "TECNICA"
+  },
+  {
+    "Centro de coste": "PYBY2001",
+    "Sociedad": "XVE1",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "TELEPUERTO"
+  },
+  {
+    "Centro de coste": "PYBY2003",
+    "Sociedad": "XVE1",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "OPERACIONES"
+  },
+  {
+    "Centro de coste": "PYBY2004",
+    "Sociedad": "XVE1",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "COPIADO"
+  },
+  {
+    "Centro de coste": "PYBY2005",
+    "Sociedad": "XVE1",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "DOBLAJE SUBTITULADO"
+  },
+  {
+    "Centro de coste": "PYBY2006",
+    "Sociedad": "XVE1",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "VIDEOTECA"
+  },
+  {
+    "Centro de coste": "PYBY2007",
+    "Sociedad": "XVE1",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "MANTENIMIENTO TECNOLOGICO"
+  },
+  {
+    "Centro de coste": "PYBY2010",
+    "Sociedad": "XVE1",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "MOBILE PRODCUT RELATIVE"
+  },
+  {
+    "Centro de coste": "PYBY3000",
+    "Sociedad": "XVE1",
+    "Responsable": "MATIAS RIGALI",
+    "Descripci�n": "MARKETING"
+  },
+  {
+    "Centro de coste": "PYBY3001",
+    "Sociedad": "XVE1",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "RESEARCH"
+  },
+  {
+    "Centro de coste": "PYBY3002",
+    "Sociedad": "XVE1",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "MOBILE MARKETING"
+  },
+  {
+    "Centro de coste": "PYBY3003",
+    "Sociedad": "XU12",
+    "Responsable": "NN",
+    "Descripci�n": "CORPORATIVO"
+  },
+  {
+    "Centro de coste": "PYBY3004",
+    "Sociedad": "XU12",
+    "Responsable": "NN",
+    "Descripci�n": "AFFILLATES"
+  },
+  {
+    "Centro de coste": "PYBY3005",
+    "Sociedad": "XU12",
+    "Responsable": "NN",
+    "Descripci�n": "CONSUMER"
+  },
+  {
+    "Centro de coste": "PYBY3006",
+    "Sociedad": "XU12",
+    "Responsable": "NN",
+    "Descripci�n": "TALENT"
+  },
+  {
+    "Centro de coste": "PYBY4000",
+    "Sociedad": "XVE1",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "ADVERTISING SALES"
+  },
+  {
+    "Centro de coste": "PYBY4001",
+    "Sociedad": "XVE1",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE ADV.SALES"
+  },
+  {
+    "Centro de coste": "PYBY4100",
+    "Sociedad": "XVE1",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SALES"
+  },
+  {
+    "Centro de coste": "PYBY4101",
+    "Sociedad": "XVE1",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "DECODERS"
+  },
+  {
+    "Centro de coste": "PYBY4102",
+    "Sociedad": "XVE1",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "RELACION AFILIADOS"
+  },
+  {
+    "Centro de coste": "PYBY4105",
+    "Sociedad": "XVE1",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE AFFILIATTES  SALES"
+  },
+  {
+    "Centro de coste": "PYBY4201",
+    "Sociedad": "XVE1",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "VENTA PRODUCTO Y CONTENIDO"
+  },
+  {
+    "Centro de coste": "PYBY4202",
+    "Sociedad": "XVE1",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "VENTA PRODUCTO Y CONTENIDO"
+  },
+  {
+    "Centro de coste": "PYBY6000",
+    "Sociedad": "XVE1",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "OTHER REVENUES"
+  },
+  {
+    "Centro de coste": "PYBY6001",
+    "Sociedad": "XVE1",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "SALES OF EXHIBITIONS"
+  },
+  {
+    "Centro de coste": "PYBY6002",
+    "Sociedad": "XVE1",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "ADVERTISING REVENUES"
+  },
+  {
+    "Centro de coste": "PYBY6003",
+    "Sociedad": "XVE1",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "OTHER REVENUES"
+  },
+  {
+    "Centro de coste": "PYBY6004",
+    "Sociedad": "XVE1",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "INTERNET"
+  },
+  {
+    "Centro de coste": "PYBY6006",
+    "Sociedad": "XVE1",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE REVENUES"
+  },
+  {
+    "Centro de coste": "PYIB1000",
+    "Sociedad": "XU06",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "CREATIVE"
+  },
+  {
+    "Centro de coste": "PYIB1006",
+    "Sociedad": "XU06",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE CREATIVE"
+  },
+  {
+    "Centro de coste": "PYIB1102",
+    "Sociedad": "XU06",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "SCHEDULER LOGGER"
+  },
+  {
+    "Centro de coste": "PYIB1103",
+    "Sociedad": "XU06",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "ORIGINAL PRODUCTION"
+  },
+  {
+    "Centro de coste": "PYIB1104",
+    "Sociedad": "XU06",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "ADQUISICION PRODUCTO  Y CONTENIDO"
+  },
+  {
+    "Centro de coste": "PYIB1105",
+    "Sociedad": "XU06",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "TRAFFIC"
+  },
+  {
+    "Centro de coste": "PYIB1112",
+    "Sociedad": "XU06",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE PROGRAMMING AND PRODUCTION"
+  },
+  {
+    "Centro de coste": "PYIB2001",
+    "Sociedad": "XU06",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "TELEPUERTO"
+  },
+  {
+    "Centro de coste": "PYIB2010",
+    "Sociedad": "XU06",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE PRODUCT RELATIVE"
+  },
+  {
+    "Centro de coste": "PYIB3000",
+    "Sociedad": "XU06",
+    "Responsable": "MATIAS RIGALI",
+    "Descripci�n": "MARKETING"
+  },
+  {
+    "Centro de coste": "PYIB3002",
+    "Sociedad": "XU06",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE MARKETING"
+  },
+  {
+    "Centro de coste": "PYIB4100",
+    "Sociedad": "XU06",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SALES"
+  },
+  {
+    "Centro de coste": "PYIB4101",
+    "Sociedad": "XU06",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "DECODERS"
+  },
+  {
+    "Centro de coste": "PYIB4105",
+    "Sociedad": "XU06",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE AFFILIATES SALES"
+  },
+  {
+    "Centro de coste": "PYIB4201",
+    "Sociedad": "XU06",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "VENTA PROD Y CONT"
+  },
+  {
+    "Centro de coste": "PYIB4202",
+    "Sociedad": "XU06",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE OTHER SALES"
+  },
+  {
+    "Centro de coste": "PYIB6000",
+    "Sociedad": "XU06",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "OTHER REVENUES"
+  },
+  {
+    "Centro de coste": "PYIB6002",
+    "Sociedad": "XU06",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "ADVERTISING SALES"
+  },
+  {
+    "Centro de coste": "PYIB6003",
+    "Sociedad": "XU06",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SUBSCRIBER BASED FEES"
+  },
+  {
+    "Centro de coste": "PYIB6006",
+    "Sociedad": "XU06",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE REVENUES"
+  },
+  {
+    "Centro de coste": "PYLA1000",
+    "Sociedad": "XU06",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "CREATIVE"
+  },
+  {
+    "Centro de coste": "PYLA1006",
+    "Sociedad": "XU06",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "MOBILE CREATIVE"
+  },
+  {
+    "Centro de coste": "PYLA1100",
+    "Sociedad": "XU06",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "CHANNEL MANAGER"
+  },
+  {
+    "Centro de coste": "PYLA1101",
+    "Sociedad": "XU06",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "PROGRAMMERS"
+  },
+  {
+    "Centro de coste": "PYLA1102",
+    "Sociedad": "XU06",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "SCHEDULER LOGGER"
+  },
+  {
+    "Centro de coste": "PYLA1103",
+    "Sociedad": "XU06",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "ORIGINAL PRODUCTION"
+  },
+  {
+    "Centro de coste": "PYLA1104",
+    "Sociedad": "XU06",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "ADQUSICION  PRODUCTO Y CONTENIDO"
+  },
+  {
+    "Centro de coste": "PYLA1106",
+    "Sociedad": "XU06",
+    "Responsable": "NN",
+    "Descripci�n": "INTERNET"
+  },
+  {
+    "Centro de coste": "PYLA1107",
+    "Sociedad": "XU06",
+    "Responsable": "Macarena Dellazuana",
+    "Descripci�n": "VOD"
+  },
+  {
+    "Centro de coste": "PYLA1108",
+    "Sociedad": "XU06",
+    "Responsable": "Macarena Dellazuana",
+    "Descripci�n": "OTT"
+  },
+  {
+    "Centro de coste": "PYLA1109",
+    "Sociedad": "XU06",
+    "Responsable": "nn",
+    "Descripci�n": "ESTUDIOS"
+  },
+  {
+    "Centro de coste": "PYLA1110",
+    "Sociedad": "XU06",
+    "Responsable": "nn",
+    "Descripci�n": "EDICION"
+  },
+  {
+    "Centro de coste": "PYLA1112",
+    "Sociedad": "XU06",
+    "Responsable": "nn",
+    "Descripci�n": "MOBILE PROGRAMMING & PRODUCTION"
+  },
+  {
+    "Centro de coste": "PYLA2000",
+    "Sociedad": "XU06",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "TECNICA"
+  },
+  {
+    "Centro de coste": "PYLA2001",
+    "Sociedad": "XU06",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "TELEPUERTO"
+  },
+  {
+    "Centro de coste": "PYLA2003",
+    "Sociedad": "XU06",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "OPERACIONES"
+  },
+  {
+    "Centro de coste": "PYLA2004",
+    "Sociedad": "XU06",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "COPIADO"
+  },
+  {
+    "Centro de coste": "PYLA2007",
+    "Sociedad": "XU06",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "MANTENIMIENTO TECNICO"
+  },
+  {
+    "Centro de coste": "PYLA2010",
+    "Sociedad": "XU06",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE PRODUCT RELATED"
+  },
+  {
+    "Centro de coste": "PYLA3000",
+    "Sociedad": "XU06",
+    "Responsable": "MATIAS RIGALI",
+    "Descripci�n": "MARKETING"
+  },
+  {
+    "Centro de coste": "PYLA3002",
+    "Sociedad": "XU06",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE MARKETING"
+  },
+  {
+    "Centro de coste": "PYLA3003",
+    "Sociedad": "XU06",
+    "Responsable": "NN",
+    "Descripci�n": "CORPORATIVO"
+  },
+  {
+    "Centro de coste": "PYLA3004",
+    "Sociedad": "XU06",
+    "Responsable": "NN",
+    "Descripci�n": "AFFILLATES"
+  },
+  {
+    "Centro de coste": "PYLA3005",
+    "Sociedad": "XU06",
+    "Responsable": "NN",
+    "Descripci�n": "CONSUMER"
+  },
+  {
+    "Centro de coste": "PYLA3006",
+    "Sociedad": "XU06",
+    "Responsable": "NN",
+    "Descripci�n": "TALENT"
+  },
+  {
+    "Centro de coste": "PYLA4100",
+    "Sociedad": "XU06",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SALES"
+  },
+  {
+    "Centro de coste": "PYLA4101",
+    "Sociedad": "XU06",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "DECODERS"
+  },
+  {
+    "Centro de coste": "PYLA4105",
+    "Sociedad": "XU06",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE AFFILIATES SALES"
+  },
+  {
+    "Centro de coste": "PYLA4201",
+    "Sociedad": "XU06",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "VENTA PROD Y CONT"
+  },
+  {
+    "Centro de coste": "PYLA4202",
+    "Sociedad": "XU06",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE OTHER SALES"
+  },
+  {
+    "Centro de coste": "PYLA6000",
+    "Sociedad": "XU06",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "OTHER REVENUES"
+  },
+  {
+    "Centro de coste": "PYLA6001",
+    "Sociedad": "XU06",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SALES OF EXHIBITIONS"
+  },
+  {
+    "Centro de coste": "PYLA6002",
+    "Sociedad": "XU06",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "ADVERTISING SALES"
+  },
+  {
+    "Centro de coste": "PYLA6003",
+    "Sociedad": "XU06",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SUBSCRIBER BASED FEES"
+  },
+  {
+    "Centro de coste": "PYLA6004",
+    "Sociedad": "XU06",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "INTERNET"
+  },
+  {
+    "Centro de coste": "PYLA6006",
+    "Sociedad": "XU06",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE REVENUES"
+  },
+  {
+    "Centro de coste": "PYLA9000",
+    "Sociedad": "XU06",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "ACCOUNTING, CONTROL AND TREASURY"
+  },
+  {
+    "Centro de coste": "PYLA9001",
+    "Sociedad": "XU06",
+    "Responsable": "ALEJANDRO IGLESIAS",
+    "Descripci�n": "ADMINISTRATIVE BUSINESS LINE"
+  },
+  {
+    "Centro de coste": "PYLA9003",
+    "Sociedad": "XU06",
+    "Responsable": "Roberto Vivo",
+    "Descripci�n": "CEO AND CHAIRMAN"
+  },
+  {
+    "Centro de coste": "PYLA9005",
+    "Sociedad": "XU06",
+    "Responsable": "VIOLETA HERRERO",
+    "Descripci�n": "HUMAN RESOURCES"
+  },
+  {
+    "Centro de coste": "PYLA9007",
+    "Sociedad": "XU06",
+    "Responsable": "PABLO IACOVELLO",
+    "Descripci�n": "LEGAL"
+  },
+  {
+    "Centro de coste": "PYLA9008",
+    "Sociedad": "XU06",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "PUBLIC RELATION"
+  },
+  {
+    "Centro de coste": "PYLA9009",
+    "Sociedad": "XU06",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "INFORMATION TECHNOLOGY"
+  },
+  {
+    "Centro de coste": "PYLA9010",
+    "Sociedad": "XU06",
+    "Responsable": "Federico Zwiebel",
+    "Descripci�n": "PLANNING"
+  },
+  {
+    "Centro de coste": "PYLA9101",
+    "Sociedad": "XU06",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "INFRAESTRUCTURE"
+  },
+  {
+    "Centro de coste": "PYLA9999",
+    "Sociedad": "XU06",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "INDIRECT"
+  },
+  {
+    "Centro de coste": "PYLS1000",
+    "Sociedad": "XU42",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "CREATIVE"
+  },
+  {
+    "Centro de coste": "PYLS1006",
+    "Sociedad": "XU42",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "MOBILE CREATIVE"
+  },
+  {
+    "Centro de coste": "PYLS1100",
+    "Sociedad": "XU42",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "CHANNEL MANAGER"
+  },
+  {
+    "Centro de coste": "PYLS1101",
+    "Sociedad": "XU42",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "PROGRAMMERS"
+  },
+  {
+    "Centro de coste": "PYLS1102",
+    "Sociedad": "XU42",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "SCHEDULE LOGGER"
+  },
+  {
+    "Centro de coste": "PYLS1103",
+    "Sociedad": "XU42",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "ORIGINAL PRODUCTION"
+  },
+  {
+    "Centro de coste": "PYLS1104",
+    "Sociedad": "XU42",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "ADQ. PROD Y CONTEN"
+  },
+  {
+    "Centro de coste": "PYLS1105",
+    "Sociedad": "XU42",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "TRAFFIC"
+  },
+  {
+    "Centro de coste": "PYLS1106",
+    "Sociedad": "XU42",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "INTERNET"
+  },
+  {
+    "Centro de coste": "PYLS1109",
+    "Sociedad": "XU42",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "ESTUDIO"
+  },
+  {
+    "Centro de coste": "PYLS1112",
+    "Sociedad": "XU42",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE PROGRAMMING AND PRODUCTION"
+  },
+  {
+    "Centro de coste": "PYLS2000",
+    "Sociedad": "XU42",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "TECNICA"
+  },
+  {
+    "Centro de coste": "PYLS2001",
+    "Sociedad": "XU42",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "TELEPUERTO"
+  },
+  {
+    "Centro de coste": "PYLS2003",
+    "Sociedad": "XU42",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "OPERACIONES"
+  },
+  {
+    "Centro de coste": "PYLS2004",
+    "Sociedad": "XU42",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "COPIADO"
+  },
+  {
+    "Centro de coste": "PYLS2005",
+    "Sociedad": "XU42",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "DOBLAJE Y SUBTITULADO"
+  },
+  {
+    "Centro de coste": "PYLS2006",
+    "Sociedad": "XU42",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "VIDEOTECA"
+  },
+  {
+    "Centro de coste": "PYLS2007",
+    "Sociedad": "XU42",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "MANTEMIENTO TECNICO"
+  },
+  {
+    "Centro de coste": "PYLS2010",
+    "Sociedad": "XU42",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE PRODUCT RELATIVE"
+  },
+  {
+    "Centro de coste": "PYLS3002",
+    "Sociedad": "XU42",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE MARKETING"
+  },
+  {
+    "Centro de coste": "PYLS3003",
+    "Sociedad": "XU42",
+    "Responsable": "NN",
+    "Descripci�n": "CORPORATIVO"
+  },
+  {
+    "Centro de coste": "PYLS3004",
+    "Sociedad": "XU42",
+    "Responsable": "NN",
+    "Descripci�n": "AFFILLATES"
+  },
+  {
+    "Centro de coste": "PYLS3005",
+    "Sociedad": "XU42",
+    "Responsable": "NN",
+    "Descripci�n": "CONSUMER"
+  },
+  {
+    "Centro de coste": "PYLS3006",
+    "Sociedad": "XU42",
+    "Responsable": "NN",
+    "Descripci�n": "TALENT"
+  },
+  {
+    "Centro de coste": "PYLS4100",
+    "Sociedad": "XU42",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SALES"
+  },
+  {
+    "Centro de coste": "PYLS4101",
+    "Sociedad": "XU42",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "DECODERS"
+  },
+  {
+    "Centro de coste": "PYLS4105",
+    "Sociedad": "XU42",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE AFFILIATE SALES"
+  },
+  {
+    "Centro de coste": "PYLS4201",
+    "Sociedad": "XU42",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "VENTA PRODUCTO Y CONTENIDO"
+  },
+  {
+    "Centro de coste": "PYLS4202",
+    "Sociedad": "XU42",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBIEL OTHER SALES"
+  },
+  {
+    "Centro de coste": "PYLS6000",
+    "Sociedad": "XU42",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "OTHER REVENUES"
+  },
+  {
+    "Centro de coste": "PYLS6001",
+    "Sociedad": "XU42",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "SALES OF EXHIBITIONS"
+  },
+  {
+    "Centro de coste": "PYLS6002",
+    "Sociedad": "XU42",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "ADVERTISING REVENUES"
+  },
+  {
+    "Centro de coste": "PYLS6003",
+    "Sociedad": "XU42",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SUBSCRIBER BASED FEES"
+  },
+  {
+    "Centro de coste": "PYLS6004",
+    "Sociedad": "XU42",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "INTERNET"
+  },
+  {
+    "Centro de coste": "PYLS6006",
+    "Sociedad": "XU42",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE REVENUES"
+  },
+  {
+    "Centro de coste": "PYLS9000",
+    "Sociedad": "XU42",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "ACCOUNTING CONTROL AND TREASURY"
+  },
+  {
+    "Centro de coste": "PYLS9001",
+    "Sociedad": "XU42",
+    "Responsable": "ALEJANDRO IGLESIA",
+    "Descripci�n": "ADMINISTRATIVE BUSINESS LINE"
+  },
+  {
+    "Centro de coste": "PYLS9005",
+    "Sociedad": "XU42",
+    "Responsable": "VIOLETA HERREO",
+    "Descripci�n": "HUMAN RESOURCES"
+  },
+  {
+    "Centro de coste": "PYLS9007",
+    "Sociedad": "XU42",
+    "Responsable": "PABLO IACOVELLO",
+    "Descripci�n": "LEGAL"
+  },
+  {
+    "Centro de coste": "PYLS9008",
+    "Sociedad": "XU42",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "PUBLIC RELATIONS"
+  },
+  {
+    "Centro de coste": "PYLS9009",
+    "Sociedad": "XU42",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "INFORMATION TEHCNOLOGY"
+  },
+  {
+    "Centro de coste": "PYLS9101",
+    "Sociedad": "XU42",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "INFRAESTRUCTURE"
+  },
+  {
+    "Centro de coste": "PYLS9999",
+    "Sociedad": "XU42",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "INDIRECT"
+  },
+  {
+    "Centro de coste": "SEXT6003",
+    "Sociedad": "XVE1",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SUBSCRIBER BASED FEES"
+  },
+  {
+    "Centro de coste": "SPEV6000",
+    "Sociedad": "XU40",
+    "Responsable": "NN",
+    "Descripci�n": "OTHER REVENUES"
+  },
+  {
+    "Centro de coste": "SPEV6003",
+    "Sociedad": "XU40",
+    "Responsable": "NN",
+    "Descripci�n": "SUBSCRIBER BASED FEES"
+  },
+  {
+    "Centro de coste": "SPIBV1000",
+    "Sociedad": "XU12",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "CREATIVE"
+  },
+  {
+    "Centro de coste": "SPIBV1006",
+    "Sociedad": "XU12",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE CREATIVE"
+  },
+  {
+    "Centro de coste": "SPIBV1100",
+    "Sociedad": "XU12",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "CHANNEL MANAGER"
+  },
+  {
+    "Centro de coste": "SPIBV1101",
+    "Sociedad": "XU12",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "PROGRAMMERS"
+  },
+  {
+    "Centro de coste": "SPIBV1102",
+    "Sociedad": "XU12",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "SCHEDULE LOGGER"
+  },
+  {
+    "Centro de coste": "SPIBV1103",
+    "Sociedad": "XU12",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "ORIGINAL PRODUCTION"
+  },
+  {
+    "Centro de coste": "SPIBV1104",
+    "Sociedad": "XU12",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "ADQUISICION PRODUCTO Y CONTENIDO"
+  },
+  {
+    "Centro de coste": "SPIBV1105",
+    "Sociedad": "XU12",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "TRAFFIC"
+  },
+  {
+    "Centro de coste": "SPIBV1106",
+    "Sociedad": "XU12",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "INTERNET"
+  },
+  {
+    "Centro de coste": "SPIBV1112",
+    "Sociedad": "XU12",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE PROGRAMMINGA AND PRODUCTION"
+  },
+  {
+    "Centro de coste": "SPIBV2000",
+    "Sociedad": "XU12",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "TECNICA"
+  },
+  {
+    "Centro de coste": "SPIBV2001",
+    "Sociedad": "XU12",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "TELEPUERTO"
+  },
+  {
+    "Centro de coste": "SPIBV2003",
+    "Sociedad": "XU12",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "OPERACIONES"
+  },
+  {
+    "Centro de coste": "SPIBV2004",
+    "Sociedad": "XU12",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "COPIADO"
+  },
+  {
+    "Centro de coste": "SPIBV2005",
+    "Sociedad": "XU12",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "DOBLAJE Y SUBTITULADO"
+  },
+  {
+    "Centro de coste": "SPIBV2006",
+    "Sociedad": "XU12",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "VDEOTECA"
+  },
+  {
+    "Centro de coste": "SPIBV2007",
+    "Sociedad": "XU12",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "MANTENIMIENTO EDIFICIO"
+  },
+  {
+    "Centro de coste": "SPIBV2010",
+    "Sociedad": "XU12",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE PRODUCT RELATIVE"
+  },
+  {
+    "Centro de coste": "SPIBV3000",
+    "Sociedad": "XU12",
+    "Responsable": "MATIAS RIGALI",
+    "Descripci�n": "MARKETING"
+  },
+  {
+    "Centro de coste": "SPIBV3002",
+    "Sociedad": "XU12",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE MARKETING"
+  },
+  {
+    "Centro de coste": "SPIBV4100",
+    "Sociedad": "XU12",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SALES"
+  },
+  {
+    "Centro de coste": "SPIBV4101",
+    "Sociedad": "XU12",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "DECODERS"
+  },
+  {
+    "Centro de coste": "SPIBV4105",
+    "Sociedad": "XU12",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE AFFILIATE SALES"
+  },
+  {
+    "Centro de coste": "SPIBV4201",
+    "Sociedad": "XU12",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "VENTA PRODUCTO Y CONTENIDO"
+  },
+  {
+    "Centro de coste": "SPIBV4202",
+    "Sociedad": "XU12",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE OTHER SALES"
+  },
+  {
+    "Centro de coste": "SPIBV6000",
+    "Sociedad": "XU12",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "OTHER REVENUES"
+  },
+  {
+    "Centro de coste": "SPIBV6002",
+    "Sociedad": "XU12",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "ADVERTISING REVENUES"
+  },
+  {
+    "Centro de coste": "SPIBV6003",
+    "Sociedad": "XU12",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SUBSCRIBER BASE FEES"
+  },
+  {
+    "Centro de coste": "SPIBV6006",
+    "Sociedad": "XU12",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE REVENUES"
+  },
+  {
+    "Centro de coste": "SPIIB1000",
+    "Sociedad": "XU06",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "CREATIVE"
+  },
+  {
+    "Centro de coste": "SPIIB1006",
+    "Sociedad": "XU06",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE CREATIVE"
+  },
+  {
+    "Centro de coste": "SPIIB1102",
+    "Sociedad": "XU06",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "SCHEDULER LOGGER"
+  },
+  {
+    "Centro de coste": "SPIIB1103",
+    "Sociedad": "XU06",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "ORIGINAL PRODUCTION"
+  },
+  {
+    "Centro de coste": "SPIIB1104",
+    "Sociedad": "XU06",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "ADQUSICION  PRODUCTO Y CONTENIDO"
+  },
+  {
+    "Centro de coste": "SPIIB1105",
+    "Sociedad": "XU06",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "TRAFFIC"
+  },
+  {
+    "Centro de coste": "SPIIB1112",
+    "Sociedad": "XU06",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE PROGRAMMING AND PRODUCTION"
+  },
+  {
+    "Centro de coste": "SPIIB2001",
+    "Sociedad": "XU06",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "TELEPUERTO"
+  },
+  {
+    "Centro de coste": "SPIIB2010",
+    "Sociedad": "XU06",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE PRODUCT RELATIVE"
+  },
+  {
+    "Centro de coste": "SPIIB3000",
+    "Sociedad": "XU06",
+    "Responsable": "MATIAS RIGALE",
+    "Descripci�n": "MARKETING"
+  },
+  {
+    "Centro de coste": "SPIIB3002",
+    "Sociedad": "XU06",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE MARKETING"
+  },
+  {
+    "Centro de coste": "SPIIB4100",
+    "Sociedad": "XU06",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SALES"
+  },
+  {
+    "Centro de coste": "SPIIB4101",
+    "Sociedad": "XU06",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "DECODERS"
+  },
+  {
+    "Centro de coste": "SPIIB4105",
+    "Sociedad": "XU06",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE AFFILIATE SALES"
+  },
+  {
+    "Centro de coste": "SPIIB4201",
+    "Sociedad": "XU06",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "VENTA PRODUCTO Y CONTENINDO"
+  },
+  {
+    "Centro de coste": "SPIIB4202",
+    "Sociedad": "XU06",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE OTHER SALES"
+  },
+  {
+    "Centro de coste": "SPIIB6000",
+    "Sociedad": "XU06",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "OTHER REVENUES"
+  },
+  {
+    "Centro de coste": "SPIIB6002",
+    "Sociedad": "XU06",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "ADVERTISING REVENUES"
+  },
+  {
+    "Centro de coste": "SPIIB6003",
+    "Sociedad": "XU06",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SUBSCRIBER BASED FEES"
+  },
+  {
+    "Centro de coste": "SPIIB6006",
+    "Sociedad": "XU06",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE  REVENUES"
+  },
+  {
+    "Centro de coste": "SPILA1000",
+    "Sociedad": "XU06",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "CREATIVE"
+  },
+  {
+    "Centro de coste": "SPILA1006",
+    "Sociedad": "XU06",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE CREATIVE"
+  },
+  {
+    "Centro de coste": "SPILA1100",
+    "Sociedad": "XU06",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "CHANNEL MANAGER"
+  },
+  {
+    "Centro de coste": "SPILA1101",
+    "Sociedad": "XU06",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "PROGRAMMERS"
+  },
+  {
+    "Centro de coste": "SPILA1102",
+    "Sociedad": "XU06",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "SCHEDULER LOGGER"
+  },
+  {
+    "Centro de coste": "SPILA1103",
+    "Sociedad": "XU06",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "ORIGINAL PRODUCTION"
+  },
+  {
+    "Centro de coste": "SPILA1104",
+    "Sociedad": "XU06",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "ADQUSICION  PRODUCTO Y CONTENIDO"
+  },
+  {
+    "Centro de coste": "SPILA1105",
+    "Sociedad": "XU06",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "TRAFFIC"
+  },
+  {
+    "Centro de coste": "SPILA1106",
+    "Sociedad": "XU06",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "INTERNET"
+  },
+  {
+    "Centro de coste": "SPILA1112",
+    "Sociedad": "XU06",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE PROGRAMMING AND PRODUCTION"
+  },
+  {
+    "Centro de coste": "SPILA2000",
+    "Sociedad": "XU06",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "TECNICA"
+  },
+  {
+    "Centro de coste": "SPILA2001",
+    "Sociedad": "XU06",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "TELEPUERTO"
+  },
+  {
+    "Centro de coste": "SPILA2003",
+    "Sociedad": "XU06",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "OPERACIONES"
+  },
+  {
+    "Centro de coste": "SPILA2004",
+    "Sociedad": "XU06",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "COPIADO"
+  },
+  {
+    "Centro de coste": "SPILA2005",
+    "Sociedad": "XU06",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "DOBLAJE Y SUBTITULADO"
+  },
+  {
+    "Centro de coste": "SPILA2006",
+    "Sociedad": "XU06",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "VIDEOTECA"
+  },
+  {
+    "Centro de coste": "SPILA2007",
+    "Sociedad": "XU06",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "MANTENIMIENTO TECNICO"
+  },
+  {
+    "Centro de coste": "SPILA2010",
+    "Sociedad": "XU06",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE PRODUCT RELATIVE"
+  },
+  {
+    "Centro de coste": "SPILA3000",
+    "Sociedad": "XU06",
+    "Responsable": "MATIAS RIGALI",
+    "Descripci�n": "MARKETING"
+  },
+  {
+    "Centro de coste": "SPILA3002",
+    "Sociedad": "XU06",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE MARKETING"
+  },
+  {
+    "Centro de coste": "SPILA4100",
+    "Sociedad": "XU06",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SALES"
+  },
+  {
+    "Centro de coste": "SPILA4101",
+    "Sociedad": "XU06",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "DECODERS"
+  },
+  {
+    "Centro de coste": "SPILA4105",
+    "Sociedad": "XU06",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE AFFILIATE SALES"
+  },
+  {
+    "Centro de coste": "SPILA4201",
+    "Sociedad": "XU06",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "VENTA PRODUCTO Y CONTENINDO"
+  },
+  {
+    "Centro de coste": "SPILA4202",
+    "Sociedad": "XU06",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE OTHER SALES"
+  },
+  {
+    "Centro de coste": "SPILA6000",
+    "Sociedad": "XU06",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "OTHER REVENUES"
+  },
+  {
+    "Centro de coste": "SPILA6002",
+    "Sociedad": "XU06",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "ADVERTISING REVENUES"
+  },
+  {
+    "Centro de coste": "SPILA6003",
+    "Sociedad": "XU06",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SUBSCRIBER BASED FEES"
+  },
+  {
+    "Centro de coste": "SPILA6006",
+    "Sociedad": "XU06",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE  REVENUES"
+  },
+  {
+    "Centro de coste": "STC6000",
+    "Sociedad": "XU40",
+    "Responsable": "NN",
+    "Descripci�n": "OTHER REVENUES"
+  },
+  {
+    "Centro de coste": "STC6003",
+    "Sociedad": "XU40",
+    "Responsable": "NN",
+    "Descripci�n": "SUBSCRIBER BASED FEES"
+  },
+  {
+    "Centro de coste": "TROY2001",
+    "Sociedad": "XU05",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "TELEPUERTO"
+  },
+  {
+    "Centro de coste": "TROY4000",
+    "Sociedad": "XU05",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "ADVERTISING SALES"
+  },
+  {
+    "Centro de coste": "TROY4100",
+    "Sociedad": "XU05",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SALES"
+  },
+  {
+    "Centro de coste": "TROY4101",
+    "Sociedad": "XU05",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "DECODERS"
+  },
+  {
+    "Centro de coste": "TROY4102",
+    "Sociedad": "XU05",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "RELACION AFILIADOS"
+  },
+  {
+    "Centro de coste": "TROY6000",
+    "Sociedad": "XU05",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "OTHER REVENUES"
+  },
+  {
+    "Centro de coste": "TROY6002",
+    "Sociedad": "XU05",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "ADVERTISING REVENUES"
+  },
+  {
+    "Centro de coste": "TROY6003",
+    "Sociedad": "XU05",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SUBSCRIBER BASED FEES"
+  },
+  {
+    "Centro de coste": "TROY9000",
+    "Sociedad": "XU05",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "ACCOUNTING CONTROL TREASURY"
+  },
+  {
+    "Centro de coste": "TROY9001",
+    "Sociedad": "XU05",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "ADMINISTRATIVE BUSINESS LINE"
+  },
+  {
+    "Centro de coste": "TROY9101",
+    "Sociedad": "XU05",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "INFRAESTRUCTURE"
+  },
+  {
+    "Centro de coste": "TROY9999",
+    "Sociedad": "XU05",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "INDIRECT"
+  },
+  {
+    "Centro de coste": "TVCO6000",
+    "Sociedad": "XU40",
+    "Responsable": "NN",
+    "Descripci�n": "OTHER REVENUES"
+  },
+  {
+    "Centro de coste": "TVCO6003",
+    "Sociedad": "XU40",
+    "Responsable": "NN",
+    "Descripci�n": "SUBSCRIBER BASED FEES"
+  },
+  {
+    "Centro de coste": "TVG6000",
+    "Sociedad": "XU40",
+    "Responsable": "NN",
+    "Descripci�n": "OTHER REVENUES"
+  },
+  {
+    "Centro de coste": "TVG6003",
+    "Sociedad": "XU40",
+    "Responsable": "NN",
+    "Descripci�n": "SUBSCRIBER BASED FEES"
+  },
+  {
+    "Centro de coste": "VEBV4201",
+    "Sociedad": "XU12",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "VENTA PRODUCTO  Y CONTENIDO"
+  },
+  {
+    "Centro de coste": "VEBV4202",
+    "Sociedad": "XU12",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE OTHER SALES"
+  },
+  {
+    "Centro de coste": "VEBV6000",
+    "Sociedad": "XU12",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "OTHER REVENUES"
+  },
+  {
+    "Centro de coste": "VEBV6001",
+    "Sociedad": "XU12",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "SALES OF EXHIBITIONS"
+  },
+  {
+    "Centro de coste": "VEBV6002",
+    "Sociedad": "XU12",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "ADVERTISING REVENUES"
+  },
+  {
+    "Centro de coste": "VEBV6003",
+    "Sociedad": "XU12",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SUBSCRIBER BASE FEES"
+  },
+  {
+    "Centro de coste": "VEBV6004",
+    "Sociedad": "XU12",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "INTERNET"
+  },
+  {
+    "Centro de coste": "VEBV6006",
+    "Sociedad": "XU12",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE REVENUES"
+  },
+  {
+    "Centro de coste": "VELA4100",
+    "Sociedad": "XU06",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SALES"
+  },
+  {
+    "Centro de coste": "VELA4105",
+    "Sociedad": "XU06",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE AFFILIATE SALES"
+  },
+  {
+    "Centro de coste": "VELA4201",
+    "Sociedad": "XU06",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "VENTA PRODUCTO Y CONTENINDO"
+  },
+  {
+    "Centro de coste": "VELA4202",
+    "Sociedad": "XU06",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE OTHER SALES"
+  },
+  {
+    "Centro de coste": "VELA6000",
+    "Sociedad": "XU06",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "OTHER REVENUES"
+  },
+  {
+    "Centro de coste": "VELA6001",
+    "Sociedad": "XU06",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "SALES OF EXHIBTIONS"
+  },
+  {
+    "Centro de coste": "VELA6002",
+    "Sociedad": "XU06",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "ADVERTISING REVENUES"
+  },
+  {
+    "Centro de coste": "VELA6003",
+    "Sociedad": "XU06",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SUBSCRIBER BASED FEES"
+  },
+  {
+    "Centro de coste": "VELA6004",
+    "Sociedad": "XU06",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "INTERNET"
+  },
+  {
+    "Centro de coste": "VELA6006",
+    "Sociedad": "XU06",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE  REVENUES"
+  },
+  {
+    "Centro de coste": "VEPB1006",
+    "Sociedad": "XVE2",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE CREATIVE"
+  },
+  {
+    "Centro de coste": "VEPB1100",
+    "Sociedad": "XVE2",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "CHANNEL MANAGER"
+  },
+  {
+    "Centro de coste": "VEPB1101",
+    "Sociedad": "XVE2",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "PROGRAMMERS"
+  },
+  {
+    "Centro de coste": "VEPB1102",
+    "Sociedad": "XVE2",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "SCHEDULER LOGGER"
+  },
+  {
+    "Centro de coste": "VEPB1103",
+    "Sociedad": "XVE2",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "ORIGINAL PRODUCTION"
+  },
+  {
+    "Centro de coste": "VEPB1104",
+    "Sociedad": "XVE2",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "ADQUISICIN PRODUCTO Y CONTENIDO"
+  },
+  {
+    "Centro de coste": "VEPB1105",
+    "Sociedad": "XVE2",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "TRAFFIC"
+  },
+  {
+    "Centro de coste": "VEPB1106",
+    "Sociedad": "XVE2",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "INTERNET DESIGN"
+  },
+  {
+    "Centro de coste": "VEPB1109",
+    "Sociedad": "XVE2",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "ESTUDIOS"
+  },
+  {
+    "Centro de coste": "VEPB1110",
+    "Sociedad": "XVE2",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "EDICION"
+  },
+  {
+    "Centro de coste": "VEPB1112",
+    "Sociedad": "XVE2",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE PROGRAMMING AND PRODUCTION"
+  },
+  {
+    "Centro de coste": "VEPB3000",
+    "Sociedad": "XVE2",
+    "Responsable": "MATIAS RIGALI",
+    "Descripci�n": "MARKETING"
+  },
+  {
+    "Centro de coste": "VEPB3002",
+    "Sociedad": "XVE2",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE MARKETING"
+  },
+  {
+    "Centro de coste": "VEPB4201",
+    "Sociedad": "XVE2",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "VENTA PRODUCTO Y CONTENIDO"
+  },
+  {
+    "Centro de coste": "VEPB4202",
+    "Sociedad": "XVE2",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE OTHER SALES"
+  },
+  {
+    "Centro de coste": "VETV1000",
+    "Sociedad": "XVE2",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "CREATIVE"
+  },
+  {
+    "Centro de coste": "VETV1006",
+    "Sociedad": "XVE2",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE CREATIVE"
+  },
+  {
+    "Centro de coste": "VETV1100",
+    "Sociedad": "XVE2",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "CHANNEL MANAGER"
+  },
+  {
+    "Centro de coste": "VETV1101",
+    "Sociedad": "XVE2",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "PROGRAMMERS"
+  },
+  {
+    "Centro de coste": "VETV1102",
+    "Sociedad": "XVE2",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "SCHEDULER LOGGER"
+  },
+  {
+    "Centro de coste": "VETV1103",
+    "Sociedad": "XVE2",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "ORIGINAL PRODUCTION"
+  },
+  {
+    "Centro de coste": "VETV1104",
+    "Sociedad": "XVE2",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "ADQUISICIN PRODUCTO Y CONTENIDO"
+  },
+  {
+    "Centro de coste": "VETV1105",
+    "Sociedad": "XVE2",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "TRAFFIC"
+  },
+  {
+    "Centro de coste": "VETV1106",
+    "Sociedad": "XVE2",
+    "Responsable": "JOSE ANTONIO ITUARTE",
+    "Descripci�n": "INTERNET DESIGN"
+  },
+  {
+    "Centro de coste": "VETV1109",
+    "Sociedad": "XVE2",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "ESTUDIOS"
+  },
+  {
+    "Centro de coste": "VETV1110",
+    "Sociedad": "XVE2",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "EDICION"
+  },
+  {
+    "Centro de coste": "VETV1112",
+    "Sociedad": "XVE2",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE PROGRAMMING AND PRODUCTION"
+  },
+  {
+    "Centro de coste": "VETV2000",
+    "Sociedad": "XVE2",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "TECNICA"
+  },
+  {
+    "Centro de coste": "VETV2001",
+    "Sociedad": "XVE2",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "TELEPUERTO"
+  },
+  {
+    "Centro de coste": "VETV2003",
+    "Sociedad": "XVE2",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "OPERACIONES"
+  },
+  {
+    "Centro de coste": "VETV2004",
+    "Sociedad": "XVE2",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "COPIADO"
+  },
+  {
+    "Centro de coste": "VETV2005",
+    "Sociedad": "XVE2",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "DOBLAJE Y SUBTITULADO"
+  },
+  {
+    "Centro de coste": "VETV2006",
+    "Sociedad": "XVE2",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "VIDEOTECA"
+  },
+  {
+    "Centro de coste": "VETV2007",
+    "Sociedad": "XVE2",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "MANTENIMINETO TECNICO"
+  },
+  {
+    "Centro de coste": "VETV2010",
+    "Sociedad": "XVE2",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE PRODUCT REALTIVE"
+  },
+  {
+    "Centro de coste": "VETV3000",
+    "Sociedad": "XVE2",
+    "Responsable": "MATIAS RIGALI",
+    "Descripci�n": "MARKETING"
+  },
+  {
+    "Centro de coste": "VETV3001",
+    "Sociedad": "XVE2",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "RESEARCH"
+  },
+  {
+    "Centro de coste": "VETV3002",
+    "Sociedad": "XVE2",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE MARKETING"
+  },
+  {
+    "Centro de coste": "VETV3003",
+    "Sociedad": "XVE2",
+    "Responsable": "NN",
+    "Descripci�n": "CORPORATIVO"
+  },
+  {
+    "Centro de coste": "VETV3004",
+    "Sociedad": "XVE2",
+    "Responsable": "NN",
+    "Descripci�n": "AFFILLATES"
+  },
+  {
+    "Centro de coste": "VETV3005",
+    "Sociedad": "XVE2",
+    "Responsable": "NN",
+    "Descripci�n": "CONSUMER"
+  },
+  {
+    "Centro de coste": "VETV3006",
+    "Sociedad": "XVE2",
+    "Responsable": "NN",
+    "Descripci�n": "TALENT"
+  },
+  {
+    "Centro de coste": "VETV4000",
+    "Sociedad": "XVE2",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "ADVERTISING SALES"
+  },
+  {
+    "Centro de coste": "VETV4001",
+    "Sociedad": "XVE2",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE ADVERTISING SALES"
+  },
+  {
+    "Centro de coste": "VETV4100",
+    "Sociedad": "XVE2",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SALES"
+  },
+  {
+    "Centro de coste": "VETV4101",
+    "Sociedad": "XVE2",
+    "Responsable": "CO",
+    "Descripci�n": "DECODERS"
+  },
+  {
+    "Centro de coste": "VETV4102",
+    "Sociedad": "XVE2",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "RELACION AFILIADOS"
+  },
+  {
+    "Centro de coste": "VETV4105",
+    "Sociedad": "XVE2",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE AFFILIATES SALES"
+  },
+  {
+    "Centro de coste": "VETV4201",
+    "Sociedad": "XVE2",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "VENTA PRODUCTO Y CONTENIDO"
+  },
+  {
+    "Centro de coste": "VETV4202",
+    "Sociedad": "XVE2",
+    "Responsable": "SANTIAGO TRONCAR",
+    "Descripci�n": "MOBILE OTHER SALES"
+  },
+  {
+    "Centro de coste": "VETV6000",
+    "Sociedad": "XVE2",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "OTHER REVENUES"
+  },
+  {
+    "Centro de coste": "VETV6001",
+    "Sociedad": "XVE2",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "SALES OF EXHIBITIONS"
+  },
+  {
+    "Centro de coste": "VETV6002",
+    "Sociedad": "XVE2",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "ADVERTISING  REVENUES"
+  },
+  {
+    "Centro de coste": "VETV6003",
+    "Sociedad": "XVE2",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SUBCRIBERS BASED FEES"
+  },
+  {
+    "Centro de coste": "VETV6004",
+    "Sociedad": "XVE2",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "INTERNET"
+  },
+  {
+    "Centro de coste": "VETV6006",
+    "Sociedad": "XVE2",
+    "Responsable": "ARIEL TABOADA",
+    "Descripci�n": "OTHER REVENUES"
+  },
+  {
+    "Centro de coste": "VETV9000",
+    "Sociedad": "XVE2",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "ACCOUNTING, CONTROL AND TREASURY"
+  },
+  {
+    "Centro de coste": "VETV9001",
+    "Sociedad": "XVE2",
+    "Responsable": "ALEJANDRO IGLESIA",
+    "Descripci�n": "ADMINISTRATIVE BUSINESS LINE"
+  },
+  {
+    "Centro de coste": "VETV9005",
+    "Sociedad": "XVE2",
+    "Responsable": "VIOLETA HERRERO",
+    "Descripci�n": "HUMAN RESOURCES"
+  },
+  {
+    "Centro de coste": "VETV9007",
+    "Sociedad": "XVE2",
+    "Responsable": "PABLO IACOVELLO",
+    "Descripci�n": "LEGAL"
+  },
+  {
+    "Centro de coste": "VETV9008",
+    "Sociedad": "XVE2",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "PUBLIC RELATION"
+  },
+  {
+    "Centro de coste": "VETV9009",
+    "Sociedad": "XVE2",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "INFORMATION TECHNOLOGY"
+  },
+  {
+    "Centro de coste": "VETV9100",
+    "Sociedad": "XVE2",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "COMPRAS"
+  },
+  {
+    "Centro de coste": "VETV9101",
+    "Sociedad": "XVE2",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "MANTENIMIENTO EDIFICIO"
+  },
+  {
+    "Centro de coste": "VETV9999",
+    "Sociedad": "XVE2",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "INDIRECT"
+  },
+  {
+    "Centro de coste": "VICT9000",
+    "Sociedad": "XU23",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "ACC, CONTROL ,TREASU"
+  },
+  {
+    "Centro de coste": "VICT9007",
+    "Sociedad": "XU23",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "LEGAL"
+  },
+  {
+    "Centro de coste": "VICT9999",
+    "Sociedad": "XU23",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "INDIRECT"
+  },
+  {
+    "Centro de coste": "VOD6000",
+    "Sociedad": "XU40",
+    "Responsable": "NN",
+    "Descripci�n": "OTHER REVENUES"
+  },
+  {
+    "Centro de coste": "VOD6003",
+    "Sociedad": "XU40",
+    "Responsable": "NN",
+    "Descripci�n": "SUBSCRIBER BASED FEES"
+  },
+  {
+    "Centro de coste": "WCHA6000",
+    "Sociedad": "XU40",
+    "Responsable": "NN",
+    "Descripci�n": "OTHER REVENUES"
+  },
+  {
+    "Centro de coste": "WCHA6003",
+    "Sociedad": "XU40",
+    "Responsable": "NN",
+    "Descripci�n": "SUBSCRIBER BASED FEES"
+  },
+  {
+    "Centro de coste": "XBOY6004",
+    "Sociedad": "XSDC",
+    "Responsable": "PATRICIA TOMASINI",
+    "Descripci�n": "BROADBAND"
+  },
+  {
+    "Centro de coste": "XDHA1000",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "CREATIVE"
+  },
+  {
+    "Centro de coste": "XDHA1005",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "IN JAUS FILMS"
+  },
+  {
+    "Centro de coste": "XDHA1006",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "MOBILE CREATIVE"
+  },
+  {
+    "Centro de coste": "XDHA1100",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "CHANNEL MANAGER"
+  },
+  {
+    "Centro de coste": "XDHA1101",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "PROGRAMMERS"
+  },
+  {
+    "Centro de coste": "XDHA1102",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "SCHEDULER LOGGER"
+  },
+  {
+    "Centro de coste": "XDHA1103",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "ORIGINAL PRODUCTION"
+  },
+  {
+    "Centro de coste": "XDHA1104",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "ADQ. PRODU Y CONTEN."
+  },
+  {
+    "Centro de coste": "XDHA1105",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "TRAFFIC"
+  },
+  {
+    "Centro de coste": "XDHA1106",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "INTERNET DESIGN"
+  },
+  {
+    "Centro de coste": "XDHA1109",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "ESTUDIOS"
+  },
+  {
+    "Centro de coste": "XDHA1110",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "EDICION"
+  },
+  {
+    "Centro de coste": "XDHA1112",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "MOBILE PROG & PRODUC"
+  },
+  {
+    "Centro de coste": "XDHA2000",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "TECNICA"
+  },
+  {
+    "Centro de coste": "XDHA2001",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "TELEPUERTO"
+  },
+  {
+    "Centro de coste": "XDHA2003",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "OPERACIONES"
+  },
+  {
+    "Centro de coste": "XDHA2004",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "COPIADO"
+  },
+  {
+    "Centro de coste": "XDHA2005",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "DOBLAJE SUBTITULADO"
+  },
+  {
+    "Centro de coste": "XDHA2006",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "VIDEOTECA"
+  },
+  {
+    "Centro de coste": "XDHA2007",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "MANTENIMIENTO TEC."
+  },
+  {
+    "Centro de coste": "XDHA2010",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "MOBILE PRODUCT RELAT"
+  },
+  {
+    "Centro de coste": "XDHA3000",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "MARKETING"
+  },
+  {
+    "Centro de coste": "XDHA3001",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "RESEARCH"
+  },
+  {
+    "Centro de coste": "XDHA3002",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "MOBILE MARKETING"
+  },
+  {
+    "Centro de coste": "XDHA3003",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "CORPORATIVO"
+  },
+  {
+    "Centro de coste": "XDHA3004",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "AFFILLATES"
+  },
+  {
+    "Centro de coste": "XDHA3005",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "CONSUMER"
+  },
+  {
+    "Centro de coste": "XDHA3006",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "TALENT"
+  },
+  {
+    "Centro de coste": "XDHA4000",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "ADVERTISING SALES"
+  },
+  {
+    "Centro de coste": "XDHA4001",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "MOBILE ADV.SALES"
+  },
+  {
+    "Centro de coste": "XDHA4100",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "SALES"
+  },
+  {
+    "Centro de coste": "XDHA4101",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "DECODERS"
+  },
+  {
+    "Centro de coste": "XDHA4102",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "RELACION AFILIADOS"
+  },
+  {
+    "Centro de coste": "XDHA4105",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "MOBILE AFF.SALES"
+  },
+  {
+    "Centro de coste": "XDHA4201",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "VENTA PROD Y CONT"
+  },
+  {
+    "Centro de coste": "XDHA4202",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "MOBILE OTHER SALES"
+  },
+  {
+    "Centro de coste": "XDHA6000",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "OTHER REVENUES"
+  },
+  {
+    "Centro de coste": "XDHA6001",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "SALES OF EXHIBITIONS"
+  },
+  {
+    "Centro de coste": "XDHA6002",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "ADVERTISING REVENUES"
+  },
+  {
+    "Centro de coste": "XDHA6003",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "SUBSCRIBER BASED FEE"
+  },
+  {
+    "Centro de coste": "XDHA6004",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "INTERNET"
+  },
+  {
+    "Centro de coste": "XDHA6006",
+    "Sociedad": "XA03",
+    "Responsable": "LUCAS VIVO",
+    "Descripci�n": "MOBILE REVENUES"
+  },
+  {
+    "Centro de coste": "XDHA9000",
+    "Sociedad": "XA03",
+    "Responsable": "ALFREDO JIMENEZ",
+    "Descripci�n": "ACCOUN,CONTROL,TREAS"
+  },
+  {
+    "Centro de coste": "XDHA9001",
+    "Sociedad": "XA03",
+    "Responsable": "ALFREDO JIMENEZ",
+    "Descripci�n": "ADM BUSINESS LINE"
+  },
+  {
+    "Centro de coste": "XDHA9002",
+    "Sociedad": "XA03",
+    "Responsable": "ALFREDO JIMENEZ",
+    "Descripci�n": "BOARD OF DIRECTORS"
+  },
+  {
+    "Centro de coste": "XDHA9005",
+    "Sociedad": "XA03",
+    "Responsable": "ALFREDO JIMENEZ",
+    "Descripci�n": "HUMAN RESOURCES"
+  },
+  {
+    "Centro de coste": "XDHA9007",
+    "Sociedad": "XA03",
+    "Responsable": "ALFREDO JIMENEZ",
+    "Descripci�n": "LEGAL"
+  },
+  {
+    "Centro de coste": "XDHA9008",
+    "Sociedad": "XA03",
+    "Responsable": "ALFREDO JIMENEZ",
+    "Descripci�n": "PUBLIC RELATIONS"
+  },
+  {
+    "Centro de coste": "XDHA9009",
+    "Sociedad": "XA03",
+    "Responsable": "ALFREDO JIMENEZ",
+    "Descripci�n": "INFORMATION TECHN"
+  },
+  {
+    "Centro de coste": "XDHA9100",
+    "Sociedad": "XA03",
+    "Responsable": "ALFREDO JIMENEZ",
+    "Descripci�n": "COMPRAS"
+  },
+  {
+    "Centro de coste": "XDHA9101",
+    "Sociedad": "XA03",
+    "Responsable": "ALFREDO JIMENEZ",
+    "Descripci�n": "MANTENIMIENTO EDIF."
+  },
+  {
+    "Centro de coste": "XDHA9999",
+    "Sociedad": "XA03",
+    "Responsable": "ALFREDO JIMENEZ",
+    "Descripci�n": "INDIRECT"
+  },
+  {
+    "Centro de coste": "XDMX1100",
+    "Sociedad": "XA02",
+    "Responsable": "A DEFINIR",
+    "Descripci�n": "CHANNEL MANAGER"
+  },
+  {
+    "Centro de coste": "XDMX1104",
+    "Sociedad": "XA02",
+    "Responsable": "A DEFINIR",
+    "Descripci�n": "ADQ.PROD.&CONTENIDO"
+  },
+  {
+    "Centro de coste": "XDMX2000",
+    "Sociedad": "XA02",
+    "Responsable": "A DEFINIR",
+    "Descripci�n": "TECNICA"
+  },
+  {
+    "Centro de coste": "XDMX3000",
+    "Sociedad": "XA02",
+    "Responsable": "A DEFINIR",
+    "Descripci�n": "MARKETING"
+  },
+  {
+    "Centro de coste": "XDMX4100",
+    "Sociedad": "XA02",
+    "Responsable": "A DEFINIR",
+    "Descripci�n": "SALES"
+  },
+  {
+    "Centro de coste": "XDMX6000",
+    "Sociedad": "XA02",
+    "Responsable": "A DEFINIR",
+    "Descripci�n": "OTHER REVENUES"
+  },
+  {
+    "Centro de coste": "XDMX9000",
+    "Sociedad": "XA02",
+    "Responsable": "A DEFINIR",
+    "Descripci�n": "ACCOUN, CONTROL, TRE"
+  },
+  {
+    "Centro de coste": "XDMX9005",
+    "Sociedad": "XA02",
+    "Responsable": "A DEFINIR",
+    "Descripci�n": "HUMAN RESOURCES"
+  },
+  {
+    "Centro de coste": "XDMX9007",
+    "Sociedad": "XA02",
+    "Responsable": "A DEFINIR",
+    "Descripci�n": "LEGAL"
+  },
+  {
+    "Centro de coste": "XDMX9008",
+    "Sociedad": "XA02",
+    "Responsable": "A DEFINIR",
+    "Descripci�n": "PUBLIC RELATIONS"
+  },
+  {
+    "Centro de coste": "XDMX9009",
+    "Sociedad": "XA02",
+    "Responsable": "A DEFINIR",
+    "Descripci�n": "INFORMATION TECH"
+  },
+  {
+    "Centro de coste": "XDMX9101",
+    "Sociedad": "XA02",
+    "Responsable": "A DEFINIR",
+    "Descripci�n": "MANTENIMIENTO EDIF"
+  },
+  {
+    "Centro de coste": "XDMX9999",
+    "Sociedad": "XA02",
+    "Responsable": "A DEFINIR",
+    "Descripci�n": "INDIRECT"
+  },
+  {
+    "Centro de coste": "XSDC1100",
+    "Sociedad": "XSDC",
+    "Responsable": "PATRICIA TOMASINI",
+    "Descripci�n": "CHANNEL MANAGER"
+  },
+  {
+    "Centro de coste": "XSDC1104",
+    "Sociedad": "XSDC",
+    "Responsable": "NN",
+    "Descripci�n": "ADQUISICION DE PRODUCTO Y CONTENIDO"
+  },
+  {
+    "Centro de coste": "XSDC1106",
+    "Sociedad": "XSDC",
+    "Responsable": "PATRICIA TOMASINI",
+    "Descripci�n": "BROADBAND DESIGN"
+  },
+  {
+    "Centro de coste": "XSDC2000",
+    "Sociedad": "XSDC",
+    "Responsable": "CRISTIAN BETI",
+    "Descripci�n": "TECNICA"
+  },
+  {
+    "Centro de coste": "XSDC3000",
+    "Sociedad": "XSDC",
+    "Responsable": "PATRICIA TOMASINI",
+    "Descripci�n": "MARKETING"
+  },
+  {
+    "Centro de coste": "XSDC3001",
+    "Sociedad": "XSDC",
+    "Responsable": "PATRICIA TOMASINI",
+    "Descripci�n": "RESEARCH"
+  },
+  {
+    "Centro de coste": "XSDC4000",
+    "Sociedad": "XSDC",
+    "Responsable": "NN",
+    "Descripci�n": "ADVERTISING SALES"
+  },
+  {
+    "Centro de coste": "XSDC4100",
+    "Sociedad": "XSDC",
+    "Responsable": "PATRICIA TOMASINI",
+    "Descripci�n": "SALES"
+  },
+  {
+    "Centro de coste": "XSDC6002",
+    "Sociedad": "XSDC",
+    "Responsable": "PATRICIA TOMASINI",
+    "Descripci�n": "ADVERTISING SALES"
+  },
+  {
+    "Centro de coste": "XSDC6004",
+    "Sociedad": "XSDC",
+    "Responsable": "PATRICIA TOMASINI",
+    "Descripci�n": "BROADBAND"
+  },
+  {
+    "Centro de coste": "XSDC6006",
+    "Sociedad": "XSDC",
+    "Responsable": "PATRICIA TOMASINI",
+    "Descripci�n": "BROADBAND"
+  },
+  {
+    "Centro de coste": "XSDC6006",
+    "Sociedad": "XSDC",
+    "Responsable": "PATRICIA TOMASINI",
+    "Descripci�n": "MOBILE REVENUES"
+  },
+  {
+    "Centro de coste": "XSDC9000",
+    "Sociedad": "XSDC",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "ACCOUNTING, CONTROL AND TREASURY"
+  },
+  {
+    "Centro de coste": "XSDC9005",
+    "Sociedad": "XSDC",
+    "Responsable": "VIOLETA HERRERO",
+    "Descripci�n": "HUMAN RESOURCES"
+  },
+  {
+    "Centro de coste": "XSDC9007",
+    "Sociedad": "XSDC",
+    "Responsable": "PABLO IACOVELLO",
+    "Descripci�n": "LEGAL"
+  },
+  {
+    "Centro de coste": "XSDC9009",
+    "Sociedad": "XSDC",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "INFORMATION TECHNOLOGY"
+  },
+  {
+    "Centro de coste": "XSDC9101",
+    "Sociedad": "XSDC",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "MANTENIMIENTO EDIFICIO"
+  },
+  {
+    "Centro de coste": "XSDC9999",
+    "Sociedad": "XSDC",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "INDIRECT"
+  },
+  {
+    "Centro de coste": "XSON1000",
+    "Sociedad": "XU01",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "CREATIVE"
+  },
+  {
+    "Centro de coste": "XSON1102",
+    "Sociedad": "XU01",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "SCHEDULE LOGGER"
+  },
+  {
+    "Centro de coste": "XSON1103",
+    "Sociedad": "XU01",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "ORIGINAL PRODUCTION"
+  },
+  {
+    "Centro de coste": "XSON1104",
+    "Sociedad": "XU01",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "ADQUISICION PRODUCTO Y CONTENIDO"
+  },
+  {
+    "Centro de coste": "XSON1105",
+    "Sociedad": "XU01",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "TRAFFIC"
+  },
+  {
+    "Centro de coste": "XSON2000",
+    "Sociedad": "XU01",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "TECNICA"
+  },
+  {
+    "Centro de coste": "XSON2001",
+    "Sociedad": "XU01",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "TELEPUERTO"
+  },
+  {
+    "Centro de coste": "XSON3000",
+    "Sociedad": "XU01",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "MARKETING"
+  },
+  {
+    "Centro de coste": "XSON3001",
+    "Sociedad": "XU01",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "RESEARCH"
+  },
+  {
+    "Centro de coste": "XSON4000",
+    "Sociedad": "XU01",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "ADVERTISING SALES"
+  },
+  {
+    "Centro de coste": "XSON4100",
+    "Sociedad": "XU01",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "AFFILIATE SALES"
+  },
+  {
+    "Centro de coste": "XSON4101",
+    "Sociedad": "XU01",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "DECODERS"
+  },
+  {
+    "Centro de coste": "XSON4102",
+    "Sociedad": "XU01",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "RELACION AFILIADOS"
+  },
+  {
+    "Centro de coste": "XSON4201",
+    "Sociedad": "XU01",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "VENTA  PRODUCTO Y CONTENIDO"
+  },
+  {
+    "Centro de coste": "XSON6000",
+    "Sociedad": "XU01",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "OTHER REVENUES"
+  },
+  {
+    "Centro de coste": "XSON6001",
+    "Sociedad": "XU01",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "SALES OF EXHIBITIONS"
+  },
+  {
+    "Centro de coste": "XSON6002",
+    "Sociedad": "XU01",
+    "Responsable": "FERNANDO ADAD",
+    "Descripci�n": "SUBSCRIBER BASED FEES"
+  },
+  {
+    "Centro de coste": "XSON9000",
+    "Sociedad": "XU01",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "ACCOUNTING CONTROL AND TREASURY"
+  },
+  {
+    "Centro de coste": "XSON9001",
+    "Sociedad": "XU01",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "ADMINISTRATIVE BUSINESS LINES"
+  },
+  {
+    "Centro de coste": "XSON9002",
+    "Sociedad": "XU01",
+    "Responsable": "EZEQUIEL PAZ",
+    "Descripci�n": "BOARD OF DIRECTORS"
+  },
+  {
+    "Centro de coste": "XSON9003",
+    "Sociedad": "XU01",
+    "Responsable": "ROBERTO VIVO",
+    "Descripci�n": "CEO AND CHAIRMAN"
+  },
+  {
+    "Centro de coste": "XSON9004",
+    "Sociedad": "XU01",
+    "Responsable": "EZEQUIEL PAZ",
+    "Descripci�n": "CFO AND CORPORATE FINANCE"
+  },
+  {
+    "Centro de coste": "XSON9005",
+    "Sociedad": "XU01",
+    "Responsable": "VIIOLETA HERRERO",
+    "Descripci�n": "HUMAN RESOURCES"
+  },
+  {
+    "Centro de coste": "XSON9007",
+    "Sociedad": "XU01",
+    "Responsable": "AMAYA ARISTOY",
+    "Descripci�n": "LEGAL"
+  },
+  {
+    "Centro de coste": "XSON9008",
+    "Sociedad": "XU01",
+    "Responsable": "CORPORATE",
+    "Descripci�n": "PUBLIC RELATIONS"
+  },
+  {
+    "Centro de coste": "XSON9009",
+    "Sociedad": "XU01",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "INFORMATION TECHNOLOGY"
+  },
+  {
+    "Centro de coste": "XSON9101",
+    "Sociedad": "XU01",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "INFRAESTRUCTURE"
+  },
+  {
+    "Centro de coste": "XSON9999",
+    "Sociedad": "XU01",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "INDIRECT"
+  },
+  {
+    "Centro de coste": "ZAGA9999",
+    "Sociedad": "XU20",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "INDIRECT"
+  },
+  {
+    "Centro de coste": "ZAGG9000",
+    "Sociedad": "XU35",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "OTHER REVENUES"
+  },
+  {
+    "Centro de coste": "ZAGG9007",
+    "Sociedad": "XU35",
+    "Responsable": "AMAYA ARISTOY",
+    "Descripci�n": "LEGAL"
+  },
+  {
+    "Centro de coste": "ZAGG9999",
+    "Sociedad": "XU35",
+    "Responsable": "ROBERTO WENDNAGEL",
+    "Descripci�n": "INDIRECT"
+  }
+]

@@ -1,0 +1,72 @@
+    <h1>Facturas Pendientes por Liberar</h1>
+
+
+    <!--   
+
+       Tabla Dinamica Cecos
+
+    -->       
+    <div>
+
+
+    <div class="invoicesupplier" id="invoicesupplier">
+
+    <!--
+        <input id="message_err"  name="message_err" value="{{message_err}}" type="hidden" />
+    -->
+      <div class="panel panel-default panel-table col-xs-18">
+          <div class="panel-heading">
+            <div class="row">
+              <div class="col col-xs-6">
+                <h3 class="panel-title">Facturas Pendientes por Liberar</h3>
+              </div>
+              <div class="col col-xs-6 text-right">
+              <!--
+                <button type="button" class="btn btn-sm btn-primary btn-create" onclick="addtax()">Nuevo Impuesto</button>
+                -->
+              </div>
+            </div>
+          </div>
+          <div class="panel-body">    
+                <table id="tsupplierinvoice2approvers" name="tsupplierinvoice2approvers" 
+                        class="table table-striped table-bordered tsupplierinvoice2approvers" cellspacing="0" width="70%">
+
+                <!--
+                 <a href="/supplierinvoice_add" class="btn btn-success pull-left" role="button">+ Agregar Factura</a>
+                 -->
+
+                </table>
+          </div>
+          <!--
+          <div class="panel-footer">
+            <div class="row">                 
+            </div>
+          </div>
+          -->
+      </div>                
+    </div>
+
+    </div>
+
+
+
+<!--  ************************************************ -->
+
+<!--  *********     J A V A S C R I P T    *********** -->
+
+<!--  ************************************************ -->
+
+
+<script src="/js/tsupplierinvoice2approvers.js" type="text/javascript"> 
+
+    $(document).ready(function () 
+    {   
+
+        if ($(#message_err).val())
+        {
+            $.toaster({ priority : 'warning', title : 'Title',  message: $(#message_err).val()});
+        }
+    });
+
+</script>
+

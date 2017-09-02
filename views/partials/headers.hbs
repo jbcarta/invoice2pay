@@ -1,0 +1,172 @@
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">INVOICE2PAY</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="/">Inicio<span class="sr-only">(current)</span></a></li>
+
+<!--   
+     
+        <li><a href="#">Link</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+-->
+      <!--                            -->
+      <!--   Formulario de Buscar      -->
+
+<!--      
+      <form name="formBuscar" class="navbar-form navbar-left" role="search" action="#" method="post">
+        <div class="form-group">
+          <input name="inputFindText" type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Find</button>
+      </form>
+-->
+
+<!--
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/showcart"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Shopping Cart
+              <span class="badge">Facturas: {{session.cart.totalQty}}</span>
+              <span class="badge">Total: {{session.cart.totalPriceStr}}</span>
+
+              </a></li>
+
+-->              
+              {{# if login }}
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-database" aria-hidden="true"></i> Procesos <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+                  <li><a href="/supplierInvoice_Pending">Ingresar Facturas de Proveedores</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="/supplierInvoice2release">Liberar Facturas (Por Nivel)</a></li>
+                  <li><a href="/supplierInvoice_all">Todas las Facturas</a></li>                  
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Enviar Facturas  SAP</a></li>
+
+                  <!--
+                  <li><a href="#">Facturas Aprobadas</a></li>
+                  -->
+
+                  <!--     
+                  <li><a href="/user/profile">Facturas</a></li>
+                  <li><a href="/user/profile">Liberar Facturas</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="/user/logout">Enviar Facturas Aprobadas al ERP</a></li>
+                  <li><a href="/user/signup">Estatus de Facturas</a></li>
+                  -->
+          </ul>
+        </li>
+
+              {{/if}}
+
+        <!--
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-database" aria-hidden="true"></i> TDB <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+              {{# if login }}
+
+                  <li><a href="/supplierinvoice">Ingresar Facturas de Compras</a></li>
+              {{/if}}
+
+          </ul>
+        </li>
+        -->
+
+
+        {{# if login }}
+      
+        <li class="dropdown">
+
+
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-book" aria-hidden="true"></i> Datos Maestros <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+                  <li><a href="/userdm">Usuarios Cuentas/Cecos</a></li>
+                  <!--                  
+                  <li><a href="#">Proveedores</a></li>
+
+                  <li><a href="#">Subida Archivo de Proveedores</a></li>                  
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Centros de Costos</a></li>
+                  -->
+                  
+                  <!--
+                  <li><a href="#">Subida de Centro de Costos</a></li>                  
+                  -->
+                  <li role="separator" class="divider"></li>
+                  <li><a href="/approver">Aprobadores</a></li>
+                  <li><a href="/approvallevels">Niveles de Aprobación</a></li>                  
+                  <li><a href="/approvalscheme">Esquema de Aprobación</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="/concept">Conceptos de Facturas</a></li>
+
+          </ul>
+        </li>
+
+        {{/if}}
+
+
+
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user" aria-hidden="true"></i> User Managment <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+              {{# if login }}
+              <!--
+                  <li><a href="/user/profile">User Account</a></li>
+                  <li role="separator" class="divider"></li>
+              -->                  
+                  <li><a href="/user/logout">Logout</a></li>
+              {{ else }}
+                  <!--
+       
+                  <li><a href="/user/signin_claxson">Login a Invoice2Pay</a></li> 
+                  -->                  
+                  <li><a href="/user/signin">Sign In</a></li> 
+
+                  <!--           
+                  <li><a href="/user/signup">Registrarse</a></li>              
+                  -->
+              {{/if}}
+
+          </ul>
+        </li>
+
+
+        {{# if optionmenu }}
+
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa fa-user" aria-hidden="true"></i> Opciones <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+                    <li><a href="/user/profile">Grabar</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="/user/logout">Salir Sin Grabar</a></li>
+            </ul>
+          </li>
+        {{/if}}
+
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>

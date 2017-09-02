@@ -1,0 +1,3 @@
+<option>USD</option>
+<option>ARS</option>
+<option>EUR</option>

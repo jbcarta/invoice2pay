@@ -1,0 +1,61 @@
+{{# if shopcart }}
+	<table width="60%" class="table table-striped">
+		<tr>
+	<!--		<th width="5%">ID</th> 	 -->
+			<th width="5%">Cod.Prod</th> 	
+			<th width="40%">Producto</th> 
+			<th class="text-right" width="20%">Cantidad</th>
+			<th class="text-right" width="10%">Acción</th>
+			<th class="text-right" width="10%">Precio Unit</th>
+			<th class="text-right" width="10%">Total</th>
+			<th class="text-right" width="1%"> </th>
+
+		</tr>
+
+		{{# each shopcart.items }}
+			<tr>
+	<!--			<td><strong> {{ this.item._id }} </strong></td> 		-->
+				<td><strong> {{ this.item.itemcode }} </strong></td> 		
+				<td><strong> {{ this.item.brand }} {{ this.item.title }} </strong></td> 
+				<td class="text-right"> {{ this.qtyStr }}</td>
+				<td class="text-right">               
+					<a href="/add-to-cart/{{ this.item._id }}"> <span class="badge">+1</span></a>
+					<a href="/remove-one-from-cart/{{ this.item._id }}"> <span class="badge">-1</span></a>
+				</td>
+
+				<td class="text-right"> {{ this.priceStr }}   </td>
+				<td class="text-right"> <span class="label label-primary"> ${{ this.totprodStr }} 
+				</span></td>
+				<td class="text-right"> 
+					<a href="#"> <span class="badge"><i class="fa fa-times" aria-hidden="true"></i></span></a>
+				</td>
+			</tr>
+		{{/each}}  
+
+		<tr class="info">
+			<td class="text-left"> </td>
+			<td class="text-right">Total Compra</td>
+
+			<td align="right" size="12">{{ shopcart.totalQtyStr }}</td> 
+			<td align="right">  </td>		
+			<td align="right">  </td>
+			<td align="right"> ${{ shopcart.totalPriceStr }} </td>
+			<td align="right">  </td>
+
+		</tr>
+
+	</table>
+
+	<div class="clearfix">
+	     <a href="/" class="btn btn-success pull-left" role="button">Continuar Comprando</a>
+	     <a href="/cleancart" class="btn btn-success pull-right" role="button">Empty Shopping Cart</a>
+	     <a href="/checkout" class="btn btn-success pull-right" role="button">CheckOut</a>
+
+	</div>
+{{ else }}
+	<div class="row">
+		<div class="col-sm-6 col-md-6 col-md-offset-3 col-sm-offset-3">
+			<h2>No Items in Cart</h2>
+		</div>
+	</div>
+{{/if}}

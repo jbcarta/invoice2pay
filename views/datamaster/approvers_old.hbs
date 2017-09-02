@@ -1,0 +1,33 @@
+	<table width="60%" class="table table-striped table-hover table-responsive">
+		<tr>
+	<!--		<th width="5%">ID</th> 	 -->
+			<th width="2%"> </th> 	
+			<th width="5%">Tipo de Aprobador</th> 	
+			<th width="30%">Description</th> 
+		</tr>
+
+		{{# each approvers }}
+			<tr>
+	<!--			<td><strong> {{ this.item._id }} </strong></td> 		-->
+				<td class="text-left">               
+					<a href="/approver_detail/{{ this._id }}"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+					<a href="#"> <i class="fa fa-trash" aria-hidden="true"></i></a>
+				</td>	
+				<td><strong> {{ this.approver_code }} </strong></td> 		
+				<td><strong> {{ this.description }}  </strong></td> 
+			</tr>
+		{{/each}}  
+
+		<tr class="info">
+			<th width="2%"> </th> 		
+			<th width="5%"> </th> 	
+			<th width="30%"> </th>  
+		</tr>
+
+	</table>
+
+	<div class="clearfix">
+	     <a href="#" class="btn btn-success pull-left" role="button">Crear Nuevo</a>
+	     <a href="/" class="btn btn-success pull-right" role="button">Salir</a>
+
+	</div>
